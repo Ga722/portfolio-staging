@@ -52,11 +52,34 @@
     queue = [];
   }
 
+  /* Het beheerscherm zet een nog niet bewaard project in sessionStorage en opent deze
+     pagina met ?preview=1. Dan tonen we dat ontwerp in plaats van de bewaarde versie. */
+  function withPreview(data) {
+    if (location.search.indexOf('preview=1') === -1) return data;
+    var raw = sessionStorage.getItem('ga-preview');
+    if (!raw) return data;
+    try {
+      var p = JSON.parse(raw);
+      var group = data.groups.filter(function (g) { return g.category === p.category; })[0];
+      if (!group) {
+        group = { category: p.category || 'Voorbeeld', items: [] };
+        data.categories = data.categories.concat([group.category]);
+        data.groups.push(group);
+      }
+      group.items = group.items.filter(function (i) { return i.id !== p.id; });
+      group.items.unshift(p);
+    } catch (e) {
+      console.error('Voorbeeld kon niet geladen worden:', e);
+    }
+    return data;
+  }
+
   fetch('content/projects.json', { cache: 'no-cache' })
     .then(function (r) {
       if (!r.ok) throw new Error(r.status);
       return r.json();
     })
+    .then(withPreview)
     .then(build)
     .catch(function (err) {
       /* Openen via file:// blokkeert het ophalen. Op een server (GitHub Pages, of
