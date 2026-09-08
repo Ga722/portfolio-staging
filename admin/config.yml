@@ -1,9 +1,10 @@
 # Instellingen voor het beheerscherm op /admin.
-# Vul hieronder VUL-IN-… aan zoals in CMS-installatie.md beschreven staat.
+# Staat nu op de testrepo. Bij het overzetten naar de echte site pas je alleen de
+# regel "repo:" hieronder aan.
 
 backend:
   name: github
-  repo: VUL-IN-GEBRUIKERSNAAM/VUL-IN-REPONAAM
+  repo: Ga722/portfolio-staging
   branch: main
   base_url: https://sveltia-cms-auth.gazmend-91-218.workers.dev
 
