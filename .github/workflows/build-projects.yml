@@ -1,0 +1,46 @@
+name: Projecten bundelen
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/projects/**'
+      - 'content/settings.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: content/projects.json samenstellen
+        run: |
+          cat > /tmp/build.mjs <<'EOF'
+          import { readFile, readdir, writeFile } from 'node:fs/promises';
+          const settings = JSON.parse(await readFile('content/settings.json', 'utf8'));
+          const names = (await readdir('content/projects')).filter((f) => f.endsWith('.json'));
+          const projects = [];
+          for (const name of names) {
+            projects.push(JSON.parse(await readFile('content/projects/' + name, 'utf8')));
+          }
+          const groups = settings.categories.map((category) => ({
+            category,
+            items: projects
+              .filter((p) => p.category === category)
+              .sort((a, b) => (a.order ?? 999) - (b.order ?? 999))
+              .map(({ category: _c, order: _o, geavanceerd, ...rest }) => ({ ...rest, ...(geavanceerd || {}) }))
+          }));
+          await writeFile('content/projects.json', JSON.stringify({ categories: settings.categories, groups }, null, 2) + '\n');
+          console.log('projects.json bijgewerkt:', projects.length, 'projecten');
+          EOF
+          node /tmp/build.mjs
+      - name: Wijziging vastleggen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/projects.json
+          git diff --staged --quiet || git commit -m "Projecten bundelen"
+          git push
