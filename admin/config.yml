@@ -5,7 +5,7 @@ backend:
   name: github
   repo: VUL-IN-GEBRUIKERSNAAM/VUL-IN-REPONAAM
   branch: main
-  base_url: https://VUL-IN-WORKER-URL.workers.dev
+  base_url: https://sveltia-cms-auth.gazmend-91-218.workers.dev
 
 # Waar geüploade beelden terechtkomen (map in de repo) en hoe de site ernaar verwijst.
 media_folder: assets/werk
