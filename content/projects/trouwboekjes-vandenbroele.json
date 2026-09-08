@@ -34,20 +34,18 @@
       "blurb": "Elke gemeente krijgt een eigen versie uit hetzelfde basisdocument, drukklaar aangeleverd: aparte kleurscheiding voor folie- en blinddrukvlakken, vectoriële wapenschilden, en controle op stand en afloop voor elke uitvoering apart. Productie loopt volledig in België, met FSC-gecertificeerd drukwerk."
     }
   ],
-  "geavanceerd": {
-    "link": "https://www.trouwboekjes.be/",
-    "processTitle": "Vormgeving",
-    "gallery": [
-      {
-        "src": "assets/werk/trouwboekjes/koesters-albumversie.jpg",
-        "ratio": "600 / 450",
-        "caption": "Albumversie met wire-o-binding, gemeente Kortemark: logo in full colour, naam eronder."
-      },
-      {
-        "src": "assets/werk/trouwboekjes/koesters-binnenwerk.jpg",
-        "ratio": "600 / 450",
-        "caption": "Binnenwerk: veldnamen in steunkleur op een puntenraster, invulruimte leeg gelaten."
-      }
-    ]
-  }
+  "link": "https://www.trouwboekjes.be/",
+  "processTitle": "Vormgeving",
+  "gallery": [
+    {
+      "src": "assets/werk/trouwboekjes/koesters-albumversie.jpg",
+      "ratio": "600 / 450",
+      "caption": "Albumversie met wire-o-binding, gemeente Kortemark: logo in full colour, naam eronder."
+    },
+    {
+      "src": "assets/werk/trouwboekjes/koesters-binnenwerk.jpg",
+      "ratio": "600 / 450",
+      "caption": "Binnenwerk: veldnamen in steunkleur op een puntenraster, invulruimte leeg gelaten."
+    }
+  ]
 }

@@ -57,8 +57,6 @@
     }
   ],
   "video": "",
-  "geavanceerd": {
-    "link": "https://www.codefever.be/",
-    "processTitle": "De stukken"
-  }
+  "link": "https://www.codefever.be/",
+  "processTitle": "De stukken"
 }

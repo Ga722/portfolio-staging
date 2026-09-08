@@ -53,20 +53,18 @@
       "blurb": "Liggend 16:9, vierkant 1:1 en breed 1200 × 630 voor link previews. Geen van de drie is een uitsnede van de andere: bij elk formaat zijn de cirkelgrootte, de rotatiehoek van de woorden en de logopositie opnieuw gezet, zodat de diagonaal in alle drie hetzelfde gebaar blijft en de mond nooit tegen een rand aanloopt."
     }
   ],
-  "geavanceerd": {
-    "processTitle": "Vormgeving",
-    "heroRatio": "1200 / 630",
-    "gallery": [
-      {
-        "src": "assets/werk/piday/liggend.jpg",
-        "ratio": "16 / 9",
-        "caption": "Liggende versie, 16:9."
-      },
-      {
-        "src": "assets/werk/piday/vierkant.jpg",
-        "ratio": "1 / 1",
-        "caption": "Vierkante versie voor de feed."
-      }
-    ]
-  }
+  "processTitle": "Vormgeving",
+  "heroRatio": "1200 / 630",
+  "gallery": [
+    {
+      "src": "assets/werk/piday/liggend.jpg",
+      "ratio": "16 / 9",
+      "caption": "Liggende versie, 16:9."
+    },
+    {
+      "src": "assets/werk/piday/vierkant.jpg",
+      "ratio": "1 / 1",
+      "caption": "Vierkante versie voor de feed."
+    }
+  ]
 }

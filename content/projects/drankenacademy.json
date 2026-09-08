@@ -68,16 +68,14 @@
     }
   ],
   "video": "",
-  "geavanceerd": {
-    "link": "https://www.drankenacademy.com/",
-    "processTitle": "De vier vakgebieden",
-    "heroRatio": "1915 / 914",
-    "heroFit": "contain",
-    "files": [
-      {
-        "label": "E-learning wijn niveau 1",
-        "src": "https://elearning.drankenacademy.com/ikweetwatvanwijn/"
-      }
-    ]
-  }
+  "link": "https://www.drankenacademy.com/",
+  "processTitle": "De vier vakgebieden",
+  "heroRatio": "1915 / 914",
+  "heroFit": "contain",
+  "files": [
+    {
+      "label": "E-learning wijn niveau 1",
+      "src": "https://elearning.drankenacademy.com/ikweetwatvanwijn/"
+    }
+  ]
 }

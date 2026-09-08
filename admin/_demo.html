@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Beheerscherm — proefdraaien zonder GitHub</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="root"></div>
+<script>
+/* Proefversie: leest de echte projectbestanden, maar schrijft niets weg. */
+window.gh = {
+  store: { token: 'demo', repo: 'demo/demo', branch: 'main' },
+  checkToken: function () { return Promise.resolve(true); },
+  listDir: function () {
+    return fetch('../content/projects.json').then(function (r) { return r.json(); }).then(function (d) {
+      window.__demo = {};
+      d.groups.forEach(function (g) {
+        g.items.forEach(function (p, i) {
+          var copy = JSON.parse(JSON.stringify(p));
+          copy.category = g.category;
+          copy.order = (i + 1) * 10;
+          window.__demo['content/projects/' + p.id + '.json'] = copy;
+        });
+      });
+      return Object.keys(window.__demo).map(function (path) {
+        return { name: path.split('/').pop(), path: path };
+      });
+    });
+  },
+  readJSON: function (path) {
+    if (path === 'content/settings.json') {
+      return fetch('../content/settings.json').then(function (r) { return r.json(); }).then(function (d) {
+        return { data: d, sha: 'x' };
+      });
+    }
+    return Promise.resolve({ data: window.__demo[path], sha: 'x' });
+  },
+  writeJSON: function () { return Promise.resolve('x'); },
+  writeBinary: function (p) { return Promise.resolve(p); },
+  remove: function () { return Promise.resolve(); }
+};
+</script>
+<script src="app.js"></script>
+<script src="editor.js"></script>
+</body>
+</html>

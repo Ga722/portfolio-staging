@@ -78,10 +78,8 @@
       ]
     }
   ],
-  "geavanceerd": {
-    "embed": "https://www.youtube.com/embed/SudBOqi3yc4",
-    "embedTitle": "Bekijk de intro",
-    "link": "https://youtu.be/SudBOqi3yc4",
-    "processTitle": "Aanpak"
-  }
+  "embed": "https://www.youtube.com/embed/SudBOqi3yc4",
+  "embedTitle": "Bekijk de intro",
+  "link": "https://youtu.be/SudBOqi3yc4",
+  "processTitle": "Aanpak"
 }

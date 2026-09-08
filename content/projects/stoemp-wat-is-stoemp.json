@@ -62,10 +62,8 @@
       ]
     }
   ],
-  "geavanceerd": {
-    "embed": "https://www.youtube.com/embed/dKGWOpY7RiE",
-    "embedTitle": "Bekijk de animatie",
-    "link": "https://youtu.be/dKGWOpY7RiE",
-    "processTitle": "Vormgeving"
-  }
+  "embed": "https://www.youtube.com/embed/dKGWOpY7RiE",
+  "embedTitle": "Bekijk de animatie",
+  "link": "https://youtu.be/dKGWOpY7RiE",
+  "processTitle": "Vormgeving"
 }

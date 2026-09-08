@@ -29,11 +29,9 @@
       "blurb": "Naast het drukwerk een online editie in spreads, zodat een dubbele pagina ook op het scherm één compositie blijft en de opmaak niet uiteenvalt in losse pagina's."
     }
   ],
-  "geavanceerd": {
-    "embed": "https://online.fliphtml5.com/gaportfolio/toqt/",
-    "embedTitle": "Blader door de editie",
-    "link": "https://online.fliphtml5.com/gaportfolio/toqt/",
-    "processTitle": "Vormgeving",
-    "heroRatio": "4 / 3"
-  }
+  "embed": "https://online.fliphtml5.com/gaportfolio/toqt/",
+  "embedTitle": "Blader door de editie",
+  "link": "https://online.fliphtml5.com/gaportfolio/toqt/",
+  "processTitle": "Vormgeving",
+  "heroRatio": "4 / 3"
 }

@@ -33,9 +33,7 @@
       "blurb": "De vierde baan breekt met de opsomming: rustiger kleur, meer wit, en voor het eerst lopende tekst. Links de netwerkillustratie met avatars, rechts vier korte regels en het mailadres in cursief als enige onderstreepte actie. Dat is de enige plek op het blad met meer dan drie woorden op een regel, waardoor het einde van het blad automatisch als slotstuk leest."
     }
   ],
-  "geavanceerd": {
-    "processTitle": "Vormgeving",
-    "heroRatio": "621 / 875",
-    "heroFit": "contain"
-  }
+  "processTitle": "Vormgeving",
+  "heroRatio": "621 / 875",
+  "heroFit": "contain"
 }

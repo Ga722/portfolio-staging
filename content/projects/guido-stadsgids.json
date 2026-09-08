@@ -33,10 +33,8 @@
       "blurb": "De gids verschijnt in een Nederlandse en een Franse editie. Franse tekst loopt langer, dus de opmaak is gezet met marge in de kopregels en variabele witruimte tussen de blokken in plaats van vaste hoogtes — beide talen vallen daardoor op dezelfde pagina's uit, met identieke paginering voor de bonnen."
     }
   ],
-  "geavanceerd": {
-    "link": "https://www.guidooh.be/guido-stadsgids/",
-    "processTitle": "Vormgeving",
-    "heroRatio": "1900 / 2350",
-    "heroFit": "contain"
-  }
+  "link": "https://www.guidooh.be/guido-stadsgids/",
+  "processTitle": "Vormgeving",
+  "heroRatio": "1900 / 2350",
+  "heroFit": "contain"
 }

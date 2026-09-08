@@ -65,29 +65,27 @@
     }
   ],
   "video": "",
-  "geavanceerd": {
-    "heroRatio": "1200 / 587",
-    "gallery": [
-      {
-        "src": "assets/werk/bric/mobile-intro.png",
-        "caption": "Intro — kies tussen de video en de quiz"
-      },
-      {
-        "src": "assets/werk/bric/mobile-quiz-question.png",
-        "caption": "Quizvraag met de vier landen"
-      },
-      {
-        "src": "assets/werk/bric/mobile-quiz-answer.png",
-        "caption": "Antwoord — juist en fout in kleur"
-      },
-      {
-        "src": "assets/werk/bric/mobile-quiz-stats.png",
-        "caption": "Cijfers per land na het antwoord"
-      },
-      {
-        "src": "assets/werk/bric/mobile-quiz-end.png",
-        "caption": "Eindscore, met deelknoppen"
-      }
-    ]
-  }
+  "heroRatio": "1200 / 587",
+  "gallery": [
+    {
+      "src": "assets/werk/bric/mobile-intro.png",
+      "caption": "Intro — kies tussen de video en de quiz"
+    },
+    {
+      "src": "assets/werk/bric/mobile-quiz-question.png",
+      "caption": "Quizvraag met de vier landen"
+    },
+    {
+      "src": "assets/werk/bric/mobile-quiz-answer.png",
+      "caption": "Antwoord — juist en fout in kleur"
+    },
+    {
+      "src": "assets/werk/bric/mobile-quiz-stats.png",
+      "caption": "Cijfers per land na het antwoord"
+    },
+    {
+      "src": "assets/werk/bric/mobile-quiz-end.png",
+      "caption": "Eindscore, met deelknoppen"
+    }
+  ]
 }
