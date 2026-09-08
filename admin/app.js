@@ -151,7 +151,7 @@
     if (!d.year) gaps.push('geen jaar');
     if (!d.client) gaps.push('geen klant');
     return '<button class="card" draggable="true" data-id="' + esc(d.id) + '">' +
-      '<span class="card__img"' + (d.image ? ' style="background-image:url(../' + esc(d.image) + ')"' : '') + '>' +
+      '<span class="card__img"' + (d.image ? ' style="background-image:url(' + esc(window.gaImg ? window.gaImg(d.image) : '../' + d.image) + ')"' : '') + '>' +
       (d.image ? '' : '<em>geen beeld</em>') +
       (d.highlight ? '<span class="card__badge">Uitgelicht ' + d.highlight + '</span>' : '') +
       '</span>' +
@@ -326,15 +326,17 @@
     shell('Categorieën', '<button class="btn btn--primary" id="save">Bewaren</button>',
       '<div class="wrap"><div class="panel" style="max-width:560px">' +
       '<h3>Volgorde en namen</h3><p class="hint">De volgorde hier bepaalt de filterbalk en de projectlijst op de site.</p>' +
+      '<button class="btn btn--primary btn--sm" id="add" style="margin:0 0 16px">+ Categorie toevoegen</button>' +
       '<div id="rows">' + cats.map(function (c, i) {
         return '<div class="field" style="display:flex;gap:8px"><input value="' + esc(c) + '" data-i="' + i + '">' +
           '<button class="btn btn--sm btn--danger" data-del="' + i + '">×</button></div>';
-      }).join('') + '</div>' +
-      '<button class="btn btn--sm" id="add">+ Categorie</button></div></div>');
+      }).join('') + '</div></div></div>');
 
     document.getElementById('add').onclick = function () {
-      state.settings.data.categories.push('Nieuw');
+      state.settings.data.categories.unshift('Nieuw');
       render();
+      var first = root.querySelector('#rows input');
+      if (first) { first.focus(); first.select(); }
     };
     root.querySelectorAll('[data-del]').forEach(function (b) {
       b.onclick = function () {

@@ -8,10 +8,40 @@
   var timer = null;
 
   function el(id) { return document.getElementById(id); }
+
+  /* Een pas gedropt beeld staat nog niet op GitHub. We tonen het meteen vanuit het geheugen
+     van de browser; zodra het geüpload is blijft dezelfde weergave gewoon staan. */
+  var localImages = {};
+  function imgURL(path) { return localImages[path] || ('../' + path); }
+  window.gaImg = imgURL;
   function slug(s) {
     return String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
       .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   }
+
+  /* Je mag de hele insluitcode van YouTube plakken, of een gewone link; we halen er zelf
+     het juiste adres uit. */
+  function normalizeEmbed(value) {
+    var v = String(value || '').trim();
+    if (!v) return '';
+    var iframe = v.match(/<iframe[^>]+src=["']([^"']+)["']/i);
+    if (iframe) v = iframe[1];
+    var yt = v.match(/(?:youtube\.com\/(?:watch\?v=|embed\/|live\/)|youtu\.be\/)([\w-]{6,})/);
+    if (yt) return 'https://www.youtube.com/embed/' + yt[1];
+    var vimeo = v.match(/vimeo\.com\/(?:video\/)?(\d+)/);
+    if (vimeo) return 'https://player.vimeo.com/video/' + vimeo[1];
+    return v.split('?')[0] === v ? v : v;
+  }
+
+  var DRAFT_KEY = 'ga-admin-draft';
+
+  function saveLocalDraft() {
+    if (!draft) return;
+    try {
+      localStorage.setItem(DRAFT_KEY, JSON.stringify({ of: entry ? entry.data.id : '', data: draft }));
+    } catch (err) { /* vol geheugen: geen ramp */ }
+  }
+  function clearLocalDraft() { localStorage.removeItem(DRAFT_KEY); }
 
   function open(id) {
     var st = window.gaAdmin.state;
@@ -22,6 +52,14 @@
       var cat = window.gaAdmin.categories()[0] || 'Print';
       draft = { id: '', title: '', category: cat, order: 999, highlight: 0, process: [] };
     }
+    /* Was je aan het werk toen de pagina herlaadde? Dan zetten we dat werk terug. */
+    try {
+      var saved = JSON.parse(localStorage.getItem(DRAFT_KEY) || 'null');
+      if (saved && saved.of === (entry ? entry.data.id : '') && JSON.stringify(saved.data) !== JSON.stringify(draft)) {
+        draft = saved.data;
+        setTimeout(function () { toast('Niet-bewaarde wijzigingen hersteld'); }, 300);
+      }
+    } catch (err) { /* niets te herstellen */ }
     if (!draft.process) draft.process = [];
     st.view = 'edit';
     tab = 'basis';
@@ -52,7 +90,7 @@
   function imageField(path, label, value) {
     return '<div class="field"><p class="lbl">' + esc(label) + '</p>' +
       '<div class="drop" data-drop="' + esc(path) + '">' +
-      '<span class="drop__thumb"' + (value ? ' style="background-image:url(../' + esc(value) + ')"' : '') + '>' + (value ? '' : 'leeg') + '</span>' +
+      '<span class="drop__thumb"' + (value ? ' style="background-image:url(' + esc(imgURL(value)) + ')"' : '') + '>' + (value ? '' : 'leeg') + '</span>' +
       '<span class="drop__body"><p>' + (value ? esc(value) : 'Sleep een beeld hierheen, of kies een bestand.') + '</p>' +
       '<span style="display:flex;gap:8px"><button class="btn btn--sm" data-pick="' + esc(path) + '">Kies bestand</button>' +
       (value ? '<button class="btn btn--sm btn--danger" data-clear="' + esc(path) + '">Verwijderen</button>' : '') +
@@ -115,7 +153,7 @@
         '<span><button class="btn btn--sm" data-pick="process.' + i + '.images.new" data-multi="1">Kies bestanden</button></span></span></div>' +
         ((b.images || []).length ? '<div class="thumbs">' + b.images.map(function (im, j) {
           var src = typeof im === 'string' ? im : im.src;
-          return '<span class="thumb" style="background-image:url(../' + esc(src) + ')">' +
+          return '<span class="thumb" style="background-image:url(' + esc(imgURL(src)) + ')">' +
             '<button data-delimg="' + i + '.' + j + '">×</button></span>';
         }).join('') + '</div>' : '') +
         '<label class="field" style="display:flex;align-items:center;gap:9px;margin-top:12px">' +
@@ -132,7 +170,7 @@
 
   function publicatieTab() {
     return '<div class="panel"><h3>Video of doorbladerbare publicatie</h3>' +
-      text('embed', 'Embed-adres', { placeholder: 'https://www.youtube.com/embed/CODE', hint: 'Bij YouTube: het adres uit "Insluiten", niet de gewone link.' }) +
+      text('embed', 'Video of publicatie', { placeholder: 'Plak hier de YouTube-link of de hele insluitcode', hint: 'Je mag de volledige <iframe …>-code plakken; het juiste adres wordt er automatisch uit gehaald.' }) +
       text('embedTitle', 'Kop erboven', { placeholder: 'Bekijk de animatie' }) +
       '</div>' +
       '<div class="panel"><h3>Externe link</h3>' +
@@ -160,9 +198,9 @@
       '</div>' +
       '<div class="preview" data-device="desktop" id="preview">' +
       '<div class="preview__bar"><span>Voorbeeld</span><div class="spacer"></div>' +
-      '<button class="btn btn--sm" data-device="desktop">Desktop</button>' +
+      '<button class="btn btn--sm" data-device="desktop" aria-pressed="true">Desktop</button>' +
       '<button class="btn btn--sm" data-device="phone">Telefoon</button></div>' +
-      '<iframe id="pframe" title="Voorbeeld"></iframe></div></div>';
+      '<div class="preview__stage" id="pstage"><iframe id="pframe" title="Voorbeeld"></iframe></div></div></div>';
 
     var actions =
       '<button class="btn btn--ghost" id="back">← Terug</button>' +
@@ -181,6 +219,7 @@
       b.onclick = function () { tab = b.dataset.tab; render(); };
     });
     el('back').onclick = function () {
+      clearLocalDraft();
       window.gaAdmin.state.view = 'list';
       window.gaAdmin.render();
     };
@@ -189,14 +228,25 @@
     if (el('del')) el('del').onclick = remove;
 
     document.querySelectorAll('.preview [data-device]').forEach(function (b) {
-      b.onclick = function () { el('preview').dataset.device = b.dataset.device; };
+      b.onclick = function () {
+        el('preview').dataset.device = b.dataset.device;
+        document.querySelectorAll('.preview [data-device]').forEach(function (o) {
+          o.setAttribute('aria-pressed', String(o === b));
+        });
+        fitPreview();
+      };
     });
+    window.addEventListener('resize', fitPreview);
 
     /* Invoervelden schrijven rechtstreeks in het draft-object. */
     document.querySelectorAll('[data-bind]').forEach(function (input) {
       input.oninput = input.onchange = function () {
         var value = input.type === 'checkbox' ? input.checked : input.value;
         if (input.dataset.bind === 'order' || input.dataset.bind === 'highlight') value = Number(value) || 0;
+        if (input.dataset.bind === 'embed') {
+          var fixed = normalizeEmbed(value);
+          if (fixed !== value) { input.value = fixed; value = fixed; }
+        }
         setPath(draft, input.dataset.bind, value);
         if (input.dataset.bind === 'title') {
           var h = document.querySelector('.bar h1');
@@ -207,6 +257,7 @@
           var head = input.closest('.block').querySelector('strong');
           head.textContent = value || 'Naamloos blok';
         }
+        saveLocalDraft();
         schedulePreview();
       };
     });
@@ -305,30 +356,41 @@
     files = files.filter(function (f) { return /^image\//.test(f.type); });
     if (!files.length) return;
     var folder = 'assets/werk/' + (slug(draft.id || draft.title) || 'nieuw');
-    toast(files.length > 1 ? files.length + ' beelden uploaden…' : 'Beeld uploaden…');
 
-    files.reduce(function (chain, file) {
-      return chain.then(function () {
-        var name = slug(file.name.replace(/\.[^.]+$/, '')) + '.' + (file.name.split('.').pop() || 'png').toLowerCase();
-        var dest = folder + '/' + name;
-        return Promise.all([readFileAsBase64(file), measure(file)]).then(function (r) {
-          return gh.writeBinary(dest, r[0]).then(function () {
-            if (/\.images\.new$/.test(path)) {
-              var i = Number(path.split('.')[1]);
-              (draft.process[i].images = draft.process[i].images || []).push({ src: dest, ratio: r[1] });
-            } else {
-              setPath(draft, path, dest);
-              if (path === 'image' && r[1]) draft.ratio = r[1];
-              if (/^gallery\.\d+\.src$/.test(path) && r[1]) setPath(draft, path.replace(/\.src$/, '.ratio'), r[1]);
-            }
-          });
-        });
+    /* Eerst tonen, dan pas uploaden: het beeld staat meteen in beeld en in het voorbeeld,
+       terwijl de upload naar GitHub op de achtergrond loopt. */
+    var queued = files.map(function (file) {
+      var name = slug(file.name.replace(/\.[^.]+$/, '')) + '.' + (file.name.split('.').pop() || 'png').toLowerCase();
+      var dest = folder + '/' + name;
+      localImages[dest] = URL.createObjectURL(file);
+      return { file: file, dest: dest };
+    });
+
+    Promise.all(queued.map(function (q) { return measure(q.file); })).then(function (ratios) {
+      queued.forEach(function (q, n) {
+        if (/\.images\.new$/.test(path)) {
+          var i = Number(path.split('.')[1]);
+          (draft.process[i].images = draft.process[i].images || []).push({ src: q.dest, ratio: ratios[n] });
+        } else {
+          setPath(draft, path, q.dest);
+          if (path === 'image' && ratios[n]) draft.ratio = ratios[n];
+          if (/^gallery\.\d+\.src$/.test(path) && ratios[n]) setPath(draft, path.replace(/\.src$/, '.ratio'), ratios[n]);
+        }
       });
-    }, Promise.resolve()).then(function () {
-      toast('Beeld' + (files.length > 1 ? 'en' : '') + ' geüpload', 'ok');
       render();
-      schedulePreview();
-    }).catch(function (e) { toast(e.message, 'error'); });
+      refreshPreview();
+      saveLocalDraft();
+
+      var pending = queued.length;
+      toast(pending > 1 ? pending + ' beelden uploaden op de achtergrond…' : 'Beeld uploaden op de achtergrond…');
+      queued.reduce(function (chain, q) {
+        return chain.then(function () {
+          return readFileAsBase64(q.file).then(function (b64) { return gh.writeBinary(q.dest, b64); });
+        });
+      }, Promise.resolve())
+        .then(function () { toast('Upload klaar', 'ok'); })
+        .catch(function (err) { toast('Upload mislukt: ' + err.message, 'error'); });
+    });
   }
 
   /* ------------------------------------------------------------------ blokken slepen */
@@ -376,9 +438,39 @@
     return copy;
   }
 
+  /* Beelden die nog niet op GitHub staan tonen we in het voorbeeld vanuit het geheugen. */
+  function swapLocal(data) {
+    var copy = JSON.parse(JSON.stringify(data));
+    if (copy.image && localImages[copy.image]) copy.image = localImages[copy.image];
+    (copy.gallery || []).forEach(function (g) { if (localImages[g.src]) g.src = localImages[g.src]; });
+    (copy.process || []).forEach(function (b) {
+      (b.images || []).forEach(function (im) {
+        if (typeof im === 'object' && localImages[im.src]) im.src = localImages[im.src];
+      });
+    });
+    return copy;
+  }
+
   function schedulePreview() {
     clearTimeout(timer);
     timer = setTimeout(refreshPreview, 700);
+  }
+
+  /* Het voorbeeldvenster is smaller dan een echt scherm. Daarom renderen we de pagina op
+     ware breedte (1280 of 393) en verkleinen we het geheel; anders zou de site zijn
+     telefoonopmaak tonen terwijl je "Desktop" hebt gekozen. */
+  function fitPreview() {
+    var stage = el('pstage');
+    var frame = el('pframe');
+    if (!stage || !frame) return;
+    var phone = el('preview').dataset.device === 'phone';
+    var w = phone ? 393 : 1280;
+    var h = phone ? 850 : 900;
+    var scale = Math.min(1, stage.clientWidth / w);
+    frame.style.width = w + 'px';
+    frame.style.height = h + 'px';
+    frame.style.transform = 'scale(' + scale + ')';
+    stage.style.height = (h * scale) + 'px';
   }
 
   function refreshPreview() {
@@ -386,8 +478,10 @@
     if (!frame) return;
     var data = clean(draft);
     data.id = data.id || 'voorbeeld';
-    sessionStorage.setItem('ga-preview', JSON.stringify(data));
+    sessionStorage.setItem('ga-preview', JSON.stringify(swapLocal(data)));
     frame.src = '../project.html?id=' + encodeURIComponent(data.id) + '&preview=1&t=' + Date.now();
+    frame.onload = fitPreview;
+    fitPreview();
   }
 
   /* ------------------------------------------------------------------ bewaren */
@@ -417,6 +511,7 @@
         } else {
           window.gaAdmin.state.projects.push({ file: data.id + '.json', path: path, sha: sha, data: data });
         }
+        clearLocalDraft();
         draft = JSON.parse(JSON.stringify(data));
         draft.process = draft.process || [];
         entry = window.gaAdmin.byId(data.id);
@@ -447,6 +542,7 @@
   function remove() {
     if (!confirm('“' + draft.title + '” verwijderen? Dit kan niet ongedaan gemaakt worden.')) return;
     window.gaAdmin.deleteProject(entry).then(function () {
+      clearLocalDraft();
       toast('Verwijderd', 'ok');
       window.gaAdmin.state.view = 'list';
       window.gaAdmin.render();
