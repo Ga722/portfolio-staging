@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Inter:wght@400;500&display=swap');
+
+/* ==========================================================================
+   Tokens
+   ========================================================================== */
+:root{
+  --ga-ink:#222222;--ga-black:#000000;--ga-white:#ffffff;--ga-off-white:#f8f8f8;
+  --ga-grey:#7b7b7b;--ga-grey-200:#d9d9d9;--ga-coral:#dc6a6a;
+
+  --surface-page:var(--ga-off-white);--surface-inverse:var(--ga-ink);--surface-placeholder:var(--ga-grey-200);
+  --text-body:var(--ga-ink);--text-heading:var(--ga-ink);--text-muted:var(--ga-grey);
+  --text-nav:var(--ga-black);--text-inverse:var(--ga-white);
+  --accent:var(--ga-coral);--focus-ring:var(--ga-coral);
+  --line-field:var(--ga-ink);--hairline:rgba(0,0,0,.1);--line-inverse-soft:rgba(255,255,255,.3);
+
+  --font-display:'Jost',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  --font-ui:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+
+  --side-pad:clamp(30px,6vw,198px);
+  /* Phone header height, driven by the 44px menu button plus 22px padding either side.
+     The hero subtracts this, so keep the two in step. */
+  --header-h:88px;
+  --section-pad-y:clamp(48px,8vw,100px);
+  --transition:200ms ease;
+  --radius-thumb:4px;--radius-image:8px;--radius-photo:16px;--radius-pill:40px;
+  --header-scrim:rgba(248,248,248,.9);
+  --shadow-nav-sheet:0 8px 16px rgba(0,0,0,.06);
+
+  /* Telefoonframe (393 px breed) uit het Figma-frame "Homepage Smartphone v2":
+     Hello staat groter en bijna over de volle breedte, het penseel erboven. */
+  --hero-size:min(40vw,190px);
+  --brush-size:55vw;
+  --content-indent:14.5vw;
+}
+
+/* ==========================================================================
+   Reset + base
+   ========================================================================== */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--anchor-offset,0px)}
+body{margin:0;background:var(--surface-page);color:var(--text-body);font-family:var(--font-ui);-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+/* Zonder dit verliezen de .hidden-secties hun verberging: een display in de stylesheet
+   weegt zwaarder dan de standaardregel van de browser voor [hidden]. */
+[hidden]{display:none!important}
+a{color:inherit;text-decoration:none;-webkit-tap-highlight-color:transparent}
+a:hover{color:var(--accent)}
+button{font:inherit}
+:focus-visible{outline:2px solid var(--focus-ring);outline-offset:3px}
+h1,h2,h3,p{overflow-wrap:break-word;text-wrap:pretty}
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+
+/* ==========================================================================
+   Shared pieces
+   ========================================================================== */
+.section{padding:var(--section-pad-y) var(--side-pad)}
+.section-title{font-family:var(--font-display);font-weight:300;font-size:clamp(56px,10vw,140px);line-height:1;margin:0 0 18px}
+.title-rule{display:block;width:180px;max-width:40%;height:4px;background:var(--accent);border-radius:2px;margin-bottom:clamp(28px,4vw,48px)}
+.lede{max-width:700px;font-family:var(--font-display);font-size:clamp(16px,4vw,19px);line-height:1.6;margin:0 0 clamp(36px,5vw,64px)}
+.dash{display:inline-block;width:20px;height:2px;background:var(--accent);flex:none}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:52px;padding:16px 30px;border:none;border-radius:var(--radius-pill);cursor:pointer;font-family:var(--font-display);font-size:clamp(16px,4vw,18px);line-height:1;background:var(--ga-ink);color:var(--text-inverse);transition:transform var(--transition),background var(--transition)}
+.btn:hover{background:var(--ga-black);color:var(--text-inverse);transform:translateY(-2px)}
+.btn--light{background:var(--ga-white);color:var(--ga-ink)}
+.btn--light:hover{background:#f0f0f0;color:var(--ga-ink)}
+.btn--block{width:100%}
+
+.arrow-link{display:inline-flex;align-items:center;gap:10px;font-family:var(--font-display);font-size:16px;line-height:1;color:var(--ga-ink);transition:color var(--transition)}
+.arrow-link:hover{color:var(--accent)}
+.arrow-link--muted{color:var(--text-muted);font-size:15px}
+.arrow-link--muted:hover{color:var(--ga-ink)}
+
+.circle-btn{width:40px;height:40px;border-radius:50%;border:1px solid var(--ga-ink);background:transparent;color:var(--ga-ink);display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0;transition:background var(--transition),color var(--transition),opacity var(--transition)}
+.circle-btn:hover{background:var(--ga-ink);color:var(--ga-white)}
+.circle-btn[disabled]{opacity:.35;cursor:default}
+.circle-btn[disabled]:hover{background:transparent;color:var(--ga-ink)}
+
+/* ==========================================================================
+   Header + navigation
+   ========================================================================== */
+.header{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;height:var(--header-h);padding:0 var(--side-pad);background:var(--header-scrim);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.header__logo{display:flex}
+.header__logo img{height:36px;width:auto}
+.nav{display:none}
+.nav__link{position:relative;font-family:var(--font-ui);font-size:18px;line-height:1;color:var(--text-nav);padding-bottom:.25em;white-space:nowrap}
+.nav__link::after{content:'';position:absolute;left:0;bottom:0;width:37px;height:3px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform var(--transition)}
+.nav__link:hover,.nav__link[aria-current='true']{color:var(--text-nav)}
+.nav__link:hover::after,.nav__link[aria-current='true']::after{transform:scaleX(1)}
+
+.menu-btn{width:45px;height:44px;border:none;background:none;cursor:pointer;padding:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;position:relative;z-index:1002}
+.menu-btn span{display:block;width:45px;height:3px;background:var(--ga-ink);transition:transform var(--transition)}
+/* De header is een eigen stacking context (sticky + z-index), dus een z-index op de knop zelf
+   helpt niet: het overlay is een sibling van de header. Bij een open menu tilt de hele header
+   boven het overlay, zodat het sluitkruis zichtbaar en klikbaar blijft. */
+body[data-menu-open='true'] .header{z-index:1002}
+.menu-btn[aria-expanded='true'] span:first-child{transform:translateY(7.5px) rotate(45deg)}
+.menu-btn[aria-expanded='true'] span:last-child{transform:translateY(-7.5px) rotate(-45deg)}
+
+.menu{position:fixed;inset:0;z-index:1001;background:var(--surface-page);display:flex;flex-direction:column;justify-content:space-between;padding:104px var(--side-pad) calc(32px + env(safe-area-inset-bottom,0px));opacity:0;transform:translateY(-8px);pointer-events:none;transition:opacity 220ms ease,transform 220ms ease}
+.menu[data-open='true']{opacity:1;transform:none;pointer-events:auto}
+.menu__list{display:flex;flex-direction:column}
+.menu__item{display:flex;align-items:baseline;gap:16px;padding:18px 0;border-top:1px solid var(--hairline)}
+.menu__item:first-child{border-top:none}
+.menu__n{font-family:var(--font-display);font-size:13px;color:var(--text-muted);min-width:22px}
+.menu__item[aria-current='true'] .menu__n{color:var(--accent)}
+.menu__label{position:relative;font-family:var(--font-display);font-weight:300;font-size:clamp(34px,11vw,52px);line-height:1.05;color:var(--text-heading)}
+.menu__label::after{content:'';position:absolute;left:0;bottom:-6px;width:37px;height:3px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform var(--transition)}
+.menu__item[aria-current='true'] .menu__label::after{transform:scaleX(1)}
+.menu__foot{display:flex;flex-direction:column;gap:8px}
+.menu__foot .dash{width:53px;height:4px;margin-bottom:10px}
+.menu__foot a{font-family:var(--font-ui);font-size:15px}
+.menu__foot a:last-child{color:var(--text-muted)}
+
+@media (min-width:721px){
+  .header{padding:4.167vw 9.896vw 2.604vw 10.313vw;height:auto}
+  .header__logo img{height:3.333vw}
+  .nav{display:flex;gap:1.979vw;align-items:flex-end}
+  .nav__link{font-size:1.667vw}
+  .nav__link::after{width:1.916vw;height:.313vw}
+  .menu-btn,.menu{display:none}
+}
+
+/* ==========================================================================
+   Hero
+   --------------------------------------------------------------------------
+   Phone values are measured off the Figma frame "Homepage Smartphone"
+   (393px wide) and written as vw, so 1vw == 3.93 design px. Above 721px the
+   layout switches to the 1920 desktop frame, where 1vw == 19.2 design px.
+   ========================================================================== */
+.hero{position:relative;min-height:calc(100svh - var(--header-h));overflow:hidden;display:flex;flex-direction:column;justify-content:center;padding:0 0 82px}
+.hero__block{position:relative;width:100%}
+/* Het penseel hangt aan het woord zelf: het begint net na de laatste o en steekt er
+   bovenuit, achter de tekst. Zo blijft de verhouding kloppen op elke schermbreedte. */
+.hero__word{position:relative;width:fit-content}
+/* Het penseel staat op telefoon volledig tussen de cijfers en het woord: niets overlapt.
+   De haren rusten net boven de H, de steel loopt schuin naar rechtsboven. De ruimte
+   erboven wordt vrijgehouden door de marge op .hero__main. */
+.hero__brush{position:absolute;left:2vw;bottom:100%;top:auto;width:var(--brush-size);height:auto;transform:rotate(12deg);transform-origin:0 100%;z-index:0;pointer-events:none}
+.hero__title{position:relative;z-index:1;margin:0;font-family:var(--font-display);font-weight:300;font-size:var(--hero-size);line-height:.9;letter-spacing:-.01em;color:var(--text-heading);white-space:nowrap}
+.about__photo{height:auto}
+.hero__role{position:relative;z-index:1;display:flex;align-items:center;gap:3.56vw;padding:0 6.1vw;margin:0;font-family:var(--font-display);font-weight:300;font-size:min(2.8vw,15px);line-height:1;color:var(--text-muted);white-space:nowrap}
+.hero__role::before,.hero__role::after{content:'';height:2px;background:var(--ga-grey);flex:1}
+.hero__stats{position:relative;z-index:1;display:flex;gap:16vw;margin:10vw 0 0;padding-left:var(--content-indent)}
+.stat{display:flex;flex-direction:column}
+.stat__value{font-family:var(--font-display);font-weight:300;font-size:min(20vw,56px);line-height:1;color:var(--text-heading);display:flex;align-items:flex-start;white-space:nowrap}
+/* The plus hangs into the left margin so the digits line up with "Hello". The offset is the
+   plus's own rendered advance (~0.59 of its reduced em), not a full em. */
+.stat__plus{font-size:.625em;line-height:1;margin-left:-.59em}
+.stat__label{font-family:var(--font-display);font-weight:300;font-size:min(3.05vw,16px);line-height:1;color:var(--text-muted);margin-top:.3em;white-space:nowrap}
+.hero__main{position:relative;z-index:1;margin:55vw 0 0;padding-left:7vw}
+.hero__sub{display:flex;align-items:center;gap:1.5vw;margin:0 0 0 3vw;font-family:var(--font-display);font-size:max(16px,min(2.8vw,16px));line-height:1.35;color:var(--text-body)}
+.hero__sub .dash{width:4.58vw;height:2px}
+.scroll-down{position:absolute;left:0;right:0;bottom:34px;display:flex;align-items:center;justify-content:center;gap:.5em;font-family:var(--font-display);font-size:min(3.56vw,17px);line-height:1;color:var(--text-nav);white-space:nowrap}
+.scroll-down svg{animation:ga-bob 1.8s ease-in-out infinite}
+@keyframes ga-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(5px)}}
+
+@media (min-width:721px){
+  /* Coordinates from the Figma desktop frame divided by 19.2. */
+  .hero{display:block;height:46.146vw;min-height:420px;padding:0;--hero-size:18.229vw;--content-indent:0}
+  .hero__block{position:static;width:auto}
+  .hero__role{position:absolute;left:10.469vw;top:18.386vw;transform:translate(-50%,-50%) rotate(-90deg);padding:0;margin:0;font-size:1.042vw;gap:.833vw}
+  .hero__role::before,.hero__role::after{flex:none;width:3.594vw;height:.104vw}
+  .hero__stats{position:absolute;left:25.469vw;top:2.708vw;gap:6.302vw;margin:0;padding:0}
+  .stat__value{font-size:3.333vw}
+  .stat__plus{margin-left:0}
+  .stat__label{font-size:1.042vw}
+  .hero__main{position:absolute;left:25.469vw;top:16.667vw;margin:0;padding:0}
+  .hero__word{position:static}
+  /* .hero__main is hier het referentiekader, dus de Figma-coördinaten zijn verminderd
+     met de eigen positie van .hero__main (25.469vw, 16.667vw). */
+  .hero__brush{position:absolute;left:29.114vw;top:-6.991vw;right:auto;width:26.042vw;height:26.042vw;transform:rotate(-20deg);transform-origin:0 0}
+  .hero__title{font-size:18.229vw;letter-spacing:-.005em}
+  .hero__sub{position:absolute;left:4.687vw;top:16.041vw;margin:0;font-size:1.354vw;gap:1.146vw;white-space:nowrap}
+  .hero__sub .dash{width:2.76vw;height:.208vw}
+  .scroll-down{position:absolute;left:46.302vw;right:auto;top:41.771vw;bottom:auto;font-size:1.354vw}
+}
+
+/* ==========================================================================
+   Over mij
+   ========================================================================== */
+.about__grid{display:grid;gap:30px;align-items:start}
+.about__photo{width:100%;border-radius:var(--radius-photo)}
+.about__body{display:flex;flex-direction:column;align-items:flex-start;gap:28px;max-width:700px}
+.about__body p{font-family:var(--font-display);font-size:clamp(16px,4vw,19px);line-height:1.6;margin:0}
+@media (min-width:721px){
+  .about__grid{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:48px}
+  .about__photo--mobile{display:none}
+  .about__body{gap:40px}
+}
+@media (max-width:720px){.about__photo--desktop{display:none}.about__body .btn{width:100%}}
+
+/* ==========================================================================
+   Highlight rail
+   ========================================================================== */
+.rail{margin-bottom:52px}
+.rail__head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:20px}
+.rail__title{display:flex;align-items:center;gap:14px}
+.rail__title .dash{width:32px;height:4px}
+.rail__title h3{font-family:var(--font-display);font-weight:300;font-size:21px;line-height:1;margin:0;color:var(--text-heading)}
+.rail__controls{display:none;gap:10px;flex:none}
+.rail__track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;scrollbar-width:none}
+.rail__track::-webkit-scrollbar{height:0}
+.rail__hint{margin:12px 0 0;font-family:var(--font-ui);font-size:12px;color:var(--text-muted)}
+.card{flex:0 0 min(78vw,340px);scroll-snap-align:start;display:flex;flex-direction:column;color:var(--text-body)}
+.card__thumb{aspect-ratio:47/23;background:var(--surface-placeholder);background-size:cover;background-position:center;border-radius:var(--radius-thumb);transition:filter var(--transition)}
+.card:hover .card__thumb{filter:brightness(.94)}
+.card__eyebrow{display:flex;align-items:center;gap:10px;margin:14px 0 6px;font-family:var(--font-ui);font-size:13px;color:var(--text-muted)}
+.card__title{font-family:var(--font-display);font-weight:300;font-size:clamp(20px,4.6vw,26px);line-height:1.15}
+.card__blurb{font-family:var(--font-display);font-size:clamp(15px,3.6vw,16px);color:var(--text-muted);line-height:1.5;margin-top:8px}
+@media (min-width:721px){
+  .rail{margin-bottom:clamp(56px,7vw,96px)}
+  .rail__head{margin-bottom:28px}
+  .rail__title .dash{width:53px}
+  .rail__title h3{font-size:26px}
+  .rail__controls{display:flex}
+  .rail__track{gap:32px}
+  .rail__hint{display:none}
+  .card{flex:0 0 470px}
+}
+
+/* ==========================================================================
+   Project index
+   ========================================================================== */
+.index-wrap{display:grid;gap:40px;align-items:start}
+.row{display:grid;grid-template-columns:32px 76px minmax(0,1fr) 20px;align-items:center;gap:14px;border-top:1px solid var(--hairline);padding:18px 0;color:var(--text-body)}
+/* Kleine thumbnail in de rij — vervalt zodra het previewpaneel ernaast past. */
+.row__thumb{aspect-ratio:47/23;background:var(--surface-placeholder);background-size:cover;background-position:center;border-radius:var(--radius-thumb);transition:filter var(--transition)}
+.row:hover .row__thumb{filter:brightness(.94)}
+.row:last-of-type{border-bottom:1px solid var(--hairline)}
+.row__n{font-family:var(--font-display);font-size:14px;color:var(--text-muted);transition:color var(--transition)}
+.row:hover .row__n{color:var(--accent)}
+.row__main{min-width:0}
+.row__title{display:block;font-family:var(--font-display);font-weight:300;font-size:22px;line-height:1.15;color:var(--text-heading);transition:transform var(--transition)}
+.row:hover .row__title{transform:translateX(8px)}
+.row__meta{display:block;margin-top:6px;font-family:var(--font-ui);font-size:14px;color:var(--text-muted)}
+.row__cat,.row__year{display:none;font-family:var(--font-ui);font-size:14px;color:var(--text-muted);white-space:nowrap}
+.row__arrow{color:var(--ga-ink);opacity:.5;transition:opacity var(--transition)}
+.row:hover .row__arrow{opacity:1}
+.load-more{width:100%;border:none;border-bottom:1px solid var(--hairline);background:none;cursor:pointer;padding:26px 0;display:flex;align-items:center;justify-content:center;gap:12px;font-family:var(--font-display);font-size:18px;color:var(--text-body);transition:color var(--transition)}
+.load-more:hover{color:var(--accent)}
+.load-more__count{color:var(--text-muted)}
+.index-foot{padding:28px 0 0}
+.preview{display:none}
+@media (min-width:721px){
+  .row{grid-template-columns:44px 108px minmax(0,1fr) auto auto 24px;gap:20px;padding:22px 0}
+  .row__title{font-size:30px}
+  .row__meta{display:none}
+  .row__cat{display:block;min-width:96px}
+  .row__year{display:block;min-width:44px}
+  .row__arrow{opacity:0}
+}
+@media (min-width:900px){
+  /* Het previewpaneel neemt de taak van de rij-thumbnail over. Categorie en jaar
+     verhuizen mee naar het paneel, zodat de titel de volle breedte houdt. */
+  .row{grid-template-columns:44px minmax(0,1fr) 24px}
+  .row__thumb,.row__cat,.row__year{display:none}
+  .row__meta{display:block}
+  .index-wrap{grid-template-columns:minmax(0,1fr) minmax(0,300px);gap:40px}
+  .preview{display:block;position:sticky;top:140px;min-width:0}
+  /* Enkel de anker rond de thumbnail moet block worden, anders lost de aspect-ratio niet
+     op. De "Bekijk project"-link eronder blijft inline-flex, zodat zijn gap werkt. */
+  .preview>a:first-of-type{display:block}
+  .preview__thumb{display:block;aspect-ratio:47/23;background:var(--surface-placeholder);background-size:cover;background-position:center;border-radius:var(--radius-thumb);margin-bottom:16px}
+  .preview__meta{display:flex;align-items:center;gap:10px;margin-bottom:8px;font-family:var(--font-ui);font-size:13px;color:var(--text-muted)}
+  .preview h3{font-family:var(--font-display);font-weight:300;font-size:24px;line-height:1.15;margin:0 0 8px;color:var(--text-heading)}
+  .preview p{font-family:var(--font-display);font-size:15px;line-height:1.5;color:var(--text-muted);margin:0 0 16px}
+}
+@media (min-width:1101px){
+  /* Vanaf hier is er plaats voor de kolommen categorie en jaar naast de titel. Die
+     concurreren met de titel, dus krijgt die hier — en enkel hier — een afkapping. */
+  .row{grid-template-columns:44px minmax(0,1fr) auto auto 24px}
+  .row__title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .row__cat,.row__year{display:block}
+  .row__meta{display:none}
+  .index-wrap{grid-template-columns:minmax(0,1fr) minmax(0,420px);gap:72px}
+  .preview__thumb{margin-bottom:20px}
+  .preview__meta{margin-bottom:10px}
+  .preview h3{font-size:30px;margin-bottom:10px}
+  .preview p{font-size:16px;line-height:1.6;margin-bottom:20px}
+}
+
+/* ==========================================================================
+   Filter bar
+   ========================================================================== */
+.filters{display:flex;gap:clamp(22px,5vw,40px);align-items:flex-end;border-bottom:1px solid var(--hairline);padding-bottom:18px;overflow-x:auto;scrollbar-width:none;margin-bottom:36px}
+.filters::-webkit-scrollbar{height:0}
+.filter{position:relative;border:none;background:none;cursor:pointer;padding:0 0 14px;flex:none;white-space:nowrap;font-family:var(--font-ui);font-size:clamp(15px,3.8vw,18px);line-height:1;color:var(--text-muted);transition:color var(--transition)}
+.filter[aria-pressed='true']{color:var(--ga-black)}
+.filter::after{content:'';position:absolute;left:0;bottom:-19px;width:37px;height:3px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform var(--transition)}
+.filter[aria-pressed='true']::after{transform:scaleX(1)}
+.filters__count{margin-left:auto;flex:none;font-family:var(--font-display);font-size:15px;color:var(--text-muted);padding-bottom:14px;white-space:nowrap}
+@media (max-width:720px){.filters__count{display:none}}
+@media (min-width:721px){.filters{margin-bottom:48px}}
+
+/* ==========================================================================
+   Contact form
+   ========================================================================== */
+.form{max-width:900px}
+.form__row{display:grid;grid-template-columns:1fr}
+.field{display:flex;flex-direction:column;gap:10px;margin-bottom:clamp(26px,5vw,36px);min-width:0}
+/* De labels staan enkel nog voor schermlezers; de placeholder draagt het opschrift. */
+.field label{font-family:var(--font-ui);font-size:clamp(16px,3.8vw,18px);color:var(--text-body)}
+.field input,.field textarea{border:none;border-bottom:1px solid var(--line-field);border-radius:0;background:transparent;padding:10px 4px;font-family:var(--font-ui);font-size:17px;color:var(--text-body);width:100%;min-width:0;outline:none;-webkit-appearance:none;transition:border-color var(--transition)}
+.field input::placeholder,.field textarea::placeholder{color:var(--text-muted);opacity:1}
+.field textarea{resize:vertical}
+.field input:focus,.field textarea:focus{border-bottom-color:var(--accent)}
+.form__status{margin-top:16px;font-size:15px;color:var(--text-muted);min-height:20px}
+@media (min-width:721px){.form__row{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px 64px}.form .btn{width:auto}}
+@media (max-width:720px){.form .btn{width:100%}}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.footer{background:var(--surface-inverse);color:var(--text-inverse);padding:40px var(--side-pad) calc(36px + env(safe-area-inset-bottom,0px))}
+.footer a{color:var(--ga-white)}
+.footer a:hover{color:var(--ga-white)}
+.footer__badge{width:56px;height:56px;border-radius:50%;background:var(--ga-white);display:flex;align-items:center;justify-content:center;padding:11px;margin-bottom:28px;transition:transform var(--transition)}
+.footer__badge:hover{transform:translateY(-3px)}
+.footer__badge img{width:100%;height:100%;object-fit:contain}
+.footer h3{font-family:var(--font-ui);font-weight:500;font-size:17px;line-height:1;margin:0 0 18px}
+.footer__line{display:flex;align-items:center;gap:12px;margin-bottom:14px;font-family:var(--font-ui);font-size:15px}
+.footer__line img{width:18px;flex:none}
+.footer__line span{overflow-wrap:anywhere}
+.footer__socials{display:flex;gap:12px}
+.social{width:42px;height:42px;border-radius:50%;border:1px solid var(--line-inverse-soft);display:flex;align-items:center;justify-content:center;transition:background var(--transition),border-color var(--transition)}
+.social:hover{background:var(--ga-white);border-color:var(--ga-white)}
+.social img{width:20px}
+@media (min-width:721px){
+  .footer{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:48px;padding:clamp(40px,6vw,64px) var(--side-pad)}
+  .footer__badge{width:114px;height:114px;padding:23px;margin:0;order:3;align-self:center}
+  .footer h3{font-size:22px;margin-bottom:24px}
+  .footer__col--socials{text-align:center;flex:1}
+  .footer__socials{justify-content:center}
+}
+
+/* ==========================================================================
+   Project detail page
+   ========================================================================== */
+.crumb{padding:24px var(--side-pad) 0}
+.project__head{padding:clamp(32px,8vw,100px) var(--side-pad) clamp(28px,4vw,48px)}
+.project__head .title-rule{margin-bottom:0}
+.project__eyebrow{color:var(--text-muted);font-family:var(--font-ui);font-size:15px;margin:0 0 8px}
+.project__title{font-family:var(--font-display);font-weight:300;font-size:clamp(34px,9vw,110px);line-height:1;margin:0 0 18px}
+.project__hero{padding:0 var(--side-pad)}
+.block{width:100%;background:var(--surface-placeholder);background-size:cover;background-position:center;border-radius:var(--radius-image)}
+/* Voor schermafbeeldingen: volledig tonen op een witte grond, nooit snijden. */
+.block--contain{background-size:contain;background-repeat:no-repeat;background-color:var(--ga-white)}
+/* De hero-verhouding is een terugval: project.js overschrijft hem met de echte
+   verhouding van het beeld zodra een project een ratio meegeeft. */
+.project__hero .block{aspect-ratio:4/3}
+/* Doorbladerbare publicatie in plaats van een schermafbeelding. De padding-top houdt de
+   verhouding vast zonder vaste hoogte, zodat het op telefoon niet te laag wordt. */
+.embed{position:relative;padding-top:max(60%,324px);width:100%;height:0;border-radius:var(--radius-image);overflow:hidden;background:var(--surface-placeholder)}
+/* Een film hoeft niet de volle paginabreedte: boven ~1100px wordt hij anders groter dan
+   waarop hij bekeken wordt. */
+.embed--video{padding-top:56.25%;max-width:1000px;margin:0 auto}
+.embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.project__embed{display:grid;gap:20px;padding:0 var(--side-pad) clamp(40px,7vw,88px)}
+.project__embed h2{font-family:var(--font-display);font-weight:300;font-size:clamp(24px,6vw,36px);margin:0}
+.project__body{display:grid;gap:28px;padding:clamp(36px,8vw,100px) var(--side-pad)}
+.project__body h2{font-family:var(--font-display);font-weight:300;font-size:clamp(24px,6vw,36px);margin:0 0 16px}
+.project__body p{font-family:var(--font-display);font-size:clamp(16px,4vw,19px);line-height:1.7;margin:0}
+.project__actions{display:flex;flex-wrap:wrap;align-items:center;gap:20px;margin-top:32px}
+.figure{margin:0}
+button.block{padding:0;border:none;display:block;width:100%;cursor:zoom-in}
+/* Staande beelden (posters, banners, telefoonschermen) blijven op posterformaat, ook als
+   ze alleen in hun raster staan. */
+/* Een staande hero blijft op posterformaat en wordt nooit boven zijn eigen
+   pixelbreedte opgeblazen: --hero-max komt uit de opgegeven verhouding. */
+.project__hero--portrait .block{max-width:min(100%,var(--hero-max,620px));margin:0 auto}
+/* Beelden staan klein op de pagina — een klik opent ze in het lichtkader. */
+.figure--portrait,.process__grid .figure--portrait{max-width:250px}
+.figure--square{max-width:300px}
+/* Een beeld met een eigen verhouding bepaalt zelf zijn hoogte; de vaste 260px hieronder
+   geldt alleen voor beelden zonder opgegeven verhouding. */
+.process__grid .figure--portrait .block,.process__grid .figure--square .block,.process__grid .figure--ratio .block{min-height:0}
+.figure figcaption{margin-top:10px;font-family:var(--font-ui);font-size:13px;color:var(--text-muted);line-height:1.4}
+/* Volledige-paginacaptures: eigen rij, en een schuifkader zodat een pagina van 6000px de
+   projectpagina niet onleesbaar lang maakt. In de galerij blijft de breedte begrensd omdat
+   de capture daar naast telefoonschermen staat; in een procesblok krijgt hij alle ruimte,
+   want daar is hij het onderwerp van het blok. */
+.figure--tall{grid-column:1 / -1;max-width:420px}
+.process__grid .figure--tall{max-width:none}
+/* Een smalle capture (telefoonscherm) blijft in het schuifkader ook op zijn eigen breedte. */
+.figure--tall-narrow,.process__grid .figure--tall-narrow{max-width:250px}
+/* Aangesneden capture: bovenkant zichtbaar, onderaan uitgevaagd zodat het duidelijk is dat
+   er meer is. Klikken opent het volledige beeld. */
+.crop{display:block;width:100%;height:320px;padding:0;border:none;cursor:zoom-in;position:relative;background-size:100% auto;background-position:top center;background-repeat:no-repeat;background-color:var(--ga-white);border-radius:var(--radius-image);overflow:hidden;box-shadow:inset 0 0 0 1px var(--hairline)}
+.crop::after{content:'';position:absolute;inset:auto 0 0;height:96px;background:linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,.96))}
+.crop__hint{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);z-index:1;font-family:var(--font-ui);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-primary)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:18px;margin:0;border-top:1px solid var(--hairline);padding-top:22px}
+.facts dt{font-family:var(--font-ui);font-size:13px;color:var(--text-muted);margin-bottom:4px}
+.facts dd{font-family:var(--font-ui);font-size:16px;margin:0;color:var(--text-body)}
+.project__gallery{padding:0 var(--side-pad) clamp(40px,8vw,100px);display:grid;grid-template-columns:1fr;gap:16px}
+.project__gallery .block{aspect-ratio:4/3}
+.project__gallery--phones{grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px}
+.project__gallery--phones .block{aspect-ratio:9/16;background-size:contain;background-repeat:no-repeat;background-color:var(--ga-white)}
+/* Eén beeld hoeft de rij niet te vullen — een volledige-paginacapture blijft zo leesbaar. */
+.project__gallery--single{justify-items:center}
+.project__gallery--single .figure{max-width:520px}
+
+/* Procesblokken — moodboards, styletiles, personas */
+.project__process{padding:0 var(--side-pad) clamp(40px,8vw,100px)}
+.project__process>h2{font-family:var(--font-display);font-weight:300;font-size:clamp(28px,7vw,44px);margin:0 0 8px}
+.process{padding-top:clamp(28px,4vw,44px);border-top:1px solid var(--hairline);margin-top:clamp(28px,4vw,44px)}
+.process h3{font-family:var(--font-display);font-weight:300;font-size:clamp(21px,5vw,28px);margin:0 0 10px}
+.process p{font-family:var(--font-display);font-size:clamp(15px,3.8vw,17px);line-height:1.6;color:var(--text-muted);margin:0 0 24px;max-width:640px}
+.process__grid{display:grid;grid-template-columns:1fr;gap:16px}
+.process__grid .block{aspect-ratio:auto;min-height:180px;background-size:contain;background-repeat:no-repeat;background-position:center;background-color:var(--ga-white)}
+.cta-band{background:var(--surface-inverse);color:var(--text-inverse);padding:clamp(44px,8vw,88px) var(--side-pad);text-align:center;display:flex;flex-direction:column;align-items:center;gap:24px}
+.cta-band p{font-family:var(--font-display);font-weight:300;font-size:clamp(24px,6.5vw,44px);margin:0}
+.project__nav{display:flex;justify-content:space-between;gap:20px;padding:clamp(28px,5vw,48px) var(--side-pad)}
+@media (min-width:721px){
+  .project__hero .block{aspect-ratio:16/9}
+  .project__body{grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:clamp(32px,6vw,64px)}
+  .facts{display:flex;flex-direction:column;gap:20px;border-top:none;border-left:1px solid var(--hairline);padding:0 0 0 clamp(20px,3vw,32px)}
+  .project__gallery{grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+  .project__gallery--phones{grid-template-columns:repeat(5,1fr);gap:20px}
+  .process__grid{grid-template-columns:repeat(auto-fit,minmax(200px,240px));gap:24px}
+  .process__grid .block{min-height:0}
+  .process__grid .figure--ratio:not(.figure--portrait):not(.figure--square){max-width:520px;grid-column:1 / -1}
+  /* Eén liggend beeld naast zijn tekst mag op een breed scherm niet de hele kolom vullen: een
+     filmstill van 1440px breed wordt dan groter dan de film zelf. Staande beelden houden hun
+     eigen, smallere cap hieronder — vandaar de uitsluiting. */
+  .process__grid:not(.process__grid--multi) .figure--ratio:not(.figure--portrait):not(.figure--square){max-width:520px}
+}
+
+/* ==========================================================================
+   Lichtkader — beeld op ware grootte, bladeren met pijlen, toetsen of vegen
+   ========================================================================== */
+/* Eén schuifvlak in plaats van twee: het overlay scrollt zelf, dus een hoge capture
+   voelt als een gewone pagina en er zit geen kader-in-kader. */
+.lightbox{position:fixed;inset:0;z-index:2000;display:flex;align-items:center;justify-content:center;gap:8px;padding:clamp(12px,4vw,40px);background:rgba(10,12,12,.94);overflow:auto;overscroll-behavior:contain}
+.lightbox--tall{align-items:flex-start}
+.lightbox[hidden]{display:none}
+/* Het beeld krijgt een breedtedoel en geen hoogtecap: een telefooncapture van 393×2535 moet
+   op leesbare breedte staan en verticaal scrollen, niet in de staghoogte geperst worden.
+   margin:auto centreert wat past en houdt de bovenkant bereikbaar wat niet past. */
+.lightbox__stage{flex:1;min-width:0;display:flex;justify-content:center}
+.lightbox__stage img{width:min(100%,var(--zoom-w,1200px));height:auto;margin:0 auto;border-radius:var(--radius-image)}
+.lightbox:not(.lightbox--tall) .lightbox__stage img{max-height:calc(100vh - clamp(24px,8vw,80px))}
+.lightbox__nav,.lightbox__close{flex:none;border:none;background:rgba(255,255,255,.1);color:#fff;cursor:pointer;border-radius:999px;font-family:var(--font-ui);line-height:1}
+.lightbox__nav{position:fixed;top:50%;transform:translateY(-50%);width:48px;height:48px;font-size:30px}
+.lightbox__nav--prev{left:clamp(8px,2vw,20px)}
+.lightbox__nav--next{right:clamp(8px,2vw,20px)}
+.lightbox__nav:hover,.lightbox__close:hover{background:rgba(255,255,255,.22)}
+.lightbox__close{position:fixed;top:clamp(12px,3vw,28px);right:clamp(12px,3vw,28px);width:44px;height:44px;font-size:26px}
+.lightbox__count{position:fixed;bottom:clamp(12px,3vw,28px);left:50%;transform:translateX(-50%);font-family:var(--font-ui);font-size:13px;color:rgba(255,255,255,.6)}
+@media (max-width:720px){
+  /* Op telefoon veeg je; de pijlen zouden het beeld alleen smaller maken. */
+  .lightbox__nav{display:none}
+}
