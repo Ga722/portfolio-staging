@@ -1,0 +1,55 @@
+{
+  "category": "Online magazines",
+  "order": 30,
+  "id": "agion-jaarverslag-2020",
+  "highlight": 0,
+  "title": "Jaarverslag Agion 2020",
+  "blurb": "Online jaarverslag voor het Agentschap voor Infrastructuur in het Onderwijs.",
+  "description": "Agion subsidieert schoolgebouwen, dus zet ik de gebouwen zelf vooraan: elk hoofdstuk opent met architectuurfotografie van een gerealiseerde school, schermvullend en op ware grootte. Die beelden dragen de publicatie — de onderwerpen liggen als genummerde markers op de architectuur, zodat de lezer bij elk thema ook ziet waar het over gaat. Ik verzorgde ontwerp, opmaak, interactieve opbouw, animatie en beeldbewerking.",
+  "role": "Ontwerp, opmaak, interactieve opbouw, animatie, beeldbewerking, ontwikkeling",
+  "client": "Agion",
+  "year": "2020",
+  "image": "assets/werk/agion/cover.png",
+  "fit": "contain",
+  "ratio": "1912 / 916",
+  "process": [
+    {
+      "title": "Intro",
+      "blurb": "Een agentschap dat schoolgebouwen subsidieert, opent met een schoolgebouw — niet met een grafiek. Basisschool De Brug in Bocholt vult het scherm, en de naam AGION staat groot in wit tegen de open lucht linksboven: het enige stukje beeld waar zware typografie niets wegneemt van de architectuur. Het legt de toon vast voor de rest — eerst zien wat er gebouwd is, dan lezen wat het kostte.",
+      "images": [
+        {
+          "src": "assets/werk/agion/cover.png",
+          "ratio": "1912 / 916",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "title": "Cijfers 2020",
+      "blurb": "Het moeilijkste hoofdstuk om luchtig te houden. De gebouwfoto blijft staan en de cijfers komen er in vlakken bovenop, in plaats van een tabel op wit. Zo blijft de aanleiding — die school — in beeld terwijl je de bedragen leest, en verdwijnt het subsidiebedrag niet in een kolom.",
+      "images": [
+        {
+          "src": "assets/werk/agion/cijfers.png",
+          "ratio": "1914 / 920",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "title": "Communicatie en adviesverlening",
+      "blurb": "Dezelfde aanpak als bij de cijfers, nu binnen in de school: de vier thema’s liggen als genummerde markers op de architectuur zelf. Waar Agion over ventilatie of aangepaste formulieren spreekt, sta je in een klaslokaal — het onderwerp en de plek waar het over gaat vallen samen. Door hoofdstuk na hoofdstuk hetzelfde procedé aan te houden leest de publicatie als één reeks in plaats van losse pagina’s.",
+      "images": [
+        {
+          "src": "assets/werk/agion/communicatie.png",
+          "ratio": "1910 / 919",
+          "fit": "contain"
+        }
+      ]
+    }
+  ],
+  "video": "",
+  "geavanceerd": {
+    "link": "https://jaarverslag.agion.be/2020/intro/",
+    "processTitle": "Door het verslag"
+  }
+}

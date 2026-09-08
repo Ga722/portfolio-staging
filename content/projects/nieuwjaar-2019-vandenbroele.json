@@ -1,0 +1,69 @@
+{
+  "category": "Animatie",
+  "order": 10,
+  "id": "nieuwjaar-2019-vandenbroele",
+  "highlight": 0,
+  "title": "Nieuwjaarsanimatie 2019",
+  "blurb": "Nieuwjaarswens met een terugblik op 2018 en de plannen voor 2019.",
+  "description": "Een nieuwjaarsanimatie voor Vanden Broele Productions: kort terugblikken op wat we in 2018 gemaakt hebben en aankondigen wat er in 2019 komt. Het probleem van zo'n wens is dat ze snel een opsomming van diensten wordt. Ik koos daarom voor een collagestijl met één personage dat het hele verhaal ondergaat, zodat de opsomming een grap wordt in plaats van een lijst.",
+  "role": "Animatie, vormgeving",
+  "client": "Vanden Broele Productions",
+  "year": "2019",
+  "image": "assets/werk/nieuwjaar-2019/2018-verrassingen.png",
+  "ratio": "1919 / 1075",
+  "video": "",
+  "process": [
+    {
+      "title": "Collage van archieffotografie",
+      "blurb": "Het personage is een negentiende-eeuws atelierportret, vrijgesneden en op een vlak oudroze geplaatst. Die botsing tussen historische foto en vlakke kleur is de hele stijl: geen illustratie, geen fotografie, maar geknipt materiaal dat als papier beweegt. Voor een uitgeverij met een lange geschiedenis is dat archiefbeeld ook inhoudelijk het juiste materiaal."
+    },
+    {
+      "title": "Eén schuine lijn deelt het kader",
+      "blurb": "Het beeld is in twee gedeeld door een licht hellende zwarte lijn: boven het roze vlak, onder een lappendeken van zwart-witte rasters — stippen, streepjes, ruiten. De schuinte houdt het beeld in beweging terwijl er niets beweegt, en de zwart-witte patronen geven de vlakke bovenhelft precies genoeg textuur om niet leeg te zijn. Alles speelt zich boven de lijn af; onder de lijn gebeurt nooit iets."
+    },
+    {
+      "title": "Tekst die met de horizon meekantelt",
+      "blurb": "De typografie staat nergens recht: elke regel volgt de helling van de deellijn of kantelt er tegenin, in een vette schreefloze met een lichte boog in de baseline. Daardoor leest de tekst als opgeplakt in plaats van getypt, in dezelfde geest als de collage. Wit voor de tekst, zwart alleen waar het over het merk gaat."
+    },
+    {
+      "title": "De hoge hoed als aanwijsmiddel",
+      "blurb": "Boven het portret hangt zijn hoge hoed los in het beeld. Die hoed is de enige beweeglijke prop: hij zweeft, kantelt en valt, en markeert daarmee het begin en het einde van de vertelling. Door hem los van het hoofd te zetten wordt het portret meteen minder plechtig — de toon van een nieuwjaarswens."
+    },
+    {
+      "title": "Diensten als vliegende woorden",
+      "blurb": "De terugblik op 2018 verschijnt als losse woorden die rond het portret in beeld draaien: online magazines, jaarverslagen, video's. Elk woord komt in een eigen hoek en op een eigen hoogte, zodat het oog springt in plaats van een lijst af te lopen. Het portret blijft daarbij onbewogen in het midden staan, wat de woorden om hem heen komischer maakt dan een opsomming ooit zou zijn.",
+      "images": [
+        {
+          "src": "assets/werk/nieuwjaar-2019/diensten.png",
+          "ratio": "1919 / 1079"
+        }
+      ]
+    },
+    {
+      "title": "De val als pointe",
+      "blurb": "Op het einde valt het personage achterover uit het kader: alleen twee laarzen en de wegvliegende hoed blijven zichtbaar, met \"en val achterover\" in drie trapsgewijs geplaatste regels. Dat de figuur letterlijk uit beeld verdwijnt maakt van de wens een slapstickgrap, en het lege roze vlak dat overblijft is ook de plek waar de slotkaart in past.",
+      "images": [
+        {
+          "src": "assets/werk/nieuwjaar-2019/val-achterover.png",
+          "ratio": "1919 / 1079"
+        }
+      ]
+    },
+    {
+      "title": "Slotkaart in het merkbeeld",
+      "blurb": "Het einde ruilt de collage voor rust: gecentreerde typografie met drie sterretjes, het logo in zijn eigen schreefletter, \"en alles is mogelijk\" wit eronder en het e-mailadres als kleinste regel. De schuine lijn en de rasters blijven onderaan staan, zodat de kaart bij dezelfde film hoort en niet als losse aftiteling aanvoelt.",
+      "images": [
+        {
+          "src": "assets/werk/nieuwjaar-2019/eindkaart.png",
+          "ratio": "1919 / 1079"
+        }
+      ]
+    }
+  ],
+  "geavanceerd": {
+    "embed": "https://www.youtube.com/embed/fBCQ9o9IN4c",
+    "embedTitle": "Bekijk de animatie",
+    "link": "https://youtu.be/fBCQ9o9IN4c",
+    "processTitle": "Vormgeving"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "category": "Print",
+  "order": 40,
+  "id": "trouwboekjes-vandenbroele",
+  "highlight": 0,
+  "title": "Trouwboekjes",
+  "blurb": "Covers en binnenwerk voor de handgemaakte lederen trouwboekjes van Vanden Broele.",
+  "description": "Een trouwboekje is een van de weinige documenten die mensen levenslang bijhouden, en het moet twee dingen tegelijk zijn: een officieel register waarin de ambtenaar de akte inschrijft, en een boekje dat een koppel graag openslaat. Ik ontwierp en zette voor Vanden Broele Handmade zowel de covers als het binnenwerk van hun handgemaakte lederen trouwboekjes op. De vraag was niet één ontwerp maar een systeem: hetzelfde boekje moet werken met het wapenschild van elke Belgische gemeente, op vier soorten leder, in drie druktechnieken en twee formaten — zonder dat het per gemeente een ander product wordt",
+  "role": "Grafisch ontwerp, opmaak, DTP",
+  "client": "Vanden Broele Handmade — voor Belgische gemeenten",
+  "year": "",
+  "image": "assets/werk/trouwboekjes/classics-retroformaat.jpg",
+  "ratio": "600 / 450",
+  "video": "",
+  "process": [
+    {
+      "title": "Eén cover, honderden gemeenten",
+      "blurb": "Op de cover staat alleen het wapenschild of logo van de gemeente, met de naam eronder. Dat merkteken loopt van een middeleeuws schild in volle kleur tot een strak hedendaags beeldmerk, en komt in wisselende kwaliteit binnen. Elk teken wordt opgeschoond, waar nodig hertekend, en optisch gecentreerd zodat het over de hele reeks op dezelfde hoogte in dezelfde rust staat — ongeacht hoe druk het van zichzelf is. Zetwerk van de gemeentenaam in dezelfde letter voor alle boekjes, met de plaatsing per naamlengte nagekeken."
+    },
+    {
+      "title": "Materiaal en druktechniek als ontwerpvraag",
+      "blurb": "De boekjes bestaan in nubuck, glad kwaliteitsleder en de alternatieven Toledo-lederlook en suedine, in verschillende kleuren. Dat bepaalt het ontwerp: op fluweelzacht nubuck leest blinddruk als reliëf en verdwijnt fijne lijn, op glad leder houdt foliedruk zijn scherpte, digitale druk laat volle kleur toe. Per combinatie van materiaal, kleur en techniek zijn lijndiktes, vlakgroottes en contrast afgeregeld — een schild dat in folie werkt, kan in blinddruk dichtlopen. Bij de afwerking komt daar de kleur van de sierstikking en het sierkoordje bij, die met het lederkleur en het wapen moeten samengaan."
+    },
+    {
+      "title": "Twee formaten, dezelfde opbouw",
+      "blurb": "Standaardformaat 106 × 181 mm — smal genoeg voor de binnenzak van een kostuum — en breed formaat 122 × 170 mm. Twee verschillende bladspiegels, dus twee opmaken, maar met dezelfde typografie, marges en ordening: wat in het ene formaat een kolom is, blijft in het andere een kolom. Bij de gebonden versies geeft de rug marge terug die een wire-o-binding juist opeet; de bindmarge is per uitvoering apart gezet."
+    },
+    {
+      "title": "Binnenwerk om in te schrijven",
+      "blurb": "Het binnenwerk is ontworpen om beschreven te worden. Puntenraster in lichte tint als schrijfhulp, veldnamen in een steunkleur en een cursieve schreefletter, invulruimte leeg in plaats van dichtgezet met lijnen. Handschrift is daardoor het donkerste element op de pagina. De wetsartikelen erachter vragen het omgekeerde: strak gekolomd, compact gezet, leesbaar zonder dat het de invulpagina's overstemt. Naast het standaard binnenwerk ook versies op maat, met eigen rubrieken en teksten van de gemeente."
+    },
+    {
+      "title": "Drukvoorbereiding per gemeente",
+      "blurb": "Elke gemeente krijgt een eigen versie uit hetzelfde basisdocument, drukklaar aangeleverd: aparte kleurscheiding voor folie- en blinddrukvlakken, vectoriële wapenschilden, en controle op stand en afloop voor elke uitvoering apart. Productie loopt volledig in België, met FSC-gecertificeerd drukwerk."
+    }
+  ],
+  "geavanceerd": {
+    "link": "https://www.trouwboekjes.be/",
+    "processTitle": "Vormgeving",
+    "gallery": [
+      {
+        "src": "assets/werk/trouwboekjes/koesters-albumversie.jpg",
+        "ratio": "600 / 450",
+        "caption": "Albumversie met wire-o-binding, gemeente Kortemark: logo in full colour, naam eronder."
+      },
+      {
+        "src": "assets/werk/trouwboekjes/koesters-binnenwerk.jpg",
+        "ratio": "600 / 450",
+        "caption": "Binnenwerk: veldnamen in steunkleur op een puntenraster, invulruimte leeg gelaten."
+      }
+    ]
+  }
+}

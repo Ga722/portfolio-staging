@@ -1,0 +1,64 @@
+{
+  "category": "Print",
+  "order": 50,
+  "id": "codefever-drukwerk-2022",
+  "highlight": 3,
+  "title": "CodeFever drukwerk",
+  "blurb": "Flyers en folders voor de lessenreeksen, kampen en bijscholingen.",
+  "description": "CodeFever spreekt twee publieken tegelijk aan: het kind dat het leuk moet vinden en de ouder die moet beslissen. Daarom draagt elk stuk twee registers naast elkaar. Voor het kind: de eigen game-personages — een robot, een ninja, een zombie — die als stickers over de rand van het blad kruipen, en fotografie van kinderen achter een scherm in plaats van geposeerde stockbeelden. Voor de ouder: een strakke kolomopbouw met gele en groene markeerbalken op de kopregels, zodat wie snel scant meteen prijs, plaats en datum vindt. Elk product heeft een eigen basiskleur binnen dezelfde spikkelbol-huisstijl, zodat de reeks als familie leest en toch onderscheidbaar blijft.",
+  "role": "Grafisch ontwerp, opmaak, beeldbewerking",
+  "client": "Codefever vzw",
+  "year": "2022",
+  "image": "assets/werk/codefever/kampen-folder.png",
+  "process": [
+    {
+      "title": "Themakampen",
+      "blurb": "Een uitvouwfolder waarin elk kamp zijn eigen oranje of geel tabblad krijgt — Start 2 Code, Minecraft, Digital Skills, Robot, Alice. Openvouwen geeft de vijf naast elkaar, zodat een ouder ze kan vergelijken zonder te bladeren. De cover gaat in turquoise met palmbladeren en de personages ertussen: een zomerkamp mag er als vakantie uitzien.",
+      "images": [
+        {
+          "src": "assets/werk/codefever/kampen-folder.png",
+          "ratio": "4 / 3"
+        }
+      ]
+    },
+    {
+      "title": "Lessenreeks Borgerhout",
+      "blurb": "Een flyer per locatie. De tien lesdata staan als blauwe blokjes in een raster — datum en maand gescheiden — zodat je niet in een tekstregel hoeft te zoeken wanneer de reeks doorgaat. Gele en groene markeringen zetten de kopregels vooruit, en de personages houden het speels genoeg voor de doelgroep.",
+      "images": [
+        {
+          "src": "assets/werk/codefever/dbsf-flyer.png",
+          "ratio": "4 / 3"
+        }
+      ]
+    },
+    {
+      "title": "Ouderfolder level 1",
+      "blurb": "Het meest tekstuele stuk: leertraject, ouderprofiel, FAQ en zorgteam. De cover is zwart met de personages en vijf genummerde troeven — rustiger dan het kindmateriaal, want dit blad moet vertrouwen wekken. Binnenin loopt het verloop van groen naar blauw over de flap, en staat de tekst in kolommen met de FAQ apart gezet.",
+      "images": [
+        {
+          "src": "assets/werk/codefever/level1-folder.png",
+          "ratio": "4 / 3"
+        }
+      ]
+    },
+    {
+      "title": "ONTDEK FTRPRF",
+      "blurb": "De folder voor het lerarenpubliek, en het enige stuk in de reeks zonder personages. “ONTDEK” staat in twee regels wit op zwart over de volle cover, met het merklogo eronder — zwaar en typografisch, want dit richt zich op scholen. Binnenin neemt hetzelfde blauw-naar-groen verloop het over, met de bijscholingsdata in een omkaderd blok en een QR-code als inschrijfweg.",
+      "images": [
+        {
+          "src": "assets/werk/ftrprf/ontdek-voorkant.png",
+          "ratio": "4 / 3"
+        },
+        {
+          "src": "assets/werk/ftrprf/ontdek-binnenkant.png",
+          "ratio": "4 / 3"
+        }
+      ]
+    }
+  ],
+  "video": "",
+  "geavanceerd": {
+    "link": "https://www.codefever.be/",
+    "processTitle": "De stukken"
+  }
+}

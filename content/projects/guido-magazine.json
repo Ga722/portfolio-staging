@@ -1,0 +1,39 @@
+{
+  "category": "Online magazines",
+  "order": 10,
+  "id": "guido-magazine",
+  "highlight": 2,
+  "title": "Guido Magazine",
+  "blurb": "Vormgeving en opmaak van het studentenmagazine.",
+  "description": "Guido is het grootste Belgische mediamerk voor studenten, scholieren en starters: een gratis magazine dat in een oplage van rond de 100.000 exemplaren de studentensteden in gaat. Redactioneel breed — interviews, studiekeuze, jobs, festivals, reizen — en dus grafisch een kwestie van één taal vinden die al die registers aankan. Ik verzorgde de vormgeving en opmaak van deze editie.",
+  "role": "Opmaak & online editie",
+  "client": "Guido NV",
+  "year": "2022",
+  "image": "assets/werk/guido/cover.jpg",
+  "video": "",
+  "process": [
+    {
+      "title": "Raster en typografie",
+      "blurb": "Een basisraster met een vaste stokhoogte over alle kolommen, zodat regels op tegenoverliggende pagina's in lijn liggen. Twee families: een schreefloze met een brede gewichtsrange voor koppen, kaders en labels, een schreefletter voor lange lopende tekst. De hiërarchie zit in gewicht en witruimte, niet in kleur — dat houdt de pagina bruikbaar naast advertenties die hun eigen kleur meebrengen."
+    },
+    {
+      "title": "Rubrieken en ritme",
+      "blurb": "Elke rubriek heeft een eigen paginatype: het interview krijgt een openingsspread met één groot portret en veel wit, de service-artikelen over jobs en studiekeuze zijn strak gekolomd met kaders en tussenkoppen, de agenda-pagina's zijn dicht en snel. Over de hele editie afgewisseld, zodat doorbladeren tempo krijgt in plaats van een reeks gelijke pagina's."
+    },
+    {
+      "title": "Beeld en beeldbewerking",
+      "blurb": "Beeldselectie en uitsnede per artikel: portretten strak op de blik uitgesneden, kleurcorrectie zodat huidtinten over de hele editie consistent blijven, en tekst pas op beeld waar het contrast het toelaat. Aangeleverd materiaal van adverteerders en partners is naar hetzelfde niveau gebracht voor het naar de drukker ging."
+    },
+    {
+      "title": "Digitale editie",
+      "blurb": "Naast het drukwerk een online editie in spreads, zodat een dubbele pagina ook op het scherm één compositie blijft en de opmaak niet uiteenvalt in losse pagina's."
+    }
+  ],
+  "geavanceerd": {
+    "embed": "https://online.fliphtml5.com/gaportfolio/toqt/",
+    "embedTitle": "Blader door de editie",
+    "link": "https://online.fliphtml5.com/gaportfolio/toqt/",
+    "processTitle": "Vormgeving",
+    "heroRatio": "4 / 3"
+  }
+}

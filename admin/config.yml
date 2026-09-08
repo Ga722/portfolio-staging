@@ -8,91 +8,104 @@ backend:
   branch: main
   base_url: https://sveltia-cms-auth.gazmend-91-218.workers.dev
 
-# Waar geüploade beelden terechtkomen (map in de repo) en hoe de site ernaar verwijst.
 media_folder: assets/werk
 public_folder: assets/werk
 
-# De hele portfolio staat in één bestand; het CMS bewerkt dat bestand.
 collections:
-  - name: portfolio
-    label: Portfolio
-    files:
-      - name: projecten
-        label: Projecten
-        file: content/projects.json
-        description: Alle projecten, gegroepeerd per categorie.
-        fields:
-          - name: categories
-            label: Categorieën
-            label_singular: categorie
-            widget: list
-            hint: De volgorde hier bepaalt de volgorde van de filterbalk en de projectlijst.
+  # Eén kaart per project: zoeken, sorteren, groeperen per categorie.
+  - name: projecten
+    label: Projecten
+    label_singular: project
+    folder: content/projects
+    extension: json
+    format: json
+    create: true
+    slug: '{{fields.id}}'
+    identifier_field: title
+    thumbnail: image
+    summary: '{{title}}'
+    sortable_fields: [title, category, year, highlight]
+    view_groups:
+      - label: Categorie
+        field: category
+    fields:
+      - { name: title, label: Titel, widget: string }
+      - { name: id, label: ID (in de URL), widget: string, pattern: ['^[a-z0-9-]+$', 'Alleen kleine letters, cijfers en koppeltekens.'], hint: 'Wijzig dit niet meer nadat het project online staat.' }
+      - name: category
+        label: Categorie
+        widget: select
+        options: ['App-ontwerp', 'Online magazines', 'Print', 'Website', 'Ontwerp', 'Branding', 'UX/UI', 'Animatie', 'Video']
+      - { name: order, label: Volgorde binnen de categorie, widget: number, value_type: int, default: 100, hint: 'Laag getal = eerst.' }
+      - { name: highlight, label: Uitgelicht (1–5, 0 = niet), widget: number, value_type: int, default: 0, min: 0, max: 5 }
+      - { name: blurb, label: Korte regel in de lijst, widget: string, required: false }
+      - { name: description, label: Inleiding op de projectpagina, widget: text, required: false }
 
-          - name: groups
-            label: Categorieblokken
-            label_singular: categorieblok
+      - { name: client, label: Klant, widget: string, required: false }
+      - { name: role, label: Rol, widget: string, required: false }
+      - { name: year, label: Jaar, widget: string, required: false }
+
+      - { name: image, label: Hoofdbeeld, widget: image, required: false }
+      - { name: ratio, label: Verhouding hoofdbeeld, widget: string, required: false, hint: 'Breedte / hoogte van je bestand, bv. 1912 / 916.' }
+      - { name: fit, label: Hoofdbeeld volledig tonen op wit, widget: select, required: false, options: ['', 'contain'], hint: 'Kies contain voor schermafbeeldingen; leeg = vullend.' }
+
+      - name: process
+        label: Procesblokken
+        label_singular: blok
+        widget: list
+        required: false
+        collapsed: true
+        summary: '{{fields.title}}'
+        fields:
+          - { name: title, label: Kop, widget: string }
+          - { name: blurb, label: Tekst, widget: text }
+          - name: images
+            label: Beelden
+            label_singular: beeld
             widget: list
-            summary: '{{fields.category}}'
+            required: false
             fields:
-              - { name: category, label: Categorie, widget: string, hint: Moet exact overeenkomen met een naam uit de lijst Categorieën hierboven. }
-              - name: items
-                label: Projecten
-                label_singular: project
-                widget: list
-                summary: '{{fields.title}}'
-                fields:
-                  - { name: id, label: ID (in de URL), widget: string, pattern: ['^[a-z0-9-]+$', 'Alleen kleine letters, cijfers en koppeltekens.'] }
-                  - { name: title, label: Titel, widget: string }
-                  - { name: blurb, label: Korte regel in de lijst, widget: string, required: false }
-                  - { name: description, label: Inleiding op de projectpagina, widget: text, required: false }
-                  - { name: client, label: Klant, widget: string, required: false }
-                  - { name: role, label: Rol, widget: string, required: false }
-                  - { name: year, label: Jaar, widget: string, required: false }
-                  - { name: highlight, label: Uitgelicht (1–5, 0 = niet), widget: number, default: 0, value_type: int, min: 0, max: 5 }
-                  - { name: image, label: Hoofdbeeld, widget: image, required: false }
-                  - { name: ratio, label: Verhouding hoofdbeeld, widget: string, required: false, hint: 'Breedte / hoogte van je bestand, bv. 1912 / 916.' }
-                  - { name: fit, label: Beeld volledig tonen op wit, widget: select, required: false, options: ['', contain], hint: 'Kies contain voor schermafbeeldingen; leeg = vullend.' }
-                  - { name: heroRatio, label: Aparte verhouding hoofdbeeld, widget: string, required: false }
-                  - { name: heroFit, label: Aparte fit hoofdbeeld, widget: string, required: false }
-                  - { name: embed, label: Video- of flipbook-embed (URL), widget: string, required: false, hint: 'YouTube: https://www.youtube.com/embed/CODE' }
-                  - { name: embedTitle, label: Kop boven de embed, widget: string, required: false }
-                  - { name: link, label: Externe link, widget: string, required: false }
-                  - { name: linkLabel, label: Tekst op de linkknop, widget: string, required: false, hint: 'Leeg = "Bekijk online".' }
-                  - { name: video, label: Videolink, widget: string, required: false }
-                  - { name: processTitle, label: Kop boven de procesblokken, widget: string, required: false, default: Het proces }
-                  - name: process
-                    label: Procesblokken
-                    label_singular: blok
-                    widget: list
-                    required: false
-                    summary: '{{fields.title}}'
-                    fields:
-                      - { name: title, label: Kop, widget: string }
-                      - { name: blurb, label: Tekst, widget: text }
-                      - { name: tall, label: Hoge capture (schuifkader), widget: boolean, required: false, default: false }
-                      - name: images
-                        label: Beelden
-                        label_singular: beeld
-                        widget: list
-                        required: false
-                        fields:
-                          - { name: src, label: Beeld, widget: image }
-                          - { name: ratio, label: Verhouding, widget: string, required: false }
-                          - { name: caption, label: Onderschrift, widget: string, required: false }
-                  - name: gallery
-                    label: Extra beelden onderaan
-                    label_singular: beeld
-                    widget: list
-                    required: false
-                    fields:
-                      - { name: src, label: Beeld, widget: image }
-                      - { name: ratio, label: Verhouding, widget: string, required: false }
-                      - { name: caption, label: Onderschrift, widget: string, required: false }
-                  - name: files
-                    label: Downloads
-                    label_singular: bestand
-                    widget: list
-                    required: false
-                    fields:
-                      - { name: label, label: Naam, widget: string }
-                      - { name: src, label: Bestand, widget: file }
+              - { name: src, label: Beeld, widget: image }
+              - { name: ratio, label: Verhouding, widget: string, required: false }
+              - { name: caption, label: Onderschrift, widget: string, required: false }
+          - { name: tall, label: Hoge capture (aangesneden tonen), widget: boolean, required: false, default: false }
+
+      - name: geavanceerd
+        label: Meer instellingen
+        widget: object
+        collapsed: true
+        required: false
+        fields:
+          - { name: embed, label: Video- of flipbook-embed, widget: string, required: false, hint: 'YouTube: https://www.youtube.com/embed/CODE' }
+          - { name: embedTitle, label: Kop boven de embed, widget: string, required: false }
+          - { name: link, label: Externe link, widget: string, required: false }
+          - { name: linkLabel, label: Tekst op de linkknop, widget: string, required: false, hint: 'Leeg = "Bekijk online".' }
+          - { name: processTitle, label: Kop boven de procesblokken, widget: string, required: false }
+          - { name: heroRatio, label: Aparte verhouding hoofdbeeld, widget: string, required: false }
+          - { name: heroFit, label: Aparte fit hoofdbeeld, widget: string, required: false }
+          - name: gallery
+            label: Extra beelden onderaan
+            label_singular: beeld
+            widget: list
+            required: false
+            fields:
+              - { name: src, label: Beeld, widget: image }
+              - { name: caption, label: Onderschrift, widget: string, required: false }
+              - { name: ratio, label: Verhouding, widget: string, required: false }
+          - name: files
+            label: Downloads
+            label_singular: bestand
+            widget: list
+            required: false
+            fields:
+              - { name: label, label: Naam, widget: string }
+              - { name: src, label: Bestand, widget: file }
+
+  - name: instellingen
+    label: Instellingen
+    files:
+      - name: categorieen
+        label: Categorieën
+        file: content/settings.json
+        description: De volgorde hier bepaalt de volgorde van de filterbalk en de projectlijst.
+        fields:
+          - { name: categories, label: Categorieën, label_singular: categorie, widget: list }

@@ -1,0 +1,72 @@
+{
+  "category": "Ontwerp",
+  "order": 20,
+  "id": "happy-pi-day-codefever",
+  "highlight": 0,
+  "title": "Happy π day",
+  "blurb": "Campagnebeeld voor Pi-dag, in meerdere formaten.",
+  "description": "Pi-dag valt op 14 maart — 3,14 — en is voor een organisatie die kinderen leert programmeren een dag om iets mee te doen. De vraag was één beeld dat op social meteen leesbaar is en tegelijk grappig genoeg om te delen. Ik ontwierp het beeld en zette het om in de formaten die nodig waren: liggend, vierkant en breed.",
+  "role": "Grafisch ontwerp",
+  "client": "FTRPRF / CodeFever",
+  "year": "",
+  "image": "assets/werk/piday/lang.jpg",
+  "video": "",
+  "process": [
+    {
+      "title": "De π als gezicht",
+      "blurb": "Het idee zit in één omkering: de π staat niet als symbool op het beeld, maar wordt het gezicht. De twee poten van de letter worden ogen, de dwarsbalk een pony met 3,14 erin, en een enkele boogstreep eronder maakt de mond. Alles is uit hetzelfde zwarte lijnvocabulaire opgebouwd — cirkel, letterschijf, boog — zodat de grap opgaat zonder dat er een illustratie bij komt.",
+      "images": [
+        {
+          "src": "assets/werk/piday/schets-cirkel.jpg",
+          "ratio": "16 / 9"
+        },
+        {
+          "src": "assets/werk/piday/schets-zonder-cirkel.jpg",
+          "ratio": "16 / 9"
+        }
+      ]
+    },
+    {
+      "title": "Twee sporen afgewogen",
+      "blurb": "Eerst zat het beeld in de huisstijlgradient: de π als groot kleurvlak, met \"International Day\" en de decimalen ernaast. Dat leest als een officiële dag, niet als een grap, en de gradient trok bovendien alle aandacht naar de letter zelf. Bij de tweede reeks ging het beeld naar zwart-wit en verhuisde de kleur naar de rand. Dat maakte het geheel scherper: het beeld doet de grap, het kader doet het merk.",
+      "images": [
+        {
+          "src": "assets/werk/piday/schets-international.jpg",
+          "ratio": "16 / 9"
+        },
+        {
+          "src": "assets/werk/piday/schets-piday.jpg",
+          "ratio": "16 / 9"
+        }
+      ]
+    },
+    {
+      "title": "Woorden die om de cirkel lopen",
+      "blurb": "\"Happy\" en \"day\" staan geroteerd langs de cirkelrand, met de eerste in de linkerbovenhoek en de tweede rechtsonder, zodat ze de diagonaal van het vlak volgen en de cirkel er tussenin ligt. De letters lopen deels achter de cirkelrand door — die overlap is wat de drie elementen tot één merkteken maakt in plaats van een kop met een plaatje eronder. Vetste snede van de huisstijlletter, want op een feedformaat moet de kop het van de cirkel kunnen winnen."
+    },
+    {
+      "title": "Kader als merkdrager",
+      "blurb": "Het beeld staat op wit met een dikke rand in de blauw-naar-groene huisstijlgradient, en het logo linksonder in het witte veld. Die rand doet twee dingen: hij geeft het merk zonder dat er kleur over het beeld hoeft, en hij houdt het vlak samen in een tijdlijn die zelf al wit is. Op de vierkante versie is de rand relatief zwaarder gezet, zodat de verhouding rand-tot-beeld visueel gelijk blijft."
+    },
+    {
+      "title": "Drie formaten, één compositie",
+      "blurb": "Liggend 16:9, vierkant 1:1 en breed 1200 × 630 voor link previews. Geen van de drie is een uitsnede van de andere: bij elk formaat zijn de cirkelgrootte, de rotatiehoek van de woorden en de logopositie opnieuw gezet, zodat de diagonaal in alle drie hetzelfde gebaar blijft en de mond nooit tegen een rand aanloopt."
+    }
+  ],
+  "geavanceerd": {
+    "processTitle": "Vormgeving",
+    "heroRatio": "1200 / 630",
+    "gallery": [
+      {
+        "src": "assets/werk/piday/liggend.jpg",
+        "ratio": "16 / 9",
+        "caption": "Liggende versie, 16:9."
+      },
+      {
+        "src": "assets/werk/piday/vierkant.jpg",
+        "ratio": "1 / 1",
+        "caption": "Vierkante versie voor de feed."
+      }
+    ]
+  }
+}

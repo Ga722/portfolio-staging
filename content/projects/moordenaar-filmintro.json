@@ -1,0 +1,87 @@
+{
+  "category": "Video",
+  "order": 10,
+  "id": "moordenaar-filmintro",
+  "highlight": 0,
+  "title": "Filmintro — bewijsmateriaal",
+  "blurb": "Intro voor een zelf uitgedachte film over een moordenaar.",
+  "description": "De opdracht was een korte intro te maken voor een film die je zelf verzint. Mijn verhaal gaat over een moordenaar, en de intro toont uitsluitend voorwerpen die later in de film als bewijsmateriaal terugkomen. Scenario, opnames en montage zijn van mij. Een intro die het gezicht van de dader nooit toont dwingt tot een andere aanpak: het personage wordt opgebouwd uit de dingen die hij achterlaat.",
+  "role": "Scenario, camera, montage",
+  "client": "Artevelde Hogeschool",
+  "year": "",
+  "image": "assets/werk/moordenaar-intro/titelkaart-boek.png",
+  "ratio": "1435 / 821",
+  "video": "",
+  "process": [
+    {
+      "title": "Alleen handen en voorwerpen in beeld",
+      "blurb": "Geen enkel shot toont een gezicht. Ik filmde uitsluitend handen die iets doen: een letter uitsnijden, snippers schikken, een mes afwassen, een blad ondertekenen. Die keuze houdt de dader anoniem en maakt de kijker tegelijk medeplichtig — je kijkt over zijn schouder mee. Elk voorwerp is bovendien iets wat later in de film als bewijsstuk opduikt, dus de intro werkt als een reeks aanwijzingen in plaats van een samenvatting.",
+      "images": [
+        {
+          "src": "assets/werk/moordenaar-intro/letter-uitsnijden.png",
+          "ratio": "1439 / 832"
+        }
+      ]
+    },
+    {
+      "title": "Macro-opnames met open diafragma",
+      "blurb": "Alles is dicht op het voorwerp gefilmd met een zeer beperkte scherptediepte: enkel het detail dat telt staat scherp, de rest valt weg. Zo hoeft er geen decor te zijn — de omgeving blijft een vlek, en dat is precies de onbepaaldheid die het verhaal nodig heeft. Het nadeel van macro werd het middel: bij die scherpte trilt elk handje mee, wat het beeld nervositeit geeft.",
+      "images": [
+        {
+          "src": "assets/werk/moordenaar-intro/krantensnippers.png",
+          "ratio": "1444 / 831"
+        }
+      ]
+    },
+    {
+      "title": "Warm bruin in de opnamen, koel wit in de glitch",
+      "blurb": "De handelingen zijn warm en donkerbruin gehouden — kunstlicht, kaarslicht, veel zwart — zodat het geheel op oud papier lijkt. De glitchmomenten zijn het tegendeel: overbelicht, koud en uitgebleekt. Doordat de twee kleurwerelden elkaar afwisselen leest de glitch als een inbreuk in plaats van als een filter over de hele film.",
+      "images": [
+        {
+          "src": "assets/werk/moordenaar-intro/wanted-glitch.png",
+          "ratio": "1435 / 824"
+        }
+      ]
+    },
+    {
+      "title": "De glitch als flits van iets wat je niet mag zien",
+      "blurb": "Ik zet het glitcheffect nooit doorlopend, maar in korte uitschieters op de momenten die het meest verklappen: het wanted-affiche, de doorstreepte krantenkoppen. Beeldverschuiving, kleurscheiding en een sprong in de tijdlijn maken van die shots iets dat de kijker niet goed kan vastpakken. Dat werkt griezeliger dan bloed in beeld, want het beeld zelf lijkt niet te vertrouwen."
+    },
+    {
+      "title": "Het mes onder de kraan als enige geweld",
+      "blurb": "Er is één shot dat expliciet is: een mes dat onder stromend water wordt afgewassen, met rode vlekken in de spoelbak en op de vingers. Ik hield het daarbij. Door het geweld tot dat ene beeld te beperken krijgt het gewicht, en blijft de rest van de intro suggestie — wat bij een moordenaar zonder gezicht beter werkt dan tonen.",
+      "images": [
+        {
+          "src": "assets/werk/moordenaar-intro/mes-afwassen.png",
+          "ratio": "1439 / 825"
+        }
+      ]
+    },
+    {
+      "title": "Handschrift als typografie",
+      "blurb": "De titels staan in een onregelmatige handschriftletter die met de camerabeweging meebeweegt, en het enige geschreven document in beeld — \"I accept agreement\", met een handtekening in vulpen — is in datzelfde register geschreven. Zo lijkt de titelkaart uit de wereld van de film te komen in plaats van eroverheen gelegd. Het opengeslagen boek onder de titel is de plek waar het verhaal wordt bijgehouden.",
+      "images": [
+        {
+          "src": "assets/werk/moordenaar-intro/ondertekening.png",
+          "ratio": "1442 / 834"
+        }
+      ]
+    },
+    {
+      "title": "Aftiteling bij één lichtbron",
+      "blurb": "Het slotbeeld is een stormlamp in het gras, verder volledig zwart, met de logo's in de linkerbovenhoek. Eén lichtbron in het donker laat de aftiteling leesbaar zijn zonder dat er een zwart kaartje voor nodig is, en het beeld draagt tegelijk de vraag waar de film mee opent: wie loopt er met die lamp rond.",
+      "images": [
+        {
+          "src": "assets/werk/moordenaar-intro/aftiteling-lamp.png",
+          "ratio": "1391 / 785"
+        }
+      ]
+    }
+  ],
+  "geavanceerd": {
+    "embed": "https://www.youtube.com/embed/SudBOqi3yc4",
+    "embedTitle": "Bekijk de intro",
+    "link": "https://youtu.be/SudBOqi3yc4",
+    "processTitle": "Aanpak"
+  }
+}

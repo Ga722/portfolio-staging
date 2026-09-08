@@ -1,0 +1,71 @@
+{
+  "category": "Animatie",
+  "order": 20,
+  "id": "stoemp-wat-is-stoemp",
+  "highlight": 0,
+  "title": "Wat is STOEMP?",
+  "blurb": "Animatie over het Gentse netwerk van goed-eten-initiatieven.",
+  "description": "STOEMP is een netwerk van \"goed eten\"-initiatieven in Gent: goed eten dat gezond, lekker, voldoende, lokaal en met respect voor milieu is, en dat via vijf B's — bewust, beschikbaar, verbinden, betaalbaar, bereikbaar — voor iedereen bereikbaar moet zijn. De animatie legt in enkele minuten uit wat het netwerk is en wie het samenbrengt: burgers, buurten, wijken, verenigingen en organisaties. Vijf abstracte begrippen en een lijst deelnemers vragen een vormtaal die kan opsommen zonder een lijst te worden.",
+  "role": "Animatie, vormgeving",
+  "client": "STOEMP — Gent en Garde",
+  "year": "",
+  "image": "assets/werk/stoemp/titel.png",
+  "ratio": "1912 / 1079",
+  "video": "",
+  "process": [
+    {
+      "title": "Zwart, wit en één okergeel",
+      "blurb": "Het palet is teruggebracht tot zwart op wit met één okergeel accent. Dat geel komt uit het bestaande STOEMP-logo, dus de film hoeft geen eigen kleurenschema te introduceren. De regel die ik overal aanhoud: zwart is informatie, geel is de kern van de boodschap. Daarom staan \"Wat is STOEMP?\" en \"voor iedereen!\" geel, en de opsommingen zwart."
+    },
+    {
+      "title": "Silhouetten in plaats van personages",
+      "blurb": "De figuren zijn zwarte silhouetten zonder gezicht, in de trant van pictogrammen. Bij een verhaal over \"iedereen in Gent\" is dat de eerlijkste keuze: een uitgewerkt personage zou meteen een leeftijd, een huidskleur en een klasse hebben, en dan gaat het over hem in plaats van over iedereen. De megafoon in de hand geeft het silhouet toch een rol — hij is de verteller die de boodschap uitroept."
+    },
+    {
+      "title": "De Leie en de skyline als vaste bodem",
+      "blurb": "Onder elke scène ligt hetzelfde decor: een dunne horizon, de Gentse torensilhouetten erop en een lichtgrijze rivier die naar de kijker toe slingert. Die bodem blijft de hele film staan terwijl de inhoud erboven wisselt, wat de opsommingen aan elkaar rijgt en de stad als plaats van handeling vasthoudt. De rivier is grijs en niet blauw, zodat hij achtergrond blijft.",
+      "images": [
+        {
+          "src": "assets/werk/stoemp/basisrecht.png",
+          "ratio": "1919 / 1074"
+        }
+      ]
+    },
+    {
+      "title": "Vijf begrippen als één regel bovenaan",
+      "blurb": "Gezond, lekker, voldoende, lokaal, respect voor milieu: die vijf staan op één lijn bovenaan in een vette schreefloze met brede spatiëring, en niet als bullets onder elkaar. Ze verschijnen woord na woord in het ritme van de voice-over, waardoor de kijker ze los meeleest en aan het eind toch één regel ziet — een definitie in plaats van een lijstje. Daaronder komt het bestek met \"GOED ETEN\" als beeldmerk het begrip binnenhalen.",
+      "images": [
+        {
+          "src": "assets/werk/stoemp/goed-eten.png",
+          "ratio": "1918 / 1079"
+        }
+      ]
+    },
+    {
+      "title": "De vijf B's: de letter doet het werk",
+      "blurb": "Bij bewust, beschikbaar, verbinden, betaalbaar en bereikbaar zet ik alleen de B geel en laat ik de rest van het woord zwart. Zo zie je de vijf B's letterlijk oplichten en hoeft er geen kader of nummer bij. De woorden staan in een schreefletter — het enige moment in de film — omdat de kapitale B daarin een duidelijke schreefvoet heeft en dus als vorm opvalt. In het midden vat een zwarte cirkel met \"5 B's\" het samen; verbinden staat grijs omdat het over de andere vier heen ligt.",
+      "images": [
+        {
+          "src": "assets/werk/stoemp/vijf-bs.png",
+          "ratio": "1916 / 1079"
+        }
+      ]
+    },
+    {
+      "title": "Slot: van pictogram naar echte mensen",
+      "blurb": "Het einde laat de tekentaal vallen en bouwt een raster van foto's uit de initiatieven: samen tuinieren, verpakken, verkopen, koken en eten. De beelden zijn duotone in hetzelfde okergeel gezet, zodat de sprong naar fotografie geen stijlbreuk wordt. \"Dat is STOEMP!\" staat in wit over het raster en het logo in het midden dekt de naad tussen de foto's. Na een film van silhouetten zijn dit de echte gezichten waar het over ging.",
+      "images": [
+        {
+          "src": "assets/werk/stoemp/dat-is-stoemp.png",
+          "ratio": "1919 / 1079"
+        }
+      ]
+    }
+  ],
+  "geavanceerd": {
+    "embed": "https://www.youtube.com/embed/dKGWOpY7RiE",
+    "embedTitle": "Bekijk de animatie",
+    "link": "https://youtu.be/dKGWOpY7RiE",
+    "processTitle": "Vormgeving"
+  }
+}

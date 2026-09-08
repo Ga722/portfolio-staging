@@ -1,0 +1,76 @@
+{
+  "category": "Website",
+  "order": 30,
+  "id": "veilig-werken-in-de-winkel",
+  "highlight": 0,
+  "title": "Veilig werken in de winkel",
+  "blurb": "Website rond het trainingsaanbod over agressie en criminaliteit in de winkel.",
+  "description": "De site brengt het trainingsaanbod van FHKN samen rond één onderwerp: hoe winkelmedewerkers omgaan met agressie, diefstal en overvallen. Het publiek zijn medewerkers en winkeliers die niet komen lezen maar komen kijken of dit voor hen bedoeld is — de site moet dus binnen één scroll duidelijk maken waar het over gaat, wat je kunt volgen en waar je begint. Vormgeving en opmaak van de site, in opdracht van FHKN bv.",
+  "role": "Webdesign, opmaak",
+  "client": "FHKN bv",
+  "year": "",
+  "image": "assets/werk/fhkn/hero.png",
+  "ratio": "1916 / 915",
+  "fit": "contain",
+  "video": "",
+  "process": [
+    {
+      "title": "Foto uit de winkel, niet uit de stockmap",
+      "blurb": "De hero is een echte toonbanksituatie: een medewerker die geld aanneemt, de klant op de rug gezien op de voorgrond. Dat perspectief plaatst de bezoeker aan de kant van de medewerker in plaats van als buitenstaander. De tekst staat rechts in het beeld, in het donkerste deel van de foto, zodat wit voluit kan zonder dat er een verduisterend vlak over de foto hoeft. Het gele kopje boven de titel is de enige merkkleur in het beeld en markeert het thema.",
+      "images": [
+        {
+          "src": "assets/werk/fhkn/hero.png",
+          "ratio": "1916 / 915"
+        }
+      ]
+    },
+    {
+      "title": "Geel als markeerstift",
+      "blurb": "De huisstijl geeft één sterk geel. In plaats van dat als achtergrondvlak te gebruiken, is het ingezet als markeerstift: een handgezette streep onder of achter een kop, met een grillige rand alsof iemand er met een marker over ging. Dat doet twee dingen — het wijst per sectie precies één regel aan, en het geeft de site een toon die bij een training hoort in plaats van bij een verzekeringspolis. Waar geel wél als volvlak staat, is dat een sectie die om actie vraagt.",
+      "images": [
+        {
+          "src": "assets/werk/fhkn/aanbod.png",
+          "ratio": "1917 / 916"
+        }
+      ]
+    },
+    {
+      "title": "Aanbod als twee gelijkwaardige kaarten",
+      "blurb": "E-learning en praktijktraining staan naast elkaar in twee even grote fotokaarten. De ene ligt in donker duotone, de andere in geel duotone — dezelfde behandeling, tegengestelde waarde, zodat ze verschillen zonder dat de een belangrijker lijkt. Titel in een omkeerd blokje bovenaan, uitleg gecentreerd in het beeld, en onderaan in beide kaarten dezelfde knop op dezelfde hoogte. Wie twijfelt tussen de twee, ziet twee even zware keuzes."
+    },
+    {
+      "title": "Arbo-instructies per winkeltype",
+      "blurb": "De instructies zijn opgesplitst per soort winkel — mode, AGF, bloemen — in drie identieke kolommen, elk met de gemarkeerde titel boven een beeld in een browserkader. Dat kader is niet decoratief: het maakt in één blik duidelijk dat wat volgt een online instructie is en niet een pdf of een filmpje. Drie kolommen, één patroon, uitbreidbaar naar meer winkeltypes zonder het raster te herzien.",
+      "images": [
+        {
+          "src": "assets/werk/fhkn/arbo.png",
+          "ratio": "1915 / 914"
+        }
+      ]
+    },
+    {
+      "title": "Nieuws als kaart met datumstip",
+      "blurb": "De nieuwsberichten staan in kaarten met het beeld boven, een rode categoriebalk over de onderrand van het beeld en de datum als rode stip in de hoek. Beelden van berichten komen in wisselende kwaliteit binnen, dus de kaart is zo gebouwd dat het beeld altijd hetzelfde vlak vult en de tekst altijd op dezelfde hoogte begint — een bericht met een slecht beeld verstoort de rij niet.",
+      "images": [
+        {
+          "src": "assets/werk/fhkn/nieuws.png",
+          "ratio": "1914 / 917"
+        }
+      ]
+    },
+    {
+      "title": "Contact als afsluitend geel vlak",
+      "blurb": "De site eindigt in een volvlak geel met het formulier ernaast: velden als witte pillen met zwarte lijn, dezelfde vorm als de knoppen elders. Daaronder meteen de donkere footer met menu en contactgegevens. Die harde overgang geel-naar-donker markeert het einde van de pagina, waardoor de bezoeker niet blijft scrollen op zoek naar meer.",
+      "images": [
+        {
+          "src": "assets/werk/fhkn/contact.png",
+          "ratio": "1914 / 915"
+        }
+      ]
+    }
+  ],
+  "geavanceerd": {
+    "link": "https://veiligwerkenindewinkel.nl/",
+    "processTitle": "Vormgeving"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "category": "Print",
+  "order": 30,
+  "id": "guido-stadsgids",
+  "highlight": 0,
+  "title": "Guido Stadsgids",
+  "blurb": "Stadsgids voor studenten, met een eigen editie per studentenstad.",
+  "description": "De Guido Stadsgids is het boekje dat een student in zijn jaszak houdt: stadsinfo, een stadswandeling, adresjes, tips en een katern voordeelbonnen, met een eigen editie per studentenstad en een oplage van 123.000 exemplaren (72.000 NL, 51.000 FR). Grafisch is dat één systeem dat tientallen keren opnieuw moet werken: elke stad krijgt een eigen cover en eigen stadsinhoud, maar de reeks moet in het rek als één product staan. Ik werkte aan de vormgeving en opmaak van de gids.",
+  "role": "",
+  "client": "Guido NV",
+  "year": "2021",
+  "image": "assets/werk/guido/stadsgids-gent-cover.jpg",
+  "video": "",
+  "process": [
+    {
+      "title": "Eén covermal, elke stad erin",
+      "blurb": "De cover is opgebouwd als vaste mal: logo linksboven, jaargang eronder, een silhouet van de stad in het midden, de stadsnaam als grootste woord op de pagina, en daaronder de verkoopargumenten in aflopende trapjes. Alleen het silhouet en de naam wisselen. Gent krijgt zijn torenrij, elke andere stad haar eigen skyline, telkens als vlak wit met een rode contourverschuiving — geen illustratie met detail, maar een merkteken dat op duimnagelformaat nog leesbaar is en in twee kleuren drukt."
+    },
+    {
+      "title": "Blauw, rood, wit en niets anders",
+      "blurb": "Het hele omslag draait op drie kleuren: een verzadigd blauw als vlak, wit voor de tekst, rood als accent en schaduwlijn. Dat rood zit alleen op de dingen die je moet zien — het logo, de stadsnaam, de app-hand — waardoor de rest van de opsomming rustig in wit kan staan zonder de pagina te laten uiteenvallen. Bij een reeks van tientallen steden op dezelfde blauwe grond is het herkenningspunt de kleur, niet de illustratie."
+    },
+    {
+      "title": "Typografie die de argumenten trapt",
+      "blurb": "Een vette, versmalde schreefloze in kapitalen voor alles op de cover, met de stadsnaam in het zwaarste gewicht en een rode slagschaduw eronder. De verkoopregels staan in licht schuine, links uitgelijnde trapjes: elke regel start iets verder, zodat de opsomming één gebaar wordt in plaats van vier losse blokjes. Het bedrag en de app-vermelding krijgen minder gewicht dan de titel maar meer dan de kleine lettertjes, zodat de hiërarchie op ooghoogte in een rek meteen klopt."
+    },
+    {
+      "title": "Stadsinhoud en bonnen",
+      "blurb": "Binnenin twee volstrekt verschillende soorten pagina's die dezelfde bladspiegel moeten delen: redactionele stadsinfo en de wandeling, die lucht en beeld vragen, en het bonnenkatern met nationale en regionale kortingbonnen, waar elke millimeter een adverteerder is. De bonnen staan op een strak modulair raster met vaste snijmarges, zodat een student ze eruit kan scheuren zonder de pagina ernaast te beschadigen, en de regionale bonnen per stad uitwisselbaar zijn zonder de rest van het katern te herzetten."
+    },
+    {
+      "title": "Twee talen, dezelfde bladspiegel",
+      "blurb": "De gids verschijnt in een Nederlandse en een Franse editie. Franse tekst loopt langer, dus de opmaak is gezet met marge in de kopregels en variabele witruimte tussen de blokken in plaats van vaste hoogtes — beide talen vallen daardoor op dezelfde pagina's uit, met identieke paginering voor de bonnen."
+    }
+  ],
+  "geavanceerd": {
+    "link": "https://www.guidooh.be/guido-stadsgids/",
+    "processTitle": "Vormgeving",
+    "heroRatio": "1900 / 2350",
+    "heroFit": "contain"
+  }
+}

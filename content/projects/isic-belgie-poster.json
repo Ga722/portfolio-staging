@@ -1,0 +1,53 @@
+{
+  "category": "Print",
+  "order": 20,
+  "id": "isic-belgie-poster",
+  "highlight": 0,
+  "title": "ISIC België",
+  "blurb": "Campagneposter voor de internationale studentenkaart.",
+  "description": "ISIC is de internationale studentenkaart: één kaart die studentenkortingen wereldwijd geldig maakt. De poster hangt waar een student hem niet zoekt — in een stoepbord aan een café, aan een campusprikbord — en moet in het voorbijgaan één zin overbrengen en één handeling uitlokken: scannen. Ik verwerkte de poster voor ISIC België, voor- en keerzijde, binnen de bestaande merkkleur en beeldtaal.",
+  "role": "Opmaak, beeldbewerking",
+  "client": "ISIC België",
+  "year": "",
+  "image": "assets/werk/isic/poster-stoepbord.jpg",
+  "video": "",
+  "process": [
+    {
+      "title": "Het beeld uitsnijden op de leesrichting",
+      "blurb": "Het model staat vrijstaand uitgesneden op het turkoois: geen fotokader, dus geen tweede rand naast de posterrand. De uitsnede is aan de rechterkant tegen de bladrand gezet en onderaan doorlopend, zodat de figuur groter lijkt dan het blad en de linkerhelft vrijkomt voor tekst. Het ISIC-logo op het T-shirt valt daardoor op de plek waar de blik na de kop terechtkomt — het merk zit in het beeld in plaats van als los logo in een hoek. Fijnwerk aan de haarrand en de handen, en de huidtint en het wit van het shirt afgeregeld op dezelfde achtergrondkleur."
+    },
+    {
+      "title": "Kop die uit één blok bestaat",
+      "blurb": "De claim staat in twee gewichten van dezelfde schreefloze, strak tegen elkaar gezet met negatieve regelafstand: \"#students\" in wit vet, \"for a better world\" eronder in een lichter vet dat exact tot dezelfde rechterrand loopt. Twee regels die als één vlak lezen, ook op vier meter afstand. De drie argumenten eronder staan in zwart in plaats van wit — dat is de enige plek waar zwart voorkomt, en het maakt van de opsomming een tweede leesniveau zonder een extra kleur te introduceren."
+    },
+    {
+      "title": "Geel als enige uitroepteken",
+      "blurb": "Turkoois vult het blad, wit en zwart doen de tekst, en geel is voorbehouden aan één ding: het scanblok linksonder. \"Join us at\", de QR-code op wit en het webadres vormen samen één gemarkeerd vlak met een tekstballonpunt, laag op de poster op handhoogte. Omdat geel nergens anders opduikt, is de actie het enige wat om aandacht vraagt."
+    },
+    {
+      "title": "Keerzijde: veel partners, één raster",
+      "blurb": "De keerzijde moet tientallen merken en kortingpercentages tonen zonder een prijslijst te worden. Ze is opgedeeld in twee horizontale banen — deals en reizen — elk met beeld links en een tabel rechts: partnerlogo op vaste hoogte, percentage in bold rechts uitgelijnd, dunne scheidingslijnen ertussen. Logo's komen in wisselende formaten en kleuren binnen, dus elk logo is optisch op gelijke grootte gebracht in plaats van op gelijke breedte. Gele stippen markeren de uitschieters; de rest blijft rustig zodat die stippen werken."
+    },
+    {
+      "title": "Drukklaar voor stoepbord en prikbord",
+      "blurb": "Dezelfde opmaak moet in een A1-stoepbordframe en op A3 aan een prikbord leesbaar zijn. De kop en het scanblok zijn gezet op de kleinste maat, waardoor ze op het grote formaat overtuigend groot uitvallen; de kleine begeleidende tekst is bewust kort gehouden zodat die op A3 niet onder de leesbaarheidsgrens valt. Aangeleverd met afloop, in CMYK afgeregeld zodat het turkoois in druk niet naar blauw kantelt."
+    }
+  ],
+  "geavanceerd": {
+    "link": "https://www.isic.be/",
+    "processTitle": "Vormgeving",
+    "heroRatio": "4000 / 2667",
+    "gallery": [
+      {
+        "src": "assets/werk/isic/poster-voorzijde.jpg",
+        "ratio": "2339 / 3465",
+        "caption": "Voorzijde: claim, drie argumenten, gele scanblok linksonder."
+      },
+      {
+        "src": "assets/werk/isic/poster-keerzijde.jpg",
+        "ratio": "2339 / 3465",
+        "caption": "Keerzijde: kortingen per partner in een vast twee-koloms raster."
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "category": "Online magazines",
+  "order": 50,
+  "id": "drankenacademy",
+  "highlight": 5,
+  "title": "Drankenacademy",
+  "blurb": "E-learnings en cursusboeken voor de wijn- en drankensector.",
+  "description": "Vier vakgebieden onder één naam, die elk hun eigen publiek en eigen sfeer hebben. In plaats van één huisstijl over alles te leggen gaf ik elk vakgebied een eigen wereld — eigen kleur, eigen merkteken, eigen illustratiestijl — en hield ik de opbouw identiek. Zo blijft het één familie: je ziet meteen dat wijn en bier bij elkaar horen, en even snel dat je in een ander vak zit. Elke wereld loopt door van het cursusboek naar de e-learning en het examenformulier. Ik verzorgde ontwerp, opmaak, interactieve opbouw, animatie en beeldbewerking.",
+  "role": "Ontwerp, opmaak, interactieve opbouw, animatie, beeldbewerking, ontwikkeling",
+  "client": "Drankenacademy",
+  "year": "",
+  "image": "assets/werk/drankenacademy/home.png",
+  "fit": "contain",
+  "process": [
+    {
+      "title": "Wijn",
+      "blurb": "Het uitgebreidste vak, en het vertrekpunt voor de andere drie. De vijf lessen zijn flesvormen in vijf kleuren: de vorm van het onderwerp als navigatie, zodat je aan de silhouet al ziet waar je bent. Bordeaux en zandtinten houden het geheel bij de wijn zelf.",
+      "images": [
+        {
+          "src": "assets/werk/drankenacademy/wijn-mockup.png"
+        },
+        {
+          "src": "assets/werk/drankenacademy/elearning-wijn.png"
+        }
+      ]
+    },
+    {
+      "title": "Bier",
+      "blurb": "Warm en aards: een kroonkurk met hopbel als merkteken, een graanveld als achtergrond, de lessen als kaarten die eroverheen liggen. Voor de inhoud tekende ik een eigen pictogramreeks — graansoorten, water, de vier proefpijlers — zodat de stof visueel blijft in plaats van een opsomming te worden.",
+      "images": [
+        {
+          "src": "assets/werk/drankenacademy/bier.png"
+        },
+        {
+          "src": "assets/werk/drankenacademy/bier-lessen.png"
+        },
+        {
+          "src": "assets/werk/drankenacademy/bier-ingredienten.png"
+        },
+        {
+          "src": "assets/werk/drankenacademy/bier-proeven.png"
+        }
+      ]
+    },
+    {
+      "title": "Sterke drank",
+      "blurb": "Het donkerste van de vier, en dat mag: goud op zwart, een zigzagpatroon als textuur en een embleem in de stijl van een oud distilleerderslabel. Dat register past bij het product en zet dit vak duidelijk apart van wijn en bier zonder de familie te verlaten.",
+      "images": [
+        {
+          "src": "assets/werk/drankenacademy/sterke-drank.png"
+        },
+        {
+          "src": "assets/werk/drankenacademy/sterke-drank-intro.png"
+        },
+        {
+          "src": "assets/werk/drankenacademy/sterke-drank-les.png"
+        }
+      ]
+    },
+    {
+      "title": "Sociale hygiëne",
+      "blurb": "Het overkoepelende vak, en het enige dat ook op telefoon werd uitgewerkt. Voor het merkteken bracht ik fles, glas en gesprek samen in één vorm — het vak dat over de omgang met drank gaat, niet over de drank zelf.",
+      "images": [
+        {
+          "src": "assets/werk/drankenacademy/sociale-hygiene.png"
+        }
+      ]
+    }
+  ],
+  "video": "",
+  "geavanceerd": {
+    "link": "https://www.drankenacademy.com/",
+    "processTitle": "De vier vakgebieden",
+    "heroRatio": "1915 / 914",
+    "heroFit": "contain",
+    "files": [
+      {
+        "label": "E-learning wijn niveau 1",
+        "src": "https://elearning.drankenacademy.com/ikweetwatvanwijn/"
+      }
+    ]
+  }
+}

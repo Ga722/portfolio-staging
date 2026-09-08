@@ -1,0 +1,101 @@
+{
+  "category": "App-ontwerp",
+  "order": 10,
+  "id": "keepmoving-app",
+  "highlight": 1,
+  "title": "KeepMoving app — herontwerp",
+  "blurb": "Volledig nieuw ontwerp en nieuwe features voor de challenge-app.",
+  "description": "De KeepMoving-app bestond al: deelnemers doen in teams mee aan challenges en volgen hun voortgang. Mijn opdracht was een volledig nieuw ontwerp plus een reeks nieuwe features. Ik maakte het complete design en volgde de ontwikkeling op met het team — naast ontwerper was ik ook product owner en leidde ik het team dat de app bouwde. Het ontwerp moest twee dingen tegelijk kunnen: cijfers tonen aan wie prestaties wil zien, en licht blijven voor wie gewoon meedoet.",
+  "role": "App-ontwerp, product owner",
+  "client": "Golazo Energy",
+  "year": "",
+  "image": "assets/werk/keepmoving/overzicht.jpg",
+  "ratio": "2000 / 1333",
+  "video": "",
+  "process": [
+    {
+      "title": "Donkergroen als grond, één fluogroen als signaal",
+      "blurb": "Het hele ontwerp staat op een diep blauwgroen met daarop precies één verzadigde kleur: het fluogroen van Golazo Energy. Die verhouding is de dragende regel — groen betekent altijd \"hier gebeurt iets\": een actieve tab, een gehaald doel, een knop, je eigen positie in de ranglijst. Omdat het donkere vlak alle andere kleur wegneemt, hoeft er geen tweede accent bij en blijft een scherm met dertig getallen leesbaar. Sport-apps kiezen doorgaans wit of zwart; het donkergroen geeft het merk een eigen plek.",
+      "images": [
+        {
+          "src": "assets/werk/keepmoving/login.jpg",
+          "ratio": "393 / 844"
+        }
+      ]
+    },
+    {
+      "title": "Vetgesneden schreefloze koppen tegen een humanistische tekstletter",
+      "blurb": "STATS, LEADERBOARD, GALLERY staan in een smalle, vet gecondenseerde hoofdletterletter — een spandoekletter die het wedstrijdkarakter draagt en in één regel over de schermbreedte past. Alles wat gelezen moet worden staat in een gewone humanistische schreefloze met open vormen. Die twee registers naast elkaar zorgen dat een scherm meteen \"sport\" leest terwijl de cijfers en labels neutraal blijven; één letter voor beide zou of te schreeuwerig of te braaf uitvallen."
+    },
+    {
+      "title": "Een vaste balk met rang, voortgang en resterende dagen",
+      "blurb": "Onder de hoofding staat op elk challenge-scherm dezelfde smalle strook: rang, percentage afgelegd, dagen te gaan, en een knop naar de details. Drie cijfers in de plaats van een dashboard. Het is de vraag die een deelnemer bij elke opening stelt, dus die hoort niet één scherm diep te zitten. Het chevron rechts vouwt de strook open voor wie meer wil; dicht blijft ze twee regels hoog.",
+      "images": [
+        {
+          "src": "assets/werk/keepmoving/leaderboard.jpg",
+          "ratio": "393 / 1081"
+        }
+      ]
+    },
+    {
+      "title": "Statistiek in kaarten van afnemend belang",
+      "blurb": "Het statistiekscherm is lang, dus het is geordend van meest naar minst dringend: eerst het stappentotaal met balk en percentage, dan de daggrafiek van de week, dan algemene rangen, dan de weekdoelen, dan de prijs. Elk blok is een kaart met een eigen kop in hoofdletters, waardoor je bij het scrollen op kopniveau kunt navigeren zonder een index. In de grafiek gebruik ik één lijn met een groene verloopvulling en slechts vier datumlabels — genoeg om de vorm te lezen, te weinig om een tabel te worden.",
+      "images": [
+        {
+          "src": "assets/werk/keepmoving/stats.jpg",
+          "ratio": "393 / 2535"
+        }
+      ],
+      "tall": true
+    },
+    {
+      "title": "Ranglijst waarin je eigen plaats altijd zichtbaar is",
+      "blurb": "De top zes staat volledig uitgeschreven, met de eerste drie rangnummers in een groen vak en de rest in wit — een podium zonder medailles te tekenen. Daarna drie puntjes en dan je eigen team, in een groen omlijnde rij. Wie op plaats 25 staat moet niet scrollen om zichzelf te vinden; dat is het verschil tussen een ranglijst die motiveert en één die afstraft. Teams tonen een avatar en het aantal leden, zodat een rij een groep mensen blijft en niet enkel een getal."
+    },
+    {
+      "title": "Twee soorten invoer op één scherm",
+      "blurb": "Activiteiten en dagelijkse stappen zijn twee registers die niet door elkaar mogen lopen, dus staan ze onder twee pilltabs met daarnaast één plusknop voor manuele invoer. Elke rij heeft links een groene ronde discipline-icoon, in het midden datum en tijd, rechts het aantal stappen. De kleine icoontjes achter de naam laten zien via welke tracker de activiteit binnenkwam — nodig, want bij een challenge wordt over de herkomst van stappen gediscussieerd.",
+      "images": [
+        {
+          "src": "assets/werk/keepmoving/activities.jpg",
+          "ratio": "393 / 1243"
+        }
+      ]
+    },
+    {
+      "title": "Trackers koppelen als eerste stap, niet als instelling",
+      "blurb": "De koppeling met Strava, Garmin, Fitbit en de rest is een volledig scherm bij de start in plaats van een regel in de instellingen, want een challenge zonder gekoppelde tracker levert geen data. Elke dienst staat op een volle groene pill met het eigen app-icoon links — de merklogo's zijn de enige plek waar andere kleuren binnenkomen, wat toegestaan is omdat ze herkenning doen. \"Skip (add later)\" staat er even groot bij, met de belofte eronder dat het later in de instellingen kan.",
+      "images": [
+        {
+          "src": "assets/werk/keepmoving/trackers.jpg",
+          "ratio": "393 / 1186"
+        }
+      ]
+    },
+    {
+      "title": "Galerij en blog als tegenwicht voor de cijfers",
+      "blurb": "Naast de statistiek staan twee schermen die niets meten: een fotogalerij van de deelnemers en een blog met artikels over volhouden. In de galerij ligt de naam en het team over de onderrand van elke foto met een hartje rechts, zodat het raster vol beeld blijft. De blog opent met een volle-breedte foto en een intro in het lichtere groen, daarna smalle leesbare kolommen. Die twee schermen maken van een prestatie-app iets waar ook een trage deelnemer thuishoort.",
+      "images": [
+        {
+          "src": "assets/werk/keepmoving/gallery.jpg",
+          "ratio": "393 / 1286"
+        }
+      ]
+    },
+    {
+      "title": "Instellingen in één kaart, met de zware actie los",
+      "blurb": "Het profiel staat als één kaart met onderlijnde velden in plaats van omkaderde invoervakken; met alleen een lijn per veld passen zeven gegevens op een scherm zonder dat het een formulier van een verzekeraar wordt. Boven de kaart de foto met een groene uploadknop erop. \"Delete account\" staat buiten de kaart onderaan, in dezelfde groene pill als elke andere knop maar afgezonderd — geen rode waarschuwingsknop, wel afstand.",
+      "images": [
+        {
+          "src": "assets/werk/keepmoving/profiel.jpg",
+          "ratio": "393 / 1107"
+        }
+      ]
+    }
+  ],
+  "geavanceerd": {
+    "link": "https://www.figma.com/proto/F7oYvmbVfnupjIa8qlMcNY/KeepMoving-App-Design?node-id=20605-60688&viewport=6809%2C1420%2C0.35&t=BxsrjFPCpjwb2LOf-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=20605%3A60688&show-proto-sidebar=1&page-id=203%3A2",
+    "linkLabel": "Bekijk het prototype",
+    "processTitle": "Ontwerp"
+  }
+}

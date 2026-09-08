@@ -1,0 +1,72 @@
+{
+  "category": "Print",
+  "order": 60,
+  "id": "ftrprf-beursmateriaal",
+  "highlight": 0,
+  "title": "FTRPRF beursstand",
+  "blurb": "Standbeeld, roll-up, themapanelen en merkvlakken voor de beurzen.",
+  "description": "Een beursstand is geen advertentie maar een ruimte: bezoekers moeten van tien meter zien wie je bent en van dichtbij kunnen zitten. Ik werkte het standbeeld uit rond één verloop — diepblauw naar mintgroen, het verloop uit de FTRPRF-spikkelbol — dat over de achterwand, de balie en het tapijt doorloopt zodat de hele hoek als één vlak leest. Daartegen staat alles wat gelezen moet worden in wit: de themapanelen met de vakgebieden, de roll-up naast het scherm, de vlakken op de zijwanden. Op de lege stukken tussen de teksten zetten losse pictogrammen — de Scratch-kat, een gloeilamp, het Python-teken — het onderwerp neer zonder er een woord aan te wijden.",
+  "role": "Grafisch ontwerp",
+  "client": "Codefever vzw",
+  "year": "",
+  "image": "assets/werk/ftrprf/stand.png",
+  "process": [
+    {
+      "title": "De stand",
+      "blurb": "Drie zones in één hoek: de achterwand met het merk en het scherm trekt de blik van ver, de zittafels in het midden houden mensen vast, en de balie vooraan vangt wie langsloopt. De achterwand houd ik daarom bijna leeg — alleen de naam, de baseline en “Samen vandaag aan morgen” — terwijl alle inhoud naar de zijpanelen verhuist, waar iemand er tijd voor neemt. Wit meubilair en een blauw tapijt maken van het verloop het enige dat kleur draagt.",
+      "images": [
+        {
+          "src": "assets/werk/ftrprf/stand.png",
+          "ratio": "1536 / 1024"
+        }
+      ]
+    },
+    {
+      "title": "Roll-up",
+      "blurb": "Eén verticale lijst van boven naar onder, en onderaan een schermvullend merkvlak met de spikkelbol en de baseline. Die opbouw is bewust: wie van ver over de gangpaden kijkt ziet eerst het merk onderaan op ooghoogte, wie dichterbij komt leest de troeven erboven. Het kleurverloop loopt door over de volle hoogte, zodat de zes regels als één beweging lezen in plaats van als zes losse items.",
+      "images": [
+        {
+          "src": "assets/werk/ftrprf/rollup-mockup.png",
+          "ratio": "900 / 1468"
+        }
+      ]
+    },
+    {
+      "title": "Themapanelen",
+      "blurb": "Eén opbouw voor elk thema: de kop bovenaan, een blauwe lijn eronder, dan de inhoud als pictogram met korte regel. Doordat het systeem vastligt, bepaalt alleen het aantal regels het formaat — vandaar dat het paneel met de meeste items hoger uitvalt dan de andere.",
+      "images": [
+        {
+          "src": "assets/werk/ftrprf/sticker-programmeren.png",
+          "ratio": "1 / 1"
+        },
+        {
+          "src": "assets/werk/ftrprf/sticker-eindtermen-ict.png",
+          "ratio": "1 / 1"
+        },
+        {
+          "src": "assets/werk/ftrprf/sticker-eindtermen-burgerschap.png",
+          "ratio": "1 / 1"
+        },
+        {
+          "src": "assets/werk/ftrprf/rollup-kant-en-klaar.png",
+          "ratio": "700 / 1160"
+        }
+      ]
+    },
+    {
+      "title": "Merkvlak",
+      "blurb": "Geen kop, geen lijst: alleen het verloop, de spikkelbol en de baseline. Dit vlak is het rustpunt tussen alle opsommingen — het komt terug onderaan de roll-up, op de balie, op de achterwand en als vloersticker in de vorm van de spikkelbol zelf.",
+      "images": [
+        {
+          "src": "assets/werk/ftrprf/sticker-merk.png",
+          "ratio": "1 / 1"
+        }
+      ]
+    }
+  ],
+  "video": "",
+  "geavanceerd": {
+    "link": "https://ftrprf.be/",
+    "processTitle": "Het standmateriaal"
+  }
+}

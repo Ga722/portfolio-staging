@@ -1,0 +1,41 @@
+{
+  "category": "Ontwerp",
+  "order": 10,
+  "id": "mediaraven-infographic",
+  "highlight": 0,
+  "title": "Infographic mediaproducties",
+  "blurb": "Overzicht van het aanbod mediaproducties, in vier banen.",
+  "description": "Mediaraven laat jongeren zelf mediaproducties maken. Deze infographic moet in één blad duidelijk maken wat dat aanbod inhoudt — film en montage, motion graphics, interactieve video — en eindigen met een oproep om mee te doen. Het publiek zijn jongeren en de begeleiders rond hen, dus de uitleg moet aan te wijzen zijn in plaats van gelezen te worden. Ik maakte de infographic.",
+  "role": "Grafisch ontwerp, opmaak",
+  "client": "Mediaraven vzw",
+  "year": "",
+  "image": "assets/werk/mediaraven/infographic.jpg",
+  "video": "",
+  "process": [
+    {
+      "title": "Vier kleurbanen als structuur",
+      "blurb": "Het blad is opgedeeld in vier horizontale banen over de volle breedte, elk in een eigen kleur: oranje, turkoois, groen en zacht oranje. Geen kaders, geen witruimte tussen de banen — de kleurwissel is de scheiding. Daardoor leest het blad als een lijst van boven naar onder zonder dat er nummers of lijnen bij nodig zijn, en heeft elke discipline evenveel gewicht."
+    },
+    {
+      "title": "Titel in het beeld, niet erboven",
+      "blurb": "In elke baan staat de titel niet als kop bovenaan maar in het beeld zelf, tussen de illustratie-elementen, in wit of donkerblauw naargelang de achtergrond. Twee regels, strak op elkaar, met de tweede regel iets ingesprongen. Dat houdt de blik binnen de baan: je ziet eerst wat het is (de scène), dan hoe het heet."
+    },
+    {
+      "title": "Eén illustratiestijl volgehouden",
+      "blurb": "Alle elementen komen uit hetzelfde vlakke systeem: geen contourlijnen, lichte schaduwvlakken in een donkerder tint van dezelfde kleur, handen en armen in donkerblauw met turkooise manchetten als terugkerend motief. Die handen doen het werk in de compositie — ze wijzen, tikken, houden vast — en verbinden de banen onderling zonder dat er een verhaallijn bij hoeft."
+    },
+    {
+      "title": "Beweging suggereren met één lijn",
+      "blurb": "De relatie tussen de elementen zit telkens in een enkele verbindingslijn: een vloeiende witte lijn van tablet naar monitor bij motion graphics, een gestippelde curve van vinger naar tablet bij interactieve video, en een gestippelde ring die de figuren onderaan tot een netwerk maakt. Consistent gebruik van vol versus gestippeld: vol is een technische verbinding, gestippeld is een menselijke."
+    },
+    {
+      "title": "Onderste baan als oproep",
+      "blurb": "De vierde baan breekt met de opsomming: rustiger kleur, meer wit, en voor het eerst lopende tekst. Links de netwerkillustratie met avatars, rechts vier korte regels en het mailadres in cursief als enige onderstreepte actie. Dat is de enige plek op het blad met meer dan drie woorden op een regel, waardoor het einde van het blad automatisch als slotstuk leest."
+    }
+  ],
+  "geavanceerd": {
+    "processTitle": "Vormgeving",
+    "heroRatio": "621 / 875",
+    "heroFit": "contain"
+  }
+}

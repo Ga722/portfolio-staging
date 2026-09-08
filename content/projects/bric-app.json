@@ -1,0 +1,93 @@
+{
+  "category": "App-ontwerp",
+  "order": 20,
+  "id": "bric-app",
+  "highlight": 0,
+  "title": "BRIC — interactieve quiz-app",
+  "blurb": "App over de groeiende economieën van Brazilië, Rusland, India en China.",
+  "description": "Vier landen met de snelst groeiende economie ter wereld, en de vraag wat die groei kost aan mens, natuur en dier. Zo'n onderwerp verdraagt geen zware, belerende vormgeving: ik koos voor een heldere quiz met veel wit, één krachtig kleurenpaar en cijfers die groot genoeg staan om te blijven hangen. Rood tegen groen doet het werk — je ziet aan de kleur of je juist zat voor je de tekst leest. Van het eerste moodboard tot het uitgewerkte scherm op desktop en mobiel heb ik het volledige traject vormgegeven.",
+  "role": "UX, UI, branding",
+  "client": "Schoolopdracht, Arteveldehogeschool",
+  "year": "2015",
+  "image": "assets/werk/bric/bric-brand.png",
+  "ratio": "9 / 16",
+  "process": [
+    {
+      "title": "Moodboards",
+      "blurb": "Twee sferen tegenover elkaar zetten om de toon te bepalen: vlakke illustratie in warme aardetinten tegen documentaire fotografie met hard contrast. De aardetinten wonnen — ze houden het onderwerp ernstig zonder het zwaar te maken.",
+      "images": [
+        {
+          "src": "assets/werk/bric/moodboard-1.jpg"
+        },
+        {
+          "src": "assets/werk/bric/moodboard-2.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Styletiles",
+      "blurb": "Drie richtingen op één blad: kleur, typografie, knopvorm en beeldtoon naast elkaar, zodat de keuze in één oogopslag te maken valt. De rood-groene richting kreeg de voorkeur omdat goed en fout daarin vanzelf leesbaar zijn.",
+      "images": [
+        {
+          "src": "assets/werk/bric/styletile-1.png"
+        },
+        {
+          "src": "assets/werk/bric/styletile-2.png"
+        },
+        {
+          "src": "assets/werk/bric/styletile-3.png"
+        }
+      ]
+    },
+    {
+      "title": "Logo-onderzoek",
+      "blurb": "Zoeken naar een merkteken dat vier landen samenvat zonder een vlag of wereldkaart te lenen. Van cirkelvorm en geluidsgolven naar overlappende bollen: vier vormen die elkaar raken zeggen precies wat BRIC is.",
+      "images": [
+        {
+          "src": "assets/werk/bric/logo-onderzoek.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Personas",
+      "blurb": "Drie lezers om de vormgeving aan te toetsen — een leerkracht, een student en een geïnteresseerde leek. Zij bepaalden hoeveel tekst een scherm mag dragen en hoe groot een cijfer moet staan om nog te overtuigen.",
+      "images": [
+        {
+          "src": "assets/werk/bric/persona-1.jpg"
+        },
+        {
+          "src": "assets/werk/bric/persona-2.jpg"
+        },
+        {
+          "src": "assets/werk/bric/persona-3.jpg"
+        }
+      ]
+    }
+  ],
+  "video": "",
+  "geavanceerd": {
+    "heroRatio": "1200 / 587",
+    "gallery": [
+      {
+        "src": "assets/werk/bric/mobile-intro.png",
+        "caption": "Intro — kies tussen de video en de quiz"
+      },
+      {
+        "src": "assets/werk/bric/mobile-quiz-question.png",
+        "caption": "Quizvraag met de vier landen"
+      },
+      {
+        "src": "assets/werk/bric/mobile-quiz-answer.png",
+        "caption": "Antwoord — juist en fout in kleur"
+      },
+      {
+        "src": "assets/werk/bric/mobile-quiz-stats.png",
+        "caption": "Cijfers per land na het antwoord"
+      },
+      {
+        "src": "assets/werk/bric/mobile-quiz-end.png",
+        "caption": "Eindscore, met deelknoppen"
+      }
+    ]
+  }
+}

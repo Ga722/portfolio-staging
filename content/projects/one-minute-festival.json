@@ -1,0 +1,49 @@
+{
+  "category": "Video",
+  "order": 20,
+  "id": "one-minute-festival",
+  "highlight": 0,
+  "title": "1 Minute Festival",
+  "blurb": "Kortfilm van één minuut voor een wedstrijd.",
+  "description": "Een wedstrijd met één regel: de film mag exact één minuut duren. Ik deed alles zelf — scenario, casting, kledingkeuze voor de acteurs, opnames, montage en geluid. Bij die lengte is het scenario de vormgeving: er is geen ruimte voor een expositie, dus moest de spanning al in het eerste kader zitten en de wending in de laatste seconden vallen.",
+  "role": "Scenario, regie, camera, montage, geluid",
+  "client": "Artevelde Hogeschool",
+  "year": "",
+  "image": "assets/werk/1minute-festival/aanslag.png",
+  "ratio": "1919 / 1079",
+  "video": "",
+  "process": [
+    {
+      "title": "Eén minuut dwingt tot één scène",
+      "blurb": "Ik schreef het scenario terug naar één handeling met één omslagpunt, zonder locatiewissels of tijdsprongen. Alles wat een kijker moet weten — wie tegenover wie staat, en wat er op het spel staat — moet uit beeld en houding komen, niet uit dialoog. Dat maakte de shotlijst kort en de keuze per kader zwaar: elk shot moet iets vertellen dat het vorige nog niet deed."
+    },
+    {
+      "title": "Kleding als enige personagetekening",
+      "blurb": "Ik liet de acteurs in leren jassen en donkere kleding komen, en de tegenspeler in een net grijs kostuum. Zonder introductie doet dat contrast het werk van een halve minuut uitleg: twee kanten die niet in dezelfde wereld thuishoren. Omdat er geen ruimte was voor een decor met betekenis, is de kleding het kostuum én het decor.",
+      "images": [
+        {
+          "src": "assets/werk/1minute-festival/trap-confrontatie.png",
+          "ratio": "1919 / 1079"
+        }
+      ]
+    },
+    {
+      "title": "Symmetrie voor de confrontatie",
+      "blurb": "De confrontatiescène staat op een brede trap, frontaal en symmetrisch: de rug van de man in kostuum in het midden, de twee anderen links en rechts op gelijke afstand. De horizontale lijnen van de treden houden het kader vlak en dwingend. Het onscherp gehouden middenvlak van de rug maakt de kijker medeplichtig — je staat erbij, je ziet zijn gezicht niet."
+    },
+    {
+      "title": "Onderbelichting als spanningsmiddel",
+      "blurb": "Het openingsshot is bijna volledig donker: alleen de ogen van de jongen en een reep daglicht door de lamellen zijn belicht. Ik hield de belichting onder wat een cameraman comfortabel zou vinden, precies omdat de kijker dan moet zoeken in het beeld. In een film van één minuut is dat zoeken de eerste tien seconden aandacht die je gratis krijgt."
+    },
+    {
+      "title": "Geluid draagt wat niet in beeld past",
+      "blurb": "Ik monteerde het geluid als tweede verhaallijn: omgevingsgeluid dat wegvalt op het moment van de wending, en één harde klank die de knip markeert. Dat is de goedkoopste en scherpste manier om in een minuut een tijdsverloop en een schok te suggereren zonder er beeld aan te moeten besteden."
+    }
+  ],
+  "geavanceerd": {
+    "embed": "https://www.youtube.com/embed/R94WxDK1Jnc",
+    "embedTitle": "Bekijk de film",
+    "link": "https://youtu.be/R94WxDK1Jnc",
+    "processTitle": "Aanpak"
+  }
+}

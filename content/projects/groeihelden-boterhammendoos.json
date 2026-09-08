@@ -1,0 +1,125 @@
+{
+  "category": "Animatie",
+  "order": 40,
+  "id": "groeihelden-boterhammendoos",
+  "highlight": 0,
+  "title": "Groeihelden — animatiereeks",
+  "blurb": "Reeks korte animaties voor sociale media.",
+  "description": "Groeihelden zet kinderen aan tot gezond eten en opvoeden onder de slogan \"Jong geleerd, gezond gedaan!\". Ik maakte een reeks korte animaties voor sociale media, waar een beeld zonder geluid en binnen twee seconden moet landen. Elke film volgt hetzelfde bouwplan — vast kader, tekst in twee tot drie korte regels, en een held die het antwoord binnenbrengt — zodat de reeks als één campagne leest en toch per boodschap iets anders toont.",
+  "role": "Animatie, vormgeving",
+  "client": "Groeihelden",
+  "year": "",
+  "image": "assets/werk/groeihelden/variatie.png",
+  "ratio": "1369 / 1023",
+  "video": "",
+  "process": [
+    {
+      "title": "Vierkant kader met een dubbele rand",
+      "blurb": "Het formaat is vierkant, want in een tijdlijn wint dat van liggend. Rondom het beeld een dubbele rand — oranje binnenin, blauwgroen buitenaan — die het vlak losmaakt van de witte feed en tegelijk de merkkleuren binnenbrengt zonder ze in het beeld te hoeven gebruiken. Onderaan een witte balk met de slogan die over de hele reeks identiek blijft: één vaste voet, wisselende inhoud erboven."
+    },
+    {
+      "title": "Doos links, tekst rechts",
+      "blurb": "De compositie ligt vast: de doos driekwart links, de boodschap rechts op twee tot drie korte regels, het rozet rechtsonder. Omdat die verdeling in elk beeld hetzelfde is, kan de animatie zijn hele verhaal in de linkerhelft afspelen terwijl de rechterhelft rustig van regel naar regel wisselt. Groen als grond is de enige kleur die de hele film doorloopt."
+    },
+    {
+      "title": "Het eten valt in beeld",
+      "blurb": "De animatie begint met de open, lege doos en laat het beleg van bovenaan invallen — een boterham met radijs, komkommer en ei, echte fotografie in plaats van illustratie, zodat het eten er eetbaar uitziet. De val is de hook: er gebeurt iets in het eerste half seconde, wat op social nodig is om niet weggescrold te worden."
+    },
+    {
+      "title": "De held uit de doos",
+      "blurb": "Dan verschijnt de held: een gefotografeerd kindergezicht op een geïllustreerd superheldenlichaam met cape en G-logo, opkomend uit de doos zoals iemand door een luik komt. Die combinatie van foto en tekening is bewust — het kind moet echt zijn (het gaat over echte kinderen), het heldendom mag getekend zijn (het is een rol die ze aannemen). De doos snijdt het lichaam af op de rand, waardoor de beweging omhoog leest en het lichaam niet volledig uitgetekend hoeft.",
+      "images": [
+        {
+          "src": "assets/werk/groeihelden/groenten.png",
+          "ratio": "1372 / 1027"
+        }
+      ]
+    },
+    {
+      "title": "Slot met een tekstballon",
+      "blurb": "Het laatste beeld ruilt de kopregel voor een tekstballon met \"Lekker!\" — dezelfde plek, ander register. Daarmee komt de boodschap uit het kind in plaats van uit de merkstem, en dat is het punt van de campagne. De ballon staat in een gebroken wit dat elders niet voorkomt, zodat het duidelijk het einde markeert.",
+      "images": [
+        {
+          "src": "assets/werk/groeihelden/lekker.png",
+          "ratio": "1372 / 1030"
+        }
+      ]
+    },
+    {
+      "title": "Complimenten geven: de vraag eerst",
+      "blurb": "Deze film opent met een vraag in plaats van een boodschap: \"Doet je kind het goed? Is het goed in iets?\" Twee regels, beide op dezelfde tekstas, met de tweede regel iets ingesprongen zodat de blik doorleest naar het antwoord. Het gele vlak vult hier het hele kader — geen product, geen foto — omdat de vraag het enige is wat op dat moment mag tellen.",
+      "embed": "https://www.youtube.com/embed/EVknrWoJpLM",
+      "images": [
+        {
+          "src": "assets/werk/groeihelden/compliment-vraag.png",
+          "ratio": "1435 / 1077"
+        },
+        {
+          "src": "assets/werk/groeihelden/compliment-tekst.png",
+          "ratio": "1435 / 1079"
+        }
+      ]
+    },
+    {
+      "title": "De held brengt de duim, niet de tekst",
+      "blurb": "Het antwoord — \"Geef dan complimenten.\" — staat groot en centraal, en verdwijnt dan voor de held die vliegend binnenkomt met de duim omhoog en een tekstballon \"Goed gedaan!\". Het compliment komt zo uit een figuur en niet uit een kopregel, wat het van instructie naar aanmoediging schuift. De held is hier in geel gehouden zodat hij op het gele vlak leest als silhouet en alleen gezicht en duim volle kleur krijgen: precies de twee dingen waar het compliment in zit.",
+      "images": [
+        {
+          "src": "assets/werk/groeihelden/compliment-held.png",
+          "ratio": "1437 / 1079"
+        }
+      ]
+    },
+    {
+      "title": "Pesticiden: blauw in plaats van geel",
+      "blurb": "Deze film ruilt het gele vlak voor lichtblauw. Dat is geen decoratie: het onderwerp speelt buiten, in de tuin, en het blauw geeft me een lucht om later gras en bloemen tegen te zetten. Meteen ook een merkbaar signaal in de reeks dat dit over iets anders gaat, zonder dat kader, voetbalk of rozet veranderen.",
+      "embed": "https://www.youtube.com/embed/TfUcxx7FbHY",
+      "images": [
+        {
+          "src": "assets/werk/groeihelden/pesticiden-vraag.png",
+          "ratio": "1441 / 1078"
+        }
+      ]
+    },
+    {
+      "title": "Een pruilend gezicht als openingsbeeld",
+      "blurb": "Boven de vraag \"Onkruid of gezondheid?\" hangt alleen een kindergezicht, uitgesneden en zonder lichaam, met een niet-blije blik. Het beeld draagt het dilemma vóór er cijfers of argumenten in beeld komen; de vrijstaande snede maakt het gezicht groot genoeg om de emotie te lezen op telefoonformaat."
+    },
+    {
+      "title": "Het cijfer krijgt een beeld dat het tegenovergestelde toont",
+      "blurb": "Bij \"Meer dan 50% gebruikt al geen pesticiden meer.\" staat een spuitbus met een dik rood kruis erover. De regel staat cursief — dezelfde stem als de tekstballonnen elders in de reeks — en het icoon doet het werk van het woord \"geen\": de bezoeker die alleen kijkt en niet leest, snapt het ook. Rood komt in de hele reeks nergens anders voor, dus het kruis leest onmiddellijk als verbod.",
+      "images": [
+        {
+          "src": "assets/werk/groeihelden/pesticiden-spuitbus.png",
+          "ratio": "1438 / 1079"
+        }
+      ]
+    },
+    {
+      "title": "De tuin bouwt zich op onder de held",
+      "blurb": "Het slot voegt pas op het einde een grondlijn toe: een gezaagde grasrand met drie gele bloemen, waarboven de held in blauw pak zweeft met de ballon \"Wat kies jij?\". Door de tuin te laten aangroeien in plaats van hem van begin af te tonen, is de omgeving zelf de belofte — dit is wat je krijgt als je kiest. Het pak neemt de achtergrondkleur over zodat gezicht en bloemen de enige accenten blijven.",
+      "images": [
+        {
+          "src": "assets/werk/groeihelden/pesticiden-held.png",
+          "ratio": "1438 / 1079"
+        }
+      ]
+    },
+    {
+      "title": "Rozet als vast afsluiter",
+      "blurb": "Het logo is een rozet met wimpels — een medaille die je verdient. Het staat in elk beeld rechtsonder op dezelfde plek en groeit aan het einde naar het midden als afsluiter. Omdat het merkteken zelf een beloning is, hoeft er geen extra eindkaart bij: het logo doet de slotpunt.",
+      "images": [
+        {
+          "src": "assets/werk/groeihelden/logo-rozet.png",
+          "ratio": "1119 / 697"
+        }
+      ]
+    }
+  ],
+  "geavanceerd": {
+    "embed": "https://www.youtube.com/embed/ZuZcZe7Vu68",
+    "embedTitle": "Bekijk de animatie",
+    "link": "https://youtu.be/ZuZcZe7Vu68",
+    "processTitle": "Vormgeving"
+  }
+}

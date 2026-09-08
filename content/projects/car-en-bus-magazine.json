@@ -1,0 +1,54 @@
+{
+  "category": "Online magazines",
+  "order": 40,
+  "id": "car-en-bus-magazine",
+  "highlight": 0,
+  "title": "Car & Bus e-zine",
+  "blurb": "Online vakblad voor de Belgische autocar- en autobussector.",
+  "description": "Een vakblad voor de autocarsector mag eruitzien als een blad, ook op een scherm. Ik hield daarom de bladspiegel aan: een cover met één reportagefoto over de volle breedte, vier hoofdartikels in vier kleuren erop, reportages met een schermvullend openingsbeeld en daarna tekst in één kolom, en advertenties die hun eigen pagina krijgen zoals in print. De kleur van een artikel op de cover komt terug in de titelblok en tussenkoppen van dat artikel, zodat het blad zich vanzelf laat lezen. De fotografie blijft documentair — bussen, werkplaatsen, de mensen erachter — want daar komt deze lezer voor. Ik verzorgde ontwerp, opmaak, interactieve opbouw, animatie en beeldbewerking.",
+  "role": "Ontwerp, opmaak, interactieve opbouw, animatie, beeldbewerking, ontwikkeling",
+  "client": "FBAA",
+  "year": "2017",
+  "image": "assets/werk/carbus/cover.png",
+  "fit": "contain",
+  "ratio": "1917 / 916",
+  "process": [
+    {
+      "title": "Cover",
+      "blurb": "Een vakblad voor de autocarsector hoort te openen met een bus en de mensen die ermee rijden — geen studiobeeld. De reportagefoto vult het scherm; het logo in een wit kader en de maand eronder pakken de linkerbovenhoek. De vier hoofdartikels liggen als gekleurde balken over de voorkant van de minibus links in beeld: elke titel krijgt een eigen kleur, wat de cover meteen leesbaar maakt bij het doorbladeren en wat de kleurcodering van het blad aankondigt — het groen van de Bourdon-titel komt terug in de titelblok en de tussenkoppen van dat artikel.",
+      "images": [
+        {
+          "src": "assets/werk/carbus/cover.png",
+          "ratio": "1917 / 916",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "title": "Advertenties",
+      "blurb": "Adverteerders in een vakblad kopen een pagina, niet een banner. Ik geef ze daarom hun eigen scherm, met het beeld over de volle breedte — net als in de gedrukte editie. De scheiding met de redactie maakt één witte strip bovenaan, met “Contenu publicitaire” erin: eerlijk en direct, zonder de advertentie visueel weg te drukken. Dat geeft het blad tegelijk ritme: na een reportage even iets anders.",
+      "images": [
+        {
+          "src": "assets/werk/carbus/advertentie-iveco.png",
+          "ratio": "1915 / 913",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "title": "Reportage",
+      "blurb": "De reportages zijn het hart van het blad. Het openingsbeeld gaat over de volle breedte, met de titel en een uitgelicht citaat in gekleurde blokken eroverheen; daarna loopt de tekst in één smalle kolom door. Een lang interview breek ik met groene tussenkoppen en met een rij ronde portretjes van de drie generaties Bourdon — zo krijgt het verhaal gezichten en leest het als een reeks in plaats van een muur tekst. De bedrijfsfoto’s houd ik documentair — werkplaats, chauffeur, materieel — want dat is wat deze lezers erin zoeken.",
+      "images": [
+        {
+          "src": "assets/werk/carbus/artikel-bourdon.png",
+          "tall": true
+        }
+      ]
+    }
+  ],
+  "video": "",
+  "geavanceerd": {
+    "link": "https://magazines.fbaa.be/carandbus-novembre-2021/couverture/",
+    "processTitle": "Door het blad"
+  }
+}

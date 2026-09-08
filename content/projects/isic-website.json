@@ -1,0 +1,70 @@
+{
+  "category": "Website",
+  "order": 20,
+  "id": "isic-website",
+  "highlight": 0,
+  "title": "ISIC België — website",
+  "blurb": "Website voor de internationale studenten-, jongeren- en lerarenkaart.",
+  "description": "De site van ISIC België doet twee dingen tegelijk: uitleggen welke kaart bij wie hoort, en de voordelen laten zien die je met die kaart krijgt. Dat is een spanning in het ontwerp — het eerste vraagt rust en volgorde, het tweede vraagt beeld en aanbod. Ik werkte aan de vormgeving en opmaak van de site, binnen de bestaande ISIC-huisstijl en in drie talen.",
+  "role": "Webdesign, opmaak",
+  "client": "ISIC België",
+  "year": "",
+  "image": "assets/werk/isic-site/home.png",
+  "ratio": "1220 / 747",
+  "fit": "contain",
+  "video": "",
+  "process": [
+    {
+      "title": "Het product als eerste beeld",
+      "blurb": "De homepage opent niet met een sfeerfoto maar met het product zelf: de kaarten uitgespreid als een fan, met de app op een telefoon ernaast. De fan doet het werk van een opsomming — je ziet in één beeld dat er meerdere kaarttypes zijn, en de kleurcodering per type (turkoois, oranje, blauw) introduceert meteen het systeem dat verderop de hele site structureert. Tekst links, beeld rechts, geen overlap: het beeld hoeft niet als achtergrond te dienen.",
+      "images": [
+        {
+          "src": "assets/werk/isic-site/home.png",
+          "ratio": "1220 / 747"
+        }
+      ]
+    },
+    {
+      "title": "Turkoois als kader, niet als vulling",
+      "blurb": "De merkkleur zit in dunne onderstrepingen onder elke kop, in de knoppen, in de taalkeuzepillen en in een gestreepte band als sectiescheiding — bijna nooit als groot vlak. Daardoor blijft de pagina wit en rustig genoeg om partnerlogo's en fotografie in hun eigen kleuren te laten staan zonder dat het rommelig wordt. De enige plek met een verzadigd verloop is de aankoopknop."
+    },
+    {
+      "title": "Voordelen als kaarten met een logo-plateau",
+      "blurb": "Elk voordeel is een kaart: beeld boven, daaronder een wit vierkant met het partnerlogo dat over de onderrand van het beeld schuift, dan de naam en de korting. Dat plateau lost het probleem op dat logo's in alle kleuren en vormen aankomen — op wit staan ze allemaal even goed, en de overlap houdt beeld en merk als één blok bij elkaar. Kortingpercentage in de merkkleur, zodat het bij snel scannen de leesbare regel is.",
+      "images": [
+        {
+          "src": "assets/werk/isic-site/privileges-overzicht.png",
+          "ratio": "1236 / 912"
+        }
+      ]
+    },
+    {
+      "title": "Uitgelicht naast doorlopend aanbod",
+      "blurb": "Op de homepage staat één breed carrousel met topvoordelen naast een smalle kolom met een tijdelijke actie. Twee verschillende leessnelheden op één rij: links iets waar je door bladert, rechts iets dat nu geldt en dus niet mag bewegen. De smalle kaart heeft daarom een eigen lichte achtergrond en een kortere maatregel, zodat hij niet als vierde carrouselbeeld gelezen wordt.",
+      "images": [
+        {
+          "src": "assets/werk/isic-site/privileges-home.png",
+          "ratio": "1213 / 815"
+        }
+      ]
+    },
+    {
+      "title": "Filters als tabrij",
+      "blurb": "Het volledige overzicht wordt gefilterd via een rij vlakke tabs — accommodatie, entertainment, mobiliteit, shopping, studie, reizen — met de actieve tab in een donkerder tint van dezelfde kleur. Geen dropdown: de categorieën zijn tegelijk de inhoudsopgave van wat de kaart je oplevert, dus ze horen zichtbaar te zijn ook als je niet filtert."
+    },
+    {
+      "title": "Drie talen en drie kaarttypes ordenen",
+      "blurb": "De site loopt in Nederlands, Frans en Engels, met de taalkeuze als pillenrij midden op de pagina in plaats van weggestopt in de header — het publiek is per definitie internationaal. De lidmaatschapspagina zet de kaarttypes als genummerde lijst onder elkaar in plaats van als vergelijkingstabel: je hoeft niet te vergelijken, je hoeft alleen je eigen situatie te vinden. Elke stap begint met de kaartnaam in de merkkleur en een vraag in vet, zodat je scant tot de vraag op jou past.",
+      "images": [
+        {
+          "src": "assets/werk/isic-site/lidmaatschap.png",
+          "ratio": "1210 / 914"
+        }
+      ]
+    }
+  ],
+  "geavanceerd": {
+    "link": "https://www.isic.be/",
+    "processTitle": "Vormgeving"
+  }
+}

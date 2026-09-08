@@ -25,12 +25,7 @@
           "year": "",
           "image": "assets/werk/keepmoving/overzicht.jpg",
           "ratio": "2000 / 1333",
-          "embed": "",
-          "gallery": [],
-          "link": "https://www.figma.com/proto/F7oYvmbVfnupjIa8qlMcNY/KeepMoving-App-Design?node-id=20605-60688&viewport=6809%2C1420%2C0.35&t=BxsrjFPCpjwb2LOf-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=20605%3A60688&show-proto-sidebar=1&page-id=203%3A2",
-          "linkLabel": "Bekijk het prototype",
           "video": "",
-          "processTitle": "Ontwerp",
           "process": [
             {
               "title": "Donkergroen als grond, één fluogroen als signaal",
@@ -111,7 +106,10 @@
                 }
               ]
             }
-          ]
+          ],
+          "link": "https://www.figma.com/proto/F7oYvmbVfnupjIa8qlMcNY/KeepMoving-App-Design?node-id=20605-60688&viewport=6809%2C1420%2C0.35&t=BxsrjFPCpjwb2LOf-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=20605%3A60688&show-proto-sidebar=1&page-id=203%3A2",
+          "linkLabel": "Bekijk het prototype",
+          "processTitle": "Ontwerp"
         },
         {
           "id": "bric-app",
@@ -123,30 +121,7 @@
           "client": "Schoolopdracht, Arteveldehogeschool",
           "year": "2015",
           "image": "assets/werk/bric/bric-brand.png",
-          "heroRatio": "1200 / 587",
           "ratio": "9 / 16",
-          "gallery": [
-            {
-              "src": "assets/werk/bric/mobile-intro.png",
-              "caption": "Intro — kies tussen de video en de quiz"
-            },
-            {
-              "src": "assets/werk/bric/mobile-quiz-question.png",
-              "caption": "Quizvraag met de vier landen"
-            },
-            {
-              "src": "assets/werk/bric/mobile-quiz-answer.png",
-              "caption": "Antwoord — juist en fout in kleur"
-            },
-            {
-              "src": "assets/werk/bric/mobile-quiz-stats.png",
-              "caption": "Cijfers per land na het antwoord"
-            },
-            {
-              "src": "assets/werk/bric/mobile-quiz-end.png",
-              "caption": "Eindscore, met deelknoppen"
-            }
-          ],
           "process": [
             {
               "title": "Moodboards",
@@ -200,8 +175,30 @@
               ]
             }
           ],
-          "link": "",
-          "video": ""
+          "video": "",
+          "heroRatio": "1200 / 587",
+          "gallery": [
+            {
+              "src": "assets/werk/bric/mobile-intro.png",
+              "caption": "Intro — kies tussen de video en de quiz"
+            },
+            {
+              "src": "assets/werk/bric/mobile-quiz-question.png",
+              "caption": "Quizvraag met de vier landen"
+            },
+            {
+              "src": "assets/werk/bric/mobile-quiz-answer.png",
+              "caption": "Antwoord — juist en fout in kleur"
+            },
+            {
+              "src": "assets/werk/bric/mobile-quiz-stats.png",
+              "caption": "Cijfers per land na het antwoord"
+            },
+            {
+              "src": "assets/werk/bric/mobile-quiz-end.png",
+              "caption": "Eindscore, met deelknoppen"
+            }
+          ]
         }
       ]
     },
@@ -218,13 +215,7 @@
           "client": "Guido NV",
           "year": "2022",
           "image": "assets/werk/guido/cover.jpg",
-          "heroRatio": "4 / 3",
-          "embed": "https://online.fliphtml5.com/gaportfolio/toqt/",
-          "embedTitle": "Blader door de editie",
-          "gallery": [],
-          "link": "https://online.fliphtml5.com/gaportfolio/toqt/",
           "video": "",
-          "processTitle": "Vormgeving",
           "process": [
             {
               "title": "Raster en typografie",
@@ -242,7 +233,12 @@
               "title": "Digitale editie",
               "blurb": "Naast het drukwerk een online editie in spreads, zodat een dubbele pagina ook op het scherm één compositie blijft en de opmaak niet uiteenvalt in losse pagina's."
             }
-          ]
+          ],
+          "embed": "https://online.fliphtml5.com/gaportfolio/toqt/",
+          "embedTitle": "Blader door de editie",
+          "link": "https://online.fliphtml5.com/gaportfolio/toqt/",
+          "processTitle": "Vormgeving",
+          "heroRatio": "4 / 3"
         },
         {
           "id": "zefier-jaarverslag-2025",
@@ -256,8 +252,6 @@
           "image": "assets/werk/zefier/cover.png",
           "fit": "contain",
           "ratio": "1911 / 913",
-          "gallery": [],
-          "processTitle": "Door het verslag",
           "process": [
             {
               "title": "Cover en navigatie",
@@ -292,8 +286,9 @@
               ]
             }
           ],
+          "video": "",
           "link": "https://jaarverslag.zefier.be/2025",
-          "video": ""
+          "processTitle": "Door het verslag"
         },
         {
           "id": "agion-jaarverslag-2020",
@@ -307,8 +302,6 @@
           "image": "assets/werk/agion/cover.png",
           "fit": "contain",
           "ratio": "1912 / 916",
-          "gallery": [],
-          "processTitle": "Door het verslag",
           "process": [
             {
               "title": "Intro",
@@ -344,8 +337,9 @@
               ]
             }
           ],
+          "video": "",
           "link": "https://jaarverslag.agion.be/2020/intro/",
-          "video": ""
+          "processTitle": "Door het verslag"
         },
         {
           "id": "car-en-bus-magazine",
@@ -359,8 +353,6 @@
           "image": "assets/werk/carbus/cover.png",
           "fit": "contain",
           "ratio": "1917 / 916",
-          "gallery": [],
-          "processTitle": "Door het blad",
           "process": [
             {
               "title": "Cover",
@@ -395,8 +387,9 @@
               ]
             }
           ],
+          "video": "",
           "link": "https://magazines.fbaa.be/carandbus-novembre-2021/couverture/",
-          "video": ""
+          "processTitle": "Door het blad"
         },
         {
           "id": "drankenacademy",
@@ -408,11 +401,7 @@
           "client": "Drankenacademy",
           "year": "",
           "image": "assets/werk/drankenacademy/home.png",
-          "heroFit": "contain",
-          "heroRatio": "1915 / 914",
-          "gallery": [],
           "fit": "contain",
-          "processTitle": "De vier vakgebieden",
           "process": [
             {
               "title": "Wijn",
@@ -469,151 +458,671 @@
               ]
             }
           ],
+          "video": "",
+          "link": "https://www.drankenacademy.com/",
+          "processTitle": "De vier vakgebieden",
+          "heroRatio": "1915 / 914",
+          "heroFit": "contain",
           "files": [
             {
               "label": "E-learning wijn niveau 1",
               "src": "https://elearning.drankenacademy.com/ikweetwatvanwijn/"
             }
-          ],
-          "link": "https://www.drankenacademy.com/",
-          "video": ""
+          ]
         }
       ]
     },
     {
-      "category": "Video",
+      "category": "Print",
       "items": [
         {
-          "id": "moordenaar-filmintro",
+          "id": "foodcoach-pj-flyer",
           "highlight": 0,
-          "title": "Filmintro — bewijsmateriaal",
-          "blurb": "Intro voor een zelf uitgedachte film over een moordenaar.",
-          "description": "De opdracht was een korte intro te maken voor een film die je zelf verzint. Mijn verhaal gaat over een moordenaar, en de intro toont uitsluitend voorwerpen die later in de film als bewijsmateriaal terugkomen. Scenario, opnames en montage zijn van mij. Een intro die het gezicht van de dader nooit toont dwingt tot een andere aanpak: het personage wordt opgebouwd uit de dingen die hij achterlaat.",
-          "role": "Scenario, camera, montage",
-          "client": "Artevelde Hogeschool",
+          "title": "Food Coach PJ — flyer",
+          "blurb": "Flyer voor voedingsadvies en sportvoeding, uitgedeeld langs een looproute.",
+          "description": "Food Coach PJ begeleidt mensen rond afslanking en sportvoeding. Deze flyer wordt uitgedeeld aan lopers van Dwars door Kruisem, dus hij komt in handen van iemand die net gefinisht is en niet gaat lezen. Ik maakte een volledig nieuw ontwerp waarin de aanspreking het beeld is en de rest van de pagina daaronder in één blik te overzien valt.",
+          "role": "Ontwerp, opmaak",
+          "client": "Food Coach PJ",
           "year": "",
-          "image": "assets/werk/moordenaar-intro/titelkaart-boek.png",
-          "ratio": "1435 / 821",
-          "embed": "https://www.youtube.com/embed/SudBOqi3yc4",
-          "embedTitle": "Bekijk de intro",
-          "gallery": [],
-          "link": "https://youtu.be/SudBOqi3yc4",
+          "image": "assets/werk/foodcoach-pj/mockup.jpg",
+          "ratio": "1900 / 1023",
           "video": "",
-          "processTitle": "Aanpak",
           "process": [
             {
-              "title": "Alleen handen en voorwerpen in beeld",
-              "blurb": "Geen enkel shot toont een gezicht. Ik filmde uitsluitend handen die iets doen: een letter uitsnijden, snippers schikken, een mes afwassen, een blad ondertekenen. Die keuze houdt de dader anoniem en maakt de kijker tegelijk medeplichtig — je kijkt over zijn schouder mee. Elk voorwerp is bovendien iets wat later in de film als bewijsstuk opduikt, dus de intro werkt als een reeks aanwijzingen in plaats van een samenvatting.",
+              "title": "De kop spreekt de loper in zijn eigen taal aan",
+              "blurb": "De aanspreking staat in vier trappen over de halve pagina: \"Net Dwars door Kruisem gelopen?\" in oranje, \"Goe bezig!\" in blauw. Door de wisseling van kleur en corpsgrootte per regel leest de kop als een gesproken zin met een klemtoon op het einde. Dialect in een advertentie is een risico, maar hier is het publiek precies één wedstrijd groot, en de flyer wordt aan de aankomst uitgedeeld — de flyer weet dus wie hij aanspreekt en mag dat laten horen.",
               "images": [
                 {
-                  "src": "assets/werk/moordenaar-intro/letter-uitsnijden.png",
-                  "ratio": "1439 / 832"
+                  "src": "assets/werk/foodcoach-pj/flyer.jpg",
+                  "ratio": "1167 / 1653"
                 }
               ]
             },
             {
-              "title": "Macro-opnames met open diafragma",
-              "blurb": "Alles is dicht op het voorwerp gefilmd met een zeer beperkte scherptediepte: enkel het detail dat telt staat scherp, de rest valt weg. Zo hoeft er geen decor te zijn — de omgeving blijft een vlek, en dat is precies de onbepaaldheid die het verhaal nodig heeft. Het nadeel van macro werd het middel: bij die scherpte trilt elk handje mee, wat het beeld nervositeit geeft.",
-              "images": [
-                {
-                  "src": "assets/werk/moordenaar-intro/krantensnippers.png",
-                  "ratio": "1444 / 831"
-                }
-              ]
+              "title": "Vrijstaande loper over de volle hoogte",
+              "blurb": "De foto is uitgesneden en loopt over de rechterhelft van boven tot in de contactbalk, met het hoofd tegen de bovenrand en de voeten over de oranje voet heen. Een vrijstaande figuur op de kleurvlakken bindt de twee helften aan elkaar: zonder kader hoort hij bij de hele pagina in plaats van bij een fotovak. Daardoor blijft er links één rechthoekig gebied over voor alle tekst, wat de opmaak rustig houdt."
             },
             {
-              "title": "Warm bruin in de opnamen, koel wit in de glitch",
-              "blurb": "De handelingen zijn warm en donkerbruin gehouden — kunstlicht, kaarslicht, veel zwart — zodat het geheel op oud papier lijkt. De glitchmomenten zijn het tegendeel: overbelicht, koud en uitgebleekt. Doordat de twee kleurwerelden elkaar afwisselen leest de glitch als een inbreuk in plaats van als een filter over de hele film.",
-              "images": [
-                {
-                  "src": "assets/werk/moordenaar-intro/wanted-glitch.png",
-                  "ratio": "1435 / 824"
-                }
-              ]
+              "title": "Oranje en blauw, elk met een eigen taak",
+              "blurb": "Uit het logo komen twee verzadigde kleuren die elkaar in helderheid weinig toegeven, dus ik gaf ze verschillende rollen in plaats van ze te mengen: oranje is roep en actie (de eerste regels, de contactbalk, de gratis-cirkel), blauw is inhoud (het aanbod, het antwoord \"Goe bezig!\"). Het gebroken wit van de grond is warm gehouden zodat beide kleuren erop staan zonder te trillen."
             },
             {
-              "title": "De glitch als flits van iets wat je niet mag zien",
-              "blurb": "Ik zet het glitcheffect nooit doorlopend, maar in korte uitschieters op de momenten die het meest verklappen: het wanted-affiche, de doorstreepte krantenkoppen. Beeldverschuiving, kleurscheiding en een sprong in de tijdlijn maken van die shots iets dat de kijker niet goed kan vastpakken. Dat werkt griezeliger dan bloed in beeld, want het beeld zelf lijkt niet te vertrouwen."
+              "title": "Het aanbod in een blauw blok van vier regels",
+              "blurb": "Wat de coach doet, staat in één blauw vlak met vier regels en een pictogram per regel: voedingsadvies, sportvoeding op maat, begeleiding, blijvend resultaat. Vier is de bovengrens voor wat iemand rechtopstaand leest. Het blok heeft zijn eigen kop \"WHAT'S NEXT?\" en ronde hoeken, waardoor het als kaartje in de pagina zit en de blik er na de kop meteen naartoe springt."
             },
             {
-              "title": "Het mes onder de kraan als enige geweld",
-              "blurb": "Er is één shot dat expliciet is: een mes dat onder stromend water wordt afgewassen, met rode vlekken in de spoelbak en op de vingers. Ik hield het daarbij. Door het geweld tot dat ene beeld te beperken krijgt het gewicht, en blijft de rest van de intro suggestie — wat bij een moordenaar zonder gezicht beter werkt dan tonen.",
-              "images": [
-                {
-                  "src": "assets/werk/moordenaar-intro/mes-afwassen.png",
-                  "ratio": "1439 / 825"
-                }
-              ]
+              "title": "Diagonalen als beweging, dots als rust",
+              "blurb": "Achter de loper staan brede diagonale banen in twee blauwtinten en oranje: dezelfde helling als een sprintende figuur, zodat de achtergrond de beweging van de foto meedoet in plaats van eronder te liggen. Als tegengewicht staan er kleine puntrasters in de hoeken, die de lege plekken vullen zonder gewicht toe te voegen. Beide zijn afgeleid van het rond logo, waardoor de flyer bij het merk blijft."
             },
             {
-              "title": "Handschrift als typografie",
-              "blurb": "De titels staan in een onregelmatige handschriftletter die met de camerabeweging meebeweegt, en het enige geschreven document in beeld — \"I accept agreement\", met een handtekening in vulpen — is in datzelfde register geschreven. Zo lijkt de titelkaart uit de wereld van de film te komen in plaats van eroverheen gelegd. Het opengeslagen boek onder de titel is de plek waar het verhaal wordt bijgehouden.",
-              "images": [
-                {
-                  "src": "assets/werk/moordenaar-intro/ondertekening.png",
-                  "ratio": "1442 / 834"
-                }
-              ]
+              "title": "Eén aanbod, één QR, op de plek waar de blik uitkomt",
+              "blurb": "Het gratis intakegesprek zit in een oranje cirkel onderaan rechts met de QR-code erin — het einde van de leesbeweging van linksboven naar rechtsonder, en de enige ronde vorm op de pagina, dus hij valt op zonder groter te moeten. \"Op vertoon van deze flyer\" staat erbij: dat maakt het papier zelf de toegang, wat een flyer een reden geeft om bewaard te worden. De contactgegevens staan in een oranje voetbalk over de volle breedte, met telefoon, e-mail en site elk achter een eigen pictogram."
+            }
+          ],
+          "processTitle": "Ontwerp"
+        },
+        {
+          "id": "isic-belgie-poster",
+          "highlight": 0,
+          "title": "ISIC België",
+          "blurb": "Campagneposter voor de internationale studentenkaart.",
+          "description": "ISIC is de internationale studentenkaart: één kaart die studentenkortingen wereldwijd geldig maakt. De poster hangt waar een student hem niet zoekt — in een stoepbord aan een café, aan een campusprikbord — en moet in het voorbijgaan één zin overbrengen en één handeling uitlokken: scannen. Ik verwerkte de poster voor ISIC België, voor- en keerzijde, binnen de bestaande merkkleur en beeldtaal.",
+          "role": "Opmaak, beeldbewerking",
+          "client": "ISIC België",
+          "year": "",
+          "image": "assets/werk/isic/poster-stoepbord.jpg",
+          "video": "",
+          "process": [
+            {
+              "title": "Het beeld uitsnijden op de leesrichting",
+              "blurb": "Het model staat vrijstaand uitgesneden op het turkoois: geen fotokader, dus geen tweede rand naast de posterrand. De uitsnede is aan de rechterkant tegen de bladrand gezet en onderaan doorlopend, zodat de figuur groter lijkt dan het blad en de linkerhelft vrijkomt voor tekst. Het ISIC-logo op het T-shirt valt daardoor op de plek waar de blik na de kop terechtkomt — het merk zit in het beeld in plaats van als los logo in een hoek. Fijnwerk aan de haarrand en de handen, en de huidtint en het wit van het shirt afgeregeld op dezelfde achtergrondkleur."
             },
             {
-              "title": "Aftiteling bij één lichtbron",
-              "blurb": "Het slotbeeld is een stormlamp in het gras, verder volledig zwart, met de logo's in de linkerbovenhoek. Eén lichtbron in het donker laat de aftiteling leesbaar zijn zonder dat er een zwart kaartje voor nodig is, en het beeld draagt tegelijk de vraag waar de film mee opent: wie loopt er met die lamp rond.",
-              "images": [
-                {
-                  "src": "assets/werk/moordenaar-intro/aftiteling-lamp.png",
-                  "ratio": "1391 / 785"
-                }
-              ]
+              "title": "Kop die uit één blok bestaat",
+              "blurb": "De claim staat in twee gewichten van dezelfde schreefloze, strak tegen elkaar gezet met negatieve regelafstand: \"#students\" in wit vet, \"for a better world\" eronder in een lichter vet dat exact tot dezelfde rechterrand loopt. Twee regels die als één vlak lezen, ook op vier meter afstand. De drie argumenten eronder staan in zwart in plaats van wit — dat is de enige plek waar zwart voorkomt, en het maakt van de opsomming een tweede leesniveau zonder een extra kleur te introduceren."
+            },
+            {
+              "title": "Geel als enige uitroepteken",
+              "blurb": "Turkoois vult het blad, wit en zwart doen de tekst, en geel is voorbehouden aan één ding: het scanblok linksonder. \"Join us at\", de QR-code op wit en het webadres vormen samen één gemarkeerd vlak met een tekstballonpunt, laag op de poster op handhoogte. Omdat geel nergens anders opduikt, is de actie het enige wat om aandacht vraagt."
+            },
+            {
+              "title": "Keerzijde: veel partners, één raster",
+              "blurb": "De keerzijde moet tientallen merken en kortingpercentages tonen zonder een prijslijst te worden. Ze is opgedeeld in twee horizontale banen — deals en reizen — elk met beeld links en een tabel rechts: partnerlogo op vaste hoogte, percentage in bold rechts uitgelijnd, dunne scheidingslijnen ertussen. Logo's komen in wisselende formaten en kleuren binnen, dus elk logo is optisch op gelijke grootte gebracht in plaats van op gelijke breedte. Gele stippen markeren de uitschieters; de rest blijft rustig zodat die stippen werken."
+            },
+            {
+              "title": "Drukklaar voor stoepbord en prikbord",
+              "blurb": "Dezelfde opmaak moet in een A1-stoepbordframe en op A3 aan een prikbord leesbaar zijn. De kop en het scanblok zijn gezet op de kleinste maat, waardoor ze op het grote formaat overtuigend groot uitvallen; de kleine begeleidende tekst is bewust kort gehouden zodat die op A3 niet onder de leesbaarheidsgrens valt. Aangeleverd met afloop, in CMYK afgeregeld zodat het turkoois in druk niet naar blauw kantelt."
+            }
+          ],
+          "link": "https://www.isic.be/",
+          "processTitle": "Vormgeving",
+          "heroRatio": "4000 / 2667",
+          "gallery": [
+            {
+              "src": "assets/werk/isic/poster-voorzijde.jpg",
+              "ratio": "2339 / 3465",
+              "caption": "Voorzijde: claim, drie argumenten, gele scanblok linksonder."
+            },
+            {
+              "src": "assets/werk/isic/poster-keerzijde.jpg",
+              "ratio": "2339 / 3465",
+              "caption": "Keerzijde: kortingen per partner in een vast twee-koloms raster."
             }
           ]
         },
         {
-          "id": "one-minute-festival",
+          "id": "guido-stadsgids",
           "highlight": 0,
-          "title": "1 Minute Festival",
-          "blurb": "Kortfilm van één minuut voor een wedstrijd.",
-          "description": "Een wedstrijd met één regel: de film mag exact één minuut duren. Ik deed alles zelf — scenario, casting, kledingkeuze voor de acteurs, opnames, montage en geluid. Bij die lengte is het scenario de vormgeving: er is geen ruimte voor een expositie, dus moest de spanning al in het eerste kader zitten en de wending in de laatste seconden vallen.",
-          "role": "Scenario, regie, camera, montage, geluid",
-          "client": "Artevelde Hogeschool",
-          "year": "",
-          "image": "assets/werk/1minute-festival/aanslag.png",
-          "ratio": "1919 / 1079",
-          "embed": "https://www.youtube.com/embed/R94WxDK1Jnc",
-          "embedTitle": "Bekijk de film",
-          "gallery": [],
-          "link": "https://youtu.be/R94WxDK1Jnc",
+          "title": "Guido Stadsgids",
+          "blurb": "Stadsgids voor studenten, met een eigen editie per studentenstad.",
+          "description": "De Guido Stadsgids is het boekje dat een student in zijn jaszak houdt: stadsinfo, een stadswandeling, adresjes, tips en een katern voordeelbonnen, met een eigen editie per studentenstad en een oplage van 123.000 exemplaren (72.000 NL, 51.000 FR). Grafisch is dat één systeem dat tientallen keren opnieuw moet werken: elke stad krijgt een eigen cover en eigen stadsinhoud, maar de reeks moet in het rek als één product staan. Ik werkte aan de vormgeving en opmaak van de gids.",
+          "role": "",
+          "client": "Guido NV",
+          "year": "2021",
+          "image": "assets/werk/guido/stadsgids-gent-cover.jpg",
           "video": "",
-          "processTitle": "Aanpak",
           "process": [
             {
-              "title": "Eén minuut dwingt tot één scène",
-              "blurb": "Ik schreef het scenario terug naar één handeling met één omslagpunt, zonder locatiewissels of tijdsprongen. Alles wat een kijker moet weten — wie tegenover wie staat, en wat er op het spel staat — moet uit beeld en houding komen, niet uit dialoog. Dat maakte de shotlijst kort en de keuze per kader zwaar: elk shot moet iets vertellen dat het vorige nog niet deed."
+              "title": "Eén covermal, elke stad erin",
+              "blurb": "De cover is opgebouwd als vaste mal: logo linksboven, jaargang eronder, een silhouet van de stad in het midden, de stadsnaam als grootste woord op de pagina, en daaronder de verkoopargumenten in aflopende trapjes. Alleen het silhouet en de naam wisselen. Gent krijgt zijn torenrij, elke andere stad haar eigen skyline, telkens als vlak wit met een rode contourverschuiving — geen illustratie met detail, maar een merkteken dat op duimnagelformaat nog leesbaar is en in twee kleuren drukt."
             },
             {
-              "title": "Kleding als enige personagetekening",
-              "blurb": "Ik liet de acteurs in leren jassen en donkere kleding komen, en de tegenspeler in een net grijs kostuum. Zonder introductie doet dat contrast het werk van een halve minuut uitleg: twee kanten die niet in dezelfde wereld thuishoren. Omdat er geen ruimte was voor een decor met betekenis, is de kleding het kostuum én het decor.",
+              "title": "Blauw, rood, wit en niets anders",
+              "blurb": "Het hele omslag draait op drie kleuren: een verzadigd blauw als vlak, wit voor de tekst, rood als accent en schaduwlijn. Dat rood zit alleen op de dingen die je moet zien — het logo, de stadsnaam, de app-hand — waardoor de rest van de opsomming rustig in wit kan staan zonder de pagina te laten uiteenvallen. Bij een reeks van tientallen steden op dezelfde blauwe grond is het herkenningspunt de kleur, niet de illustratie."
+            },
+            {
+              "title": "Typografie die de argumenten trapt",
+              "blurb": "Een vette, versmalde schreefloze in kapitalen voor alles op de cover, met de stadsnaam in het zwaarste gewicht en een rode slagschaduw eronder. De verkoopregels staan in licht schuine, links uitgelijnde trapjes: elke regel start iets verder, zodat de opsomming één gebaar wordt in plaats van vier losse blokjes. Het bedrag en de app-vermelding krijgen minder gewicht dan de titel maar meer dan de kleine lettertjes, zodat de hiërarchie op ooghoogte in een rek meteen klopt."
+            },
+            {
+              "title": "Stadsinhoud en bonnen",
+              "blurb": "Binnenin twee volstrekt verschillende soorten pagina's die dezelfde bladspiegel moeten delen: redactionele stadsinfo en de wandeling, die lucht en beeld vragen, en het bonnenkatern met nationale en regionale kortingbonnen, waar elke millimeter een adverteerder is. De bonnen staan op een strak modulair raster met vaste snijmarges, zodat een student ze eruit kan scheuren zonder de pagina ernaast te beschadigen, en de regionale bonnen per stad uitwisselbaar zijn zonder de rest van het katern te herzetten."
+            },
+            {
+              "title": "Twee talen, dezelfde bladspiegel",
+              "blurb": "De gids verschijnt in een Nederlandse en een Franse editie. Franse tekst loopt langer, dus de opmaak is gezet met marge in de kopregels en variabele witruimte tussen de blokken in plaats van vaste hoogtes — beide talen vallen daardoor op dezelfde pagina's uit, met identieke paginering voor de bonnen."
+            }
+          ],
+          "link": "https://www.guidooh.be/guido-stadsgids/",
+          "processTitle": "Vormgeving",
+          "heroRatio": "1900 / 2350",
+          "heroFit": "contain"
+        },
+        {
+          "id": "trouwboekjes-vandenbroele",
+          "highlight": 0,
+          "title": "Trouwboekjes",
+          "blurb": "Covers en binnenwerk voor de handgemaakte lederen trouwboekjes van Vanden Broele.",
+          "description": "Een trouwboekje is een van de weinige documenten die mensen levenslang bijhouden, en het moet twee dingen tegelijk zijn: een officieel register waarin de ambtenaar de akte inschrijft, en een boekje dat een koppel graag openslaat. Ik ontwierp en zette voor Vanden Broele Handmade zowel de covers als het binnenwerk van hun handgemaakte lederen trouwboekjes op. De vraag was niet één ontwerp maar een systeem: hetzelfde boekje moet werken met het wapenschild van elke Belgische gemeente, op vier soorten leder, in drie druktechnieken en twee formaten — zonder dat het per gemeente een ander product wordt",
+          "role": "Grafisch ontwerp, opmaak, DTP",
+          "client": "Vanden Broele Handmade — voor Belgische gemeenten",
+          "year": "",
+          "image": "assets/werk/trouwboekjes/classics-retroformaat.jpg",
+          "ratio": "600 / 450",
+          "video": "",
+          "process": [
+            {
+              "title": "Eén cover, honderden gemeenten",
+              "blurb": "Op de cover staat alleen het wapenschild of logo van de gemeente, met de naam eronder. Dat merkteken loopt van een middeleeuws schild in volle kleur tot een strak hedendaags beeldmerk, en komt in wisselende kwaliteit binnen. Elk teken wordt opgeschoond, waar nodig hertekend, en optisch gecentreerd zodat het over de hele reeks op dezelfde hoogte in dezelfde rust staat — ongeacht hoe druk het van zichzelf is. Zetwerk van de gemeentenaam in dezelfde letter voor alle boekjes, met de plaatsing per naamlengte nagekeken."
+            },
+            {
+              "title": "Materiaal en druktechniek als ontwerpvraag",
+              "blurb": "De boekjes bestaan in nubuck, glad kwaliteitsleder en de alternatieven Toledo-lederlook en suedine, in verschillende kleuren. Dat bepaalt het ontwerp: op fluweelzacht nubuck leest blinddruk als reliëf en verdwijnt fijne lijn, op glad leder houdt foliedruk zijn scherpte, digitale druk laat volle kleur toe. Per combinatie van materiaal, kleur en techniek zijn lijndiktes, vlakgroottes en contrast afgeregeld — een schild dat in folie werkt, kan in blinddruk dichtlopen. Bij de afwerking komt daar de kleur van de sierstikking en het sierkoordje bij, die met het lederkleur en het wapen moeten samengaan."
+            },
+            {
+              "title": "Twee formaten, dezelfde opbouw",
+              "blurb": "Standaardformaat 106 × 181 mm — smal genoeg voor de binnenzak van een kostuum — en breed formaat 122 × 170 mm. Twee verschillende bladspiegels, dus twee opmaken, maar met dezelfde typografie, marges en ordening: wat in het ene formaat een kolom is, blijft in het andere een kolom. Bij de gebonden versies geeft de rug marge terug die een wire-o-binding juist opeet; de bindmarge is per uitvoering apart gezet."
+            },
+            {
+              "title": "Binnenwerk om in te schrijven",
+              "blurb": "Het binnenwerk is ontworpen om beschreven te worden. Puntenraster in lichte tint als schrijfhulp, veldnamen in een steunkleur en een cursieve schreefletter, invulruimte leeg in plaats van dichtgezet met lijnen. Handschrift is daardoor het donkerste element op de pagina. De wetsartikelen erachter vragen het omgekeerde: strak gekolomd, compact gezet, leesbaar zonder dat het de invulpagina's overstemt. Naast het standaard binnenwerk ook versies op maat, met eigen rubrieken en teksten van de gemeente."
+            },
+            {
+              "title": "Drukvoorbereiding per gemeente",
+              "blurb": "Elke gemeente krijgt een eigen versie uit hetzelfde basisdocument, drukklaar aangeleverd: aparte kleurscheiding voor folie- en blinddrukvlakken, vectoriële wapenschilden, en controle op stand en afloop voor elke uitvoering apart. Productie loopt volledig in België, met FSC-gecertificeerd drukwerk."
+            }
+          ],
+          "link": "https://www.trouwboekjes.be/",
+          "processTitle": "Vormgeving",
+          "gallery": [
+            {
+              "src": "assets/werk/trouwboekjes/koesters-albumversie.jpg",
+              "ratio": "600 / 450",
+              "caption": "Albumversie met wire-o-binding, gemeente Kortemark: logo in full colour, naam eronder."
+            },
+            {
+              "src": "assets/werk/trouwboekjes/koesters-binnenwerk.jpg",
+              "ratio": "600 / 450",
+              "caption": "Binnenwerk: veldnamen in steunkleur op een puntenraster, invulruimte leeg gelaten."
+            }
+          ]
+        },
+        {
+          "id": "codefever-drukwerk-2022",
+          "highlight": 3,
+          "title": "CodeFever drukwerk",
+          "blurb": "Flyers en folders voor de lessenreeksen, kampen en bijscholingen.",
+          "description": "CodeFever spreekt twee publieken tegelijk aan: het kind dat het leuk moet vinden en de ouder die moet beslissen. Daarom draagt elk stuk twee registers naast elkaar. Voor het kind: de eigen game-personages — een robot, een ninja, een zombie — die als stickers over de rand van het blad kruipen, en fotografie van kinderen achter een scherm in plaats van geposeerde stockbeelden. Voor de ouder: een strakke kolomopbouw met gele en groene markeerbalken op de kopregels, zodat wie snel scant meteen prijs, plaats en datum vindt. Elk product heeft een eigen basiskleur binnen dezelfde spikkelbol-huisstijl, zodat de reeks als familie leest en toch onderscheidbaar blijft.",
+          "role": "Grafisch ontwerp, opmaak, beeldbewerking",
+          "client": "Codefever vzw",
+          "year": "2022",
+          "image": "assets/werk/codefever/kampen-folder.png",
+          "process": [
+            {
+              "title": "Themakampen",
+              "blurb": "Een uitvouwfolder waarin elk kamp zijn eigen oranje of geel tabblad krijgt — Start 2 Code, Minecraft, Digital Skills, Robot, Alice. Openvouwen geeft de vijf naast elkaar, zodat een ouder ze kan vergelijken zonder te bladeren. De cover gaat in turquoise met palmbladeren en de personages ertussen: een zomerkamp mag er als vakantie uitzien.",
               "images": [
                 {
-                  "src": "assets/werk/1minute-festival/trap-confrontatie.png",
-                  "ratio": "1919 / 1079"
+                  "src": "assets/werk/codefever/kampen-folder.png",
+                  "ratio": "4 / 3"
                 }
               ]
             },
             {
-              "title": "Symmetrie voor de confrontatie",
-              "blurb": "De confrontatiescène staat op een brede trap, frontaal en symmetrisch: de rug van de man in kostuum in het midden, de twee anderen links en rechts op gelijke afstand. De horizontale lijnen van de treden houden het kader vlak en dwingend. Het onscherp gehouden middenvlak van de rug maakt de kijker medeplichtig — je staat erbij, je ziet zijn gezicht niet."
+              "title": "Lessenreeks Borgerhout",
+              "blurb": "Een flyer per locatie. De tien lesdata staan als blauwe blokjes in een raster — datum en maand gescheiden — zodat je niet in een tekstregel hoeft te zoeken wanneer de reeks doorgaat. Gele en groene markeringen zetten de kopregels vooruit, en de personages houden het speels genoeg voor de doelgroep.",
+              "images": [
+                {
+                  "src": "assets/werk/codefever/dbsf-flyer.png",
+                  "ratio": "4 / 3"
+                }
+              ]
             },
             {
-              "title": "Onderbelichting als spanningsmiddel",
-              "blurb": "Het openingsshot is bijna volledig donker: alleen de ogen van de jongen en een reep daglicht door de lamellen zijn belicht. Ik hield de belichting onder wat een cameraman comfortabel zou vinden, precies omdat de kijker dan moet zoeken in het beeld. In een film van één minuut is dat zoeken de eerste tien seconden aandacht die je gratis krijgt."
+              "title": "Ouderfolder level 1",
+              "blurb": "Het meest tekstuele stuk: leertraject, ouderprofiel, FAQ en zorgteam. De cover is zwart met de personages en vijf genummerde troeven — rustiger dan het kindmateriaal, want dit blad moet vertrouwen wekken. Binnenin loopt het verloop van groen naar blauw over de flap, en staat de tekst in kolommen met de FAQ apart gezet.",
+              "images": [
+                {
+                  "src": "assets/werk/codefever/level1-folder.png",
+                  "ratio": "4 / 3"
+                }
+              ]
             },
             {
-              "title": "Geluid draagt wat niet in beeld past",
-              "blurb": "Ik monteerde het geluid als tweede verhaallijn: omgevingsgeluid dat wegvalt op het moment van de wending, en één harde klank die de knip markeert. Dat is de goedkoopste en scherpste manier om in een minuut een tijdsverloop en een schok te suggereren zonder er beeld aan te moeten besteden."
+              "title": "ONTDEK FTRPRF",
+              "blurb": "De folder voor het lerarenpubliek, en het enige stuk in de reeks zonder personages. “ONTDEK” staat in twee regels wit op zwart over de volle cover, met het merklogo eronder — zwaar en typografisch, want dit richt zich op scholen. Binnenin neemt hetzelfde blauw-naar-groen verloop het over, met de bijscholingsdata in een omkaderd blok en een QR-code als inschrijfweg.",
+              "images": [
+                {
+                  "src": "assets/werk/ftrprf/ontdek-voorkant.png",
+                  "ratio": "4 / 3"
+                },
+                {
+                  "src": "assets/werk/ftrprf/ontdek-binnenkant.png",
+                  "ratio": "4 / 3"
+                }
+              ]
+            }
+          ],
+          "video": "",
+          "link": "https://www.codefever.be/",
+          "processTitle": "De stukken"
+        },
+        {
+          "id": "ftrprf-beursmateriaal",
+          "highlight": 0,
+          "title": "FTRPRF beursstand",
+          "blurb": "Standbeeld, roll-up, themapanelen en merkvlakken voor de beurzen.",
+          "description": "Een beursstand is geen advertentie maar een ruimte: bezoekers moeten van tien meter zien wie je bent en van dichtbij kunnen zitten. Ik werkte het standbeeld uit rond één verloop — diepblauw naar mintgroen, het verloop uit de FTRPRF-spikkelbol — dat over de achterwand, de balie en het tapijt doorloopt zodat de hele hoek als één vlak leest. Daartegen staat alles wat gelezen moet worden in wit: de themapanelen met de vakgebieden, de roll-up naast het scherm, de vlakken op de zijwanden. Op de lege stukken tussen de teksten zetten losse pictogrammen — de Scratch-kat, een gloeilamp, het Python-teken — het onderwerp neer zonder er een woord aan te wijden.",
+          "role": "Grafisch ontwerp",
+          "client": "Codefever vzw",
+          "year": "",
+          "image": "assets/werk/ftrprf/stand.png",
+          "process": [
+            {
+              "title": "De stand",
+              "blurb": "Drie zones in één hoek: de achterwand met het merk en het scherm trekt de blik van ver, de zittafels in het midden houden mensen vast, en de balie vooraan vangt wie langsloopt. De achterwand houd ik daarom bijna leeg — alleen de naam, de baseline en “Samen vandaag aan morgen” — terwijl alle inhoud naar de zijpanelen verhuist, waar iemand er tijd voor neemt. Wit meubilair en een blauw tapijt maken van het verloop het enige dat kleur draagt.",
+              "images": [
+                {
+                  "src": "assets/werk/ftrprf/stand.png",
+                  "ratio": "1536 / 1024"
+                }
+              ]
+            },
+            {
+              "title": "Roll-up",
+              "blurb": "Eén verticale lijst van boven naar onder, en onderaan een schermvullend merkvlak met de spikkelbol en de baseline. Die opbouw is bewust: wie van ver over de gangpaden kijkt ziet eerst het merk onderaan op ooghoogte, wie dichterbij komt leest de troeven erboven. Het kleurverloop loopt door over de volle hoogte, zodat de zes regels als één beweging lezen in plaats van als zes losse items.",
+              "images": [
+                {
+                  "src": "assets/werk/ftrprf/rollup-mockup.png",
+                  "ratio": "900 / 1468"
+                }
+              ]
+            },
+            {
+              "title": "Themapanelen",
+              "blurb": "Eén opbouw voor elk thema: de kop bovenaan, een blauwe lijn eronder, dan de inhoud als pictogram met korte regel. Doordat het systeem vastligt, bepaalt alleen het aantal regels het formaat — vandaar dat het paneel met de meeste items hoger uitvalt dan de andere.",
+              "images": [
+                {
+                  "src": "assets/werk/ftrprf/sticker-programmeren.png",
+                  "ratio": "1 / 1"
+                },
+                {
+                  "src": "assets/werk/ftrprf/sticker-eindtermen-ict.png",
+                  "ratio": "1 / 1"
+                },
+                {
+                  "src": "assets/werk/ftrprf/sticker-eindtermen-burgerschap.png",
+                  "ratio": "1 / 1"
+                },
+                {
+                  "src": "assets/werk/ftrprf/rollup-kant-en-klaar.png",
+                  "ratio": "700 / 1160"
+                }
+              ]
+            },
+            {
+              "title": "Merkvlak",
+              "blurb": "Geen kop, geen lijst: alleen het verloop, de spikkelbol en de baseline. Dit vlak is het rustpunt tussen alle opsommingen — het komt terug onderaan de roll-up, op de balie, op de achterwand en als vloersticker in de vorm van de spikkelbol zelf.",
+              "images": [
+                {
+                  "src": "assets/werk/ftrprf/sticker-merk.png",
+                  "ratio": "1 / 1"
+                }
+              ]
+            }
+          ],
+          "video": "",
+          "link": "https://ftrprf.be/",
+          "processTitle": "Het standmateriaal"
+        }
+      ]
+    },
+    {
+      "category": "Website",
+      "items": [
+        {
+          "id": "trouwboekjes-website",
+          "highlight": 0,
+          "title": "Vanden Broele Handmade — website",
+          "blurb": "Website voor de handgemaakte lederen producten voor gemeenten.",
+          "description": "De site verkoopt geen product uit een rek maar een uitvoering: leder, opdruk, formaat en afwerking zijn per gemeente anders. Dat maakt de opgave grafisch bijzonder — je kunt geen catalogus tonen, je moet een keuzeruimte tonen. Bezoeker is een ambtenaar burgerzaken die iets moet aankopen dat een bruidspaar levenslang bijhoudt. Ik werkte aan de vormgeving en opmaak van de site, in opdracht van Vanden Broele Productions.",
+          "role": "Webdesign, opmaak",
+          "client": "Vanden Broele Productions",
+          "year": "",
+          "image": "assets/werk/trouwboekjes-site/home.png",
+          "ratio": "1916 / 864",
+          "fit": "contain",
+          "video": "",
+          "process": [
+            {
+              "title": "Het moment, niet het product, als opening",
+              "blurb": "De hero toont een koppel dat het gemeentehuis verlaat — het moment waarop het boekje wordt overhandigd — in plaats van het boekje zelf. Tekst links op de donkerste helft van de foto, met een licht getinte tekstband achter de regels zodat wit voluit blijft zonder de hele foto te verduisteren. Eén gouden knop als enige verzadigde kleur in het beeld; dat goud komt terug in elke actie op de site.",
+              "images": [
+                {
+                  "src": "assets/werk/trouwboekjes-site/home.png",
+                  "ratio": "1916 / 864"
+                }
+              ]
+            },
+            {
+              "title": "Warm neutraal als grond",
+              "blurb": "De secties staan op een zacht crème in plaats van wit. Dat is een materiaalkeuze: leder, linnen en foliedruk vallen dood op helder wit, en de warme grond geeft de productfoto's hun eigen wit terug. Donkerblauw voor koppen, een grijsblauw voor lopende tekst, goud voor acties — drie tinten, geen accentkleur per sectie, zodat het product de kleur mag doen.",
+              "images": [
+                {
+                  "src": "assets/werk/trouwboekjes-site/trouwboekjes.png",
+                  "ratio": "1915 / 914"
+                }
+              ]
+            },
+            {
+              "title": "Beeldcluster in plaats van galerij",
+              "blurb": "Bij het hoofdproduct staat rechts geen rij gelijke thumbnails, maar één groot beeld met twee kleinere ernaast, elk op eigen wit vlak en deels buiten de kolom lopend. Die asymmetrie doet wat een galerij niet doet: ze suggereert dat er meer varianten zijn zonder ze allemaal te tonen, en het detailbeeld naast het totaalbeeld laat stiksel en opdruk zien op de plek waar de tekst het net vermeldt."
+            },
+            {
+              "title": "Productreeks als tabrij, niet als kaartenraster",
+              "blurb": "Naast trouwboekjes zijn er jubileummappen, aktemappen, guldenboeken, geboorte- en troostboekjes. Als kaartenraster zou dat een webshop worden die niets verkoopt, want de prijs en de uitvoering staan niet vast. Daarom een rustige tabrij bovenaan met alle productnamen op één lijn, en daaronder één product per keer in volle breedte. De bezoeker overziet het aanbod in één regel en leest daarna alleen wat hij nodig heeft.",
+              "images": [
+                {
+                  "src": "assets/werk/trouwboekjes-site/andere-producten.png",
+                  "ratio": "1908 / 908"
+                }
+              ]
+            },
+            {
+              "title": "Afwisselend links en rechts",
+              "blurb": "Elk product in de reeks staat in dezelfde tweedeling — beeld aan de ene kant, twee tot drie korte alinea's aan de andere — maar de kant wisselt per product. Dat houdt een lange pagina in beweging zonder dat er een nieuw ontwerp per sectie bij komt, en de blik landt bij elk blok opnieuw op het beeld. De producten zijn telkens diagonaal en met slagschaduw gefotografeerd, wat het zwevende, vrijstaande karakter over de hele pagina gelijkhoudt.",
+              "images": [
+                {
+                  "src": "assets/werk/trouwboekjes-site/jubileummap.png",
+                  "ratio": "1412 / 558"
+                },
+                {
+                  "src": "assets/werk/trouwboekjes-site/aktemap.png",
+                  "ratio": "1402 / 571"
+                }
+              ]
+            },
+            {
+              "title": "Maatwerk als eigen blok",
+              "blurb": "Het maatwerkaanbod krijgt hetzelfde blokformaat als een product in plaats van een uitzonderingspositie. Het beeld toont een opengeslagen exemplaar met een ingetekende gemeentelijke illustratie — het meest specifieke voorbeeld op de hele site — waardoor \"alles is mogelijk\" iets concreet naast zich heeft staan.",
+              "images": [
+                {
+                  "src": "assets/werk/trouwboekjes-site/op-maat.png",
+                  "ratio": "1470 / 487"
+                }
+              ]
+            }
+          ],
+          "link": "https://www.trouwboekjes.be/",
+          "processTitle": "Vormgeving"
+        },
+        {
+          "id": "isic-website",
+          "highlight": 0,
+          "title": "ISIC België — website",
+          "blurb": "Website voor de internationale studenten-, jongeren- en lerarenkaart.",
+          "description": "De site van ISIC België doet twee dingen tegelijk: uitleggen welke kaart bij wie hoort, en de voordelen laten zien die je met die kaart krijgt. Dat is een spanning in het ontwerp — het eerste vraagt rust en volgorde, het tweede vraagt beeld en aanbod. Ik werkte aan de vormgeving en opmaak van de site, binnen de bestaande ISIC-huisstijl en in drie talen.",
+          "role": "Webdesign, opmaak",
+          "client": "ISIC België",
+          "year": "",
+          "image": "assets/werk/isic-site/home.png",
+          "ratio": "1220 / 747",
+          "fit": "contain",
+          "video": "",
+          "process": [
+            {
+              "title": "Het product als eerste beeld",
+              "blurb": "De homepage opent niet met een sfeerfoto maar met het product zelf: de kaarten uitgespreid als een fan, met de app op een telefoon ernaast. De fan doet het werk van een opsomming — je ziet in één beeld dat er meerdere kaarttypes zijn, en de kleurcodering per type (turkoois, oranje, blauw) introduceert meteen het systeem dat verderop de hele site structureert. Tekst links, beeld rechts, geen overlap: het beeld hoeft niet als achtergrond te dienen.",
+              "images": [
+                {
+                  "src": "assets/werk/isic-site/home.png",
+                  "ratio": "1220 / 747"
+                }
+              ]
+            },
+            {
+              "title": "Turkoois als kader, niet als vulling",
+              "blurb": "De merkkleur zit in dunne onderstrepingen onder elke kop, in de knoppen, in de taalkeuzepillen en in een gestreepte band als sectiescheiding — bijna nooit als groot vlak. Daardoor blijft de pagina wit en rustig genoeg om partnerlogo's en fotografie in hun eigen kleuren te laten staan zonder dat het rommelig wordt. De enige plek met een verzadigd verloop is de aankoopknop."
+            },
+            {
+              "title": "Voordelen als kaarten met een logo-plateau",
+              "blurb": "Elk voordeel is een kaart: beeld boven, daaronder een wit vierkant met het partnerlogo dat over de onderrand van het beeld schuift, dan de naam en de korting. Dat plateau lost het probleem op dat logo's in alle kleuren en vormen aankomen — op wit staan ze allemaal even goed, en de overlap houdt beeld en merk als één blok bij elkaar. Kortingpercentage in de merkkleur, zodat het bij snel scannen de leesbare regel is.",
+              "images": [
+                {
+                  "src": "assets/werk/isic-site/privileges-overzicht.png",
+                  "ratio": "1236 / 912"
+                }
+              ]
+            },
+            {
+              "title": "Uitgelicht naast doorlopend aanbod",
+              "blurb": "Op de homepage staat één breed carrousel met topvoordelen naast een smalle kolom met een tijdelijke actie. Twee verschillende leessnelheden op één rij: links iets waar je door bladert, rechts iets dat nu geldt en dus niet mag bewegen. De smalle kaart heeft daarom een eigen lichte achtergrond en een kortere maatregel, zodat hij niet als vierde carrouselbeeld gelezen wordt.",
+              "images": [
+                {
+                  "src": "assets/werk/isic-site/privileges-home.png",
+                  "ratio": "1213 / 815"
+                }
+              ]
+            },
+            {
+              "title": "Filters als tabrij",
+              "blurb": "Het volledige overzicht wordt gefilterd via een rij vlakke tabs — accommodatie, entertainment, mobiliteit, shopping, studie, reizen — met de actieve tab in een donkerder tint van dezelfde kleur. Geen dropdown: de categorieën zijn tegelijk de inhoudsopgave van wat de kaart je oplevert, dus ze horen zichtbaar te zijn ook als je niet filtert."
+            },
+            {
+              "title": "Drie talen en drie kaarttypes ordenen",
+              "blurb": "De site loopt in Nederlands, Frans en Engels, met de taalkeuze als pillenrij midden op de pagina in plaats van weggestopt in de header — het publiek is per definitie internationaal. De lidmaatschapspagina zet de kaarttypes als genummerde lijst onder elkaar in plaats van als vergelijkingstabel: je hoeft niet te vergelijken, je hoeft alleen je eigen situatie te vinden. Elke stap begint met de kaartnaam in de merkkleur en een vraag in vet, zodat je scant tot de vraag op jou past.",
+              "images": [
+                {
+                  "src": "assets/werk/isic-site/lidmaatschap.png",
+                  "ratio": "1210 / 914"
+                }
+              ]
+            }
+          ],
+          "link": "https://www.isic.be/",
+          "processTitle": "Vormgeving"
+        },
+        {
+          "id": "veilig-werken-in-de-winkel",
+          "highlight": 0,
+          "title": "Veilig werken in de winkel",
+          "blurb": "Website rond het trainingsaanbod over agressie en criminaliteit in de winkel.",
+          "description": "De site brengt het trainingsaanbod van FHKN samen rond één onderwerp: hoe winkelmedewerkers omgaan met agressie, diefstal en overvallen. Het publiek zijn medewerkers en winkeliers die niet komen lezen maar komen kijken of dit voor hen bedoeld is — de site moet dus binnen één scroll duidelijk maken waar het over gaat, wat je kunt volgen en waar je begint. Vormgeving en opmaak van de site, in opdracht van FHKN bv.",
+          "role": "Webdesign, opmaak",
+          "client": "FHKN bv",
+          "year": "",
+          "image": "assets/werk/fhkn/hero.png",
+          "ratio": "1916 / 915",
+          "fit": "contain",
+          "video": "",
+          "process": [
+            {
+              "title": "Foto uit de winkel, niet uit de stockmap",
+              "blurb": "De hero is een echte toonbanksituatie: een medewerker die geld aanneemt, de klant op de rug gezien op de voorgrond. Dat perspectief plaatst de bezoeker aan de kant van de medewerker in plaats van als buitenstaander. De tekst staat rechts in het beeld, in het donkerste deel van de foto, zodat wit voluit kan zonder dat er een verduisterend vlak over de foto hoeft. Het gele kopje boven de titel is de enige merkkleur in het beeld en markeert het thema.",
+              "images": [
+                {
+                  "src": "assets/werk/fhkn/hero.png",
+                  "ratio": "1916 / 915"
+                }
+              ]
+            },
+            {
+              "title": "Geel als markeerstift",
+              "blurb": "De huisstijl geeft één sterk geel. In plaats van dat als achtergrondvlak te gebruiken, is het ingezet als markeerstift: een handgezette streep onder of achter een kop, met een grillige rand alsof iemand er met een marker over ging. Dat doet twee dingen — het wijst per sectie precies één regel aan, en het geeft de site een toon die bij een training hoort in plaats van bij een verzekeringspolis. Waar geel wél als volvlak staat, is dat een sectie die om actie vraagt.",
+              "images": [
+                {
+                  "src": "assets/werk/fhkn/aanbod.png",
+                  "ratio": "1917 / 916"
+                }
+              ]
+            },
+            {
+              "title": "Aanbod als twee gelijkwaardige kaarten",
+              "blurb": "E-learning en praktijktraining staan naast elkaar in twee even grote fotokaarten. De ene ligt in donker duotone, de andere in geel duotone — dezelfde behandeling, tegengestelde waarde, zodat ze verschillen zonder dat de een belangrijker lijkt. Titel in een omkeerd blokje bovenaan, uitleg gecentreerd in het beeld, en onderaan in beide kaarten dezelfde knop op dezelfde hoogte. Wie twijfelt tussen de twee, ziet twee even zware keuzes."
+            },
+            {
+              "title": "Arbo-instructies per winkeltype",
+              "blurb": "De instructies zijn opgesplitst per soort winkel — mode, AGF, bloemen — in drie identieke kolommen, elk met de gemarkeerde titel boven een beeld in een browserkader. Dat kader is niet decoratief: het maakt in één blik duidelijk dat wat volgt een online instructie is en niet een pdf of een filmpje. Drie kolommen, één patroon, uitbreidbaar naar meer winkeltypes zonder het raster te herzien.",
+              "images": [
+                {
+                  "src": "assets/werk/fhkn/arbo.png",
+                  "ratio": "1915 / 914"
+                }
+              ]
+            },
+            {
+              "title": "Nieuws als kaart met datumstip",
+              "blurb": "De nieuwsberichten staan in kaarten met het beeld boven, een rode categoriebalk over de onderrand van het beeld en de datum als rode stip in de hoek. Beelden van berichten komen in wisselende kwaliteit binnen, dus de kaart is zo gebouwd dat het beeld altijd hetzelfde vlak vult en de tekst altijd op dezelfde hoogte begint — een bericht met een slecht beeld verstoort de rij niet.",
+              "images": [
+                {
+                  "src": "assets/werk/fhkn/nieuws.png",
+                  "ratio": "1914 / 917"
+                }
+              ]
+            },
+            {
+              "title": "Contact als afsluitend geel vlak",
+              "blurb": "De site eindigt in een volvlak geel met het formulier ernaast: velden als witte pillen met zwarte lijn, dezelfde vorm als de knoppen elders. Daaronder meteen de donkere footer met menu en contactgegevens. Die harde overgang geel-naar-donker markeert het einde van de pagina, waardoor de bezoeker niet blijft scrollen op zoek naar meer.",
+              "images": [
+                {
+                  "src": "assets/werk/fhkn/contact.png",
+                  "ratio": "1914 / 915"
+                }
+              ]
+            }
+          ],
+          "link": "https://veiligwerkenindewinkel.nl/",
+          "processTitle": "Vormgeving"
+        }
+      ]
+    },
+    {
+      "category": "Ontwerp",
+      "items": [
+        {
+          "id": "mediaraven-infographic",
+          "highlight": 0,
+          "title": "Infographic mediaproducties",
+          "blurb": "Overzicht van het aanbod mediaproducties, in vier banen.",
+          "description": "Mediaraven laat jongeren zelf mediaproducties maken. Deze infographic moet in één blad duidelijk maken wat dat aanbod inhoudt — film en montage, motion graphics, interactieve video — en eindigen met een oproep om mee te doen. Het publiek zijn jongeren en de begeleiders rond hen, dus de uitleg moet aan te wijzen zijn in plaats van gelezen te worden. Ik maakte de infographic.",
+          "role": "Grafisch ontwerp, opmaak",
+          "client": "Mediaraven vzw",
+          "year": "",
+          "image": "assets/werk/mediaraven/infographic.jpg",
+          "video": "",
+          "process": [
+            {
+              "title": "Vier kleurbanen als structuur",
+              "blurb": "Het blad is opgedeeld in vier horizontale banen over de volle breedte, elk in een eigen kleur: oranje, turkoois, groen en zacht oranje. Geen kaders, geen witruimte tussen de banen — de kleurwissel is de scheiding. Daardoor leest het blad als een lijst van boven naar onder zonder dat er nummers of lijnen bij nodig zijn, en heeft elke discipline evenveel gewicht."
+            },
+            {
+              "title": "Titel in het beeld, niet erboven",
+              "blurb": "In elke baan staat de titel niet als kop bovenaan maar in het beeld zelf, tussen de illustratie-elementen, in wit of donkerblauw naargelang de achtergrond. Twee regels, strak op elkaar, met de tweede regel iets ingesprongen. Dat houdt de blik binnen de baan: je ziet eerst wat het is (de scène), dan hoe het heet."
+            },
+            {
+              "title": "Eén illustratiestijl volgehouden",
+              "blurb": "Alle elementen komen uit hetzelfde vlakke systeem: geen contourlijnen, lichte schaduwvlakken in een donkerder tint van dezelfde kleur, handen en armen in donkerblauw met turkooise manchetten als terugkerend motief. Die handen doen het werk in de compositie — ze wijzen, tikken, houden vast — en verbinden de banen onderling zonder dat er een verhaallijn bij hoeft."
+            },
+            {
+              "title": "Beweging suggereren met één lijn",
+              "blurb": "De relatie tussen de elementen zit telkens in een enkele verbindingslijn: een vloeiende witte lijn van tablet naar monitor bij motion graphics, een gestippelde curve van vinger naar tablet bij interactieve video, en een gestippelde ring die de figuren onderaan tot een netwerk maakt. Consistent gebruik van vol versus gestippeld: vol is een technische verbinding, gestippeld is een menselijke."
+            },
+            {
+              "title": "Onderste baan als oproep",
+              "blurb": "De vierde baan breekt met de opsomming: rustiger kleur, meer wit, en voor het eerst lopende tekst. Links de netwerkillustratie met avatars, rechts vier korte regels en het mailadres in cursief als enige onderstreepte actie. Dat is de enige plek op het blad met meer dan drie woorden op een regel, waardoor het einde van het blad automatisch als slotstuk leest."
+            }
+          ],
+          "processTitle": "Vormgeving",
+          "heroRatio": "621 / 875",
+          "heroFit": "contain"
+        },
+        {
+          "id": "happy-pi-day-codefever",
+          "highlight": 0,
+          "title": "Happy π day",
+          "blurb": "Campagnebeeld voor Pi-dag, in meerdere formaten.",
+          "description": "Pi-dag valt op 14 maart — 3,14 — en is voor een organisatie die kinderen leert programmeren een dag om iets mee te doen. De vraag was één beeld dat op social meteen leesbaar is en tegelijk grappig genoeg om te delen. Ik ontwierp het beeld en zette het om in de formaten die nodig waren: liggend, vierkant en breed.",
+          "role": "Grafisch ontwerp",
+          "client": "FTRPRF / CodeFever",
+          "year": "",
+          "image": "assets/werk/piday/lang.jpg",
+          "video": "",
+          "process": [
+            {
+              "title": "De π als gezicht",
+              "blurb": "Het idee zit in één omkering: de π staat niet als symbool op het beeld, maar wordt het gezicht. De twee poten van de letter worden ogen, de dwarsbalk een pony met 3,14 erin, en een enkele boogstreep eronder maakt de mond. Alles is uit hetzelfde zwarte lijnvocabulaire opgebouwd — cirkel, letterschijf, boog — zodat de grap opgaat zonder dat er een illustratie bij komt.",
+              "images": [
+                {
+                  "src": "assets/werk/piday/schets-cirkel.jpg",
+                  "ratio": "16 / 9"
+                },
+                {
+                  "src": "assets/werk/piday/schets-zonder-cirkel.jpg",
+                  "ratio": "16 / 9"
+                }
+              ]
+            },
+            {
+              "title": "Twee sporen afgewogen",
+              "blurb": "Eerst zat het beeld in de huisstijlgradient: de π als groot kleurvlak, met \"International Day\" en de decimalen ernaast. Dat leest als een officiële dag, niet als een grap, en de gradient trok bovendien alle aandacht naar de letter zelf. Bij de tweede reeks ging het beeld naar zwart-wit en verhuisde de kleur naar de rand. Dat maakte het geheel scherper: het beeld doet de grap, het kader doet het merk.",
+              "images": [
+                {
+                  "src": "assets/werk/piday/schets-international.jpg",
+                  "ratio": "16 / 9"
+                },
+                {
+                  "src": "assets/werk/piday/schets-piday.jpg",
+                  "ratio": "16 / 9"
+                }
+              ]
+            },
+            {
+              "title": "Woorden die om de cirkel lopen",
+              "blurb": "\"Happy\" en \"day\" staan geroteerd langs de cirkelrand, met de eerste in de linkerbovenhoek en de tweede rechtsonder, zodat ze de diagonaal van het vlak volgen en de cirkel er tussenin ligt. De letters lopen deels achter de cirkelrand door — die overlap is wat de drie elementen tot één merkteken maakt in plaats van een kop met een plaatje eronder. Vetste snede van de huisstijlletter, want op een feedformaat moet de kop het van de cirkel kunnen winnen."
+            },
+            {
+              "title": "Kader als merkdrager",
+              "blurb": "Het beeld staat op wit met een dikke rand in de blauw-naar-groene huisstijlgradient, en het logo linksonder in het witte veld. Die rand doet twee dingen: hij geeft het merk zonder dat er kleur over het beeld hoeft, en hij houdt het vlak samen in een tijdlijn die zelf al wit is. Op de vierkante versie is de rand relatief zwaarder gezet, zodat de verhouding rand-tot-beeld visueel gelijk blijft."
+            },
+            {
+              "title": "Drie formaten, één compositie",
+              "blurb": "Liggend 16:9, vierkant 1:1 en breed 1200 × 630 voor link previews. Geen van de drie is een uitsnede van de andere: bij elk formaat zijn de cirkelgrootte, de rotatiehoek van de woorden en de logopositie opnieuw gezet, zodat de diagonaal in alle drie hetzelfde gebaar blijft en de mond nooit tegen een rand aanloopt."
+            }
+          ],
+          "processTitle": "Vormgeving",
+          "heroRatio": "1200 / 630",
+          "gallery": [
+            {
+              "src": "assets/werk/piday/liggend.jpg",
+              "ratio": "16 / 9",
+              "caption": "Liggende versie, 16:9."
+            },
+            {
+              "src": "assets/werk/piday/vierkant.jpg",
+              "ratio": "1 / 1",
+              "caption": "Vierkante versie voor de feed."
             }
           ]
         }
       ]
+    },
+    {
+      "category": "Branding",
+      "items": []
+    },
+    {
+      "category": "UX/UI",
+      "items": []
     },
     {
       "category": "Animatie",
@@ -629,12 +1138,7 @@
           "year": "2019",
           "image": "assets/werk/nieuwjaar-2019/2018-verrassingen.png",
           "ratio": "1919 / 1075",
-          "embed": "https://www.youtube.com/embed/fBCQ9o9IN4c",
-          "embedTitle": "Bekijk de animatie",
-          "gallery": [],
-          "link": "https://youtu.be/fBCQ9o9IN4c",
           "video": "",
-          "processTitle": "Vormgeving",
           "process": [
             {
               "title": "Collage van archieffotografie",
@@ -682,7 +1186,11 @@
                 }
               ]
             }
-          ]
+          ],
+          "embed": "https://www.youtube.com/embed/fBCQ9o9IN4c",
+          "embedTitle": "Bekijk de animatie",
+          "link": "https://youtu.be/fBCQ9o9IN4c",
+          "processTitle": "Vormgeving"
         },
         {
           "id": "stoemp-wat-is-stoemp",
@@ -695,12 +1203,7 @@
           "year": "",
           "image": "assets/werk/stoemp/titel.png",
           "ratio": "1912 / 1079",
-          "embed": "https://www.youtube.com/embed/dKGWOpY7RiE",
-          "embedTitle": "Bekijk de animatie",
-          "gallery": [],
-          "link": "https://youtu.be/dKGWOpY7RiE",
           "video": "",
-          "processTitle": "Vormgeving",
           "process": [
             {
               "title": "Zwart, wit en één okergeel",
@@ -750,7 +1253,11 @@
                 }
               ]
             }
-          ]
+          ],
+          "embed": "https://www.youtube.com/embed/dKGWOpY7RiE",
+          "embedTitle": "Bekijk de animatie",
+          "link": "https://youtu.be/dKGWOpY7RiE",
+          "processTitle": "Vormgeving"
         },
         {
           "id": "big-against-breast-cancer",
@@ -763,12 +1270,7 @@
           "year": "",
           "image": "assets/werk/big/boom-vol.png",
           "ratio": "1916 / 1077",
-          "embed": "https://www.youtube.com/embed/dF41rtW7dU4",
-          "embedTitle": "Bekijk de animatie",
-          "gallery": [],
-          "link": "https://youtu.be/dF41rtW7dU4",
           "video": "",
-          "processTitle": "Vormgeving",
           "process": [
             {
               "title": "Papier als materiaal, niet als stijl",
@@ -834,7 +1336,11 @@
                 }
               ]
             }
-          ]
+          ],
+          "embed": "https://www.youtube.com/embed/dF41rtW7dU4",
+          "embedTitle": "Bekijk de animatie",
+          "link": "https://youtu.be/dF41rtW7dU4",
+          "processTitle": "Vormgeving"
         },
         {
           "id": "groeihelden-boterhammendoos",
@@ -847,12 +1353,7 @@
           "year": "",
           "image": "assets/werk/groeihelden/variatie.png",
           "ratio": "1369 / 1023",
-          "embed": "https://www.youtube.com/embed/ZuZcZe7Vu68",
-          "embedTitle": "Bekijk de animatie",
-          "gallery": [],
-          "link": "https://youtu.be/ZuZcZe7Vu68",
           "video": "",
-          "processTitle": "Vormgeving",
           "process": [
             {
               "title": "Vierkant kader met een dubbele rand",
@@ -956,661 +1457,144 @@
                 }
               ]
             }
-          ]
+          ],
+          "embed": "https://www.youtube.com/embed/ZuZcZe7Vu68",
+          "embedTitle": "Bekijk de animatie",
+          "link": "https://youtu.be/ZuZcZe7Vu68",
+          "processTitle": "Vormgeving"
         }
       ]
     },
     {
-      "category": "Website",
+      "category": "Video",
       "items": [
         {
-          "id": "trouwboekjes-website",
+          "id": "moordenaar-filmintro",
           "highlight": 0,
-          "title": "Vanden Broele Handmade — website",
-          "blurb": "Website voor de handgemaakte lederen producten voor gemeenten.",
-          "description": "De site verkoopt geen product uit een rek maar een uitvoering: leder, opdruk, formaat en afwerking zijn per gemeente anders. Dat maakt de opgave grafisch bijzonder — je kunt geen catalogus tonen, je moet een keuzeruimte tonen. Bezoeker is een ambtenaar burgerzaken die iets moet aankopen dat een bruidspaar levenslang bijhoudt. Ik werkte aan de vormgeving en opmaak van de site, in opdracht van Vanden Broele Productions.",
-          "role": "Webdesign, opmaak",
-          "client": "Vanden Broele Productions",
+          "title": "Filmintro — bewijsmateriaal",
+          "blurb": "Intro voor een zelf uitgedachte film over een moordenaar.",
+          "description": "De opdracht was een korte intro te maken voor een film die je zelf verzint. Mijn verhaal gaat over een moordenaar, en de intro toont uitsluitend voorwerpen die later in de film als bewijsmateriaal terugkomen. Scenario, opnames en montage zijn van mij. Een intro die het gezicht van de dader nooit toont dwingt tot een andere aanpak: het personage wordt opgebouwd uit de dingen die hij achterlaat.",
+          "role": "Scenario, camera, montage",
+          "client": "Artevelde Hogeschool",
           "year": "",
-          "image": "assets/werk/trouwboekjes-site/home.png",
-          "ratio": "1916 / 864",
-          "fit": "contain",
-          "gallery": [],
-          "link": "https://www.trouwboekjes.be/",
+          "image": "assets/werk/moordenaar-intro/titelkaart-boek.png",
+          "ratio": "1435 / 821",
           "video": "",
-          "processTitle": "Vormgeving",
           "process": [
             {
-              "title": "Het moment, niet het product, als opening",
-              "blurb": "De hero toont een koppel dat het gemeentehuis verlaat — het moment waarop het boekje wordt overhandigd — in plaats van het boekje zelf. Tekst links op de donkerste helft van de foto, met een licht getinte tekstband achter de regels zodat wit voluit blijft zonder de hele foto te verduisteren. Eén gouden knop als enige verzadigde kleur in het beeld; dat goud komt terug in elke actie op de site.",
+              "title": "Alleen handen en voorwerpen in beeld",
+              "blurb": "Geen enkel shot toont een gezicht. Ik filmde uitsluitend handen die iets doen: een letter uitsnijden, snippers schikken, een mes afwassen, een blad ondertekenen. Die keuze houdt de dader anoniem en maakt de kijker tegelijk medeplichtig — je kijkt over zijn schouder mee. Elk voorwerp is bovendien iets wat later in de film als bewijsstuk opduikt, dus de intro werkt als een reeks aanwijzingen in plaats van een samenvatting.",
               "images": [
                 {
-                  "src": "assets/werk/trouwboekjes-site/home.png",
-                  "ratio": "1916 / 864"
+                  "src": "assets/werk/moordenaar-intro/letter-uitsnijden.png",
+                  "ratio": "1439 / 832"
                 }
               ]
             },
             {
-              "title": "Warm neutraal als grond",
-              "blurb": "De secties staan op een zacht crème in plaats van wit. Dat is een materiaalkeuze: leder, linnen en foliedruk vallen dood op helder wit, en de warme grond geeft de productfoto's hun eigen wit terug. Donkerblauw voor koppen, een grijsblauw voor lopende tekst, goud voor acties — drie tinten, geen accentkleur per sectie, zodat het product de kleur mag doen.",
+              "title": "Macro-opnames met open diafragma",
+              "blurb": "Alles is dicht op het voorwerp gefilmd met een zeer beperkte scherptediepte: enkel het detail dat telt staat scherp, de rest valt weg. Zo hoeft er geen decor te zijn — de omgeving blijft een vlek, en dat is precies de onbepaaldheid die het verhaal nodig heeft. Het nadeel van macro werd het middel: bij die scherpte trilt elk handje mee, wat het beeld nervositeit geeft.",
               "images": [
                 {
-                  "src": "assets/werk/trouwboekjes-site/trouwboekjes.png",
-                  "ratio": "1915 / 914"
+                  "src": "assets/werk/moordenaar-intro/krantensnippers.png",
+                  "ratio": "1444 / 831"
                 }
               ]
             },
             {
-              "title": "Beeldcluster in plaats van galerij",
-              "blurb": "Bij het hoofdproduct staat rechts geen rij gelijke thumbnails, maar één groot beeld met twee kleinere ernaast, elk op eigen wit vlak en deels buiten de kolom lopend. Die asymmetrie doet wat een galerij niet doet: ze suggereert dat er meer varianten zijn zonder ze allemaal te tonen, en het detailbeeld naast het totaalbeeld laat stiksel en opdruk zien op de plek waar de tekst het net vermeldt."
-            },
-            {
-              "title": "Productreeks als tabrij, niet als kaartenraster",
-              "blurb": "Naast trouwboekjes zijn er jubileummappen, aktemappen, guldenboeken, geboorte- en troostboekjes. Als kaartenraster zou dat een webshop worden die niets verkoopt, want de prijs en de uitvoering staan niet vast. Daarom een rustige tabrij bovenaan met alle productnamen op één lijn, en daaronder één product per keer in volle breedte. De bezoeker overziet het aanbod in één regel en leest daarna alleen wat hij nodig heeft.",
+              "title": "Warm bruin in de opnamen, koel wit in de glitch",
+              "blurb": "De handelingen zijn warm en donkerbruin gehouden — kunstlicht, kaarslicht, veel zwart — zodat het geheel op oud papier lijkt. De glitchmomenten zijn het tegendeel: overbelicht, koud en uitgebleekt. Doordat de twee kleurwerelden elkaar afwisselen leest de glitch als een inbreuk in plaats van als een filter over de hele film.",
               "images": [
                 {
-                  "src": "assets/werk/trouwboekjes-site/andere-producten.png",
-                  "ratio": "1908 / 908"
+                  "src": "assets/werk/moordenaar-intro/wanted-glitch.png",
+                  "ratio": "1435 / 824"
                 }
               ]
             },
             {
-              "title": "Afwisselend links en rechts",
-              "blurb": "Elk product in de reeks staat in dezelfde tweedeling — beeld aan de ene kant, twee tot drie korte alinea's aan de andere — maar de kant wisselt per product. Dat houdt een lange pagina in beweging zonder dat er een nieuw ontwerp per sectie bij komt, en de blik landt bij elk blok opnieuw op het beeld. De producten zijn telkens diagonaal en met slagschaduw gefotografeerd, wat het zwevende, vrijstaande karakter over de hele pagina gelijkhoudt.",
+              "title": "De glitch als flits van iets wat je niet mag zien",
+              "blurb": "Ik zet het glitcheffect nooit doorlopend, maar in korte uitschieters op de momenten die het meest verklappen: het wanted-affiche, de doorstreepte krantenkoppen. Beeldverschuiving, kleurscheiding en een sprong in de tijdlijn maken van die shots iets dat de kijker niet goed kan vastpakken. Dat werkt griezeliger dan bloed in beeld, want het beeld zelf lijkt niet te vertrouwen."
+            },
+            {
+              "title": "Het mes onder de kraan als enige geweld",
+              "blurb": "Er is één shot dat expliciet is: een mes dat onder stromend water wordt afgewassen, met rode vlekken in de spoelbak en op de vingers. Ik hield het daarbij. Door het geweld tot dat ene beeld te beperken krijgt het gewicht, en blijft de rest van de intro suggestie — wat bij een moordenaar zonder gezicht beter werkt dan tonen.",
               "images": [
                 {
-                  "src": "assets/werk/trouwboekjes-site/jubileummap.png",
-                  "ratio": "1412 / 558"
-                },
-                {
-                  "src": "assets/werk/trouwboekjes-site/aktemap.png",
-                  "ratio": "1402 / 571"
+                  "src": "assets/werk/moordenaar-intro/mes-afwassen.png",
+                  "ratio": "1439 / 825"
                 }
               ]
             },
             {
-              "title": "Maatwerk als eigen blok",
-              "blurb": "Het maatwerkaanbod krijgt hetzelfde blokformaat als een product in plaats van een uitzonderingspositie. Het beeld toont een opengeslagen exemplaar met een ingetekende gemeentelijke illustratie — het meest specifieke voorbeeld op de hele site — waardoor \"alles is mogelijk\" iets concreet naast zich heeft staan.",
+              "title": "Handschrift als typografie",
+              "blurb": "De titels staan in een onregelmatige handschriftletter die met de camerabeweging meebeweegt, en het enige geschreven document in beeld — \"I accept agreement\", met een handtekening in vulpen — is in datzelfde register geschreven. Zo lijkt de titelkaart uit de wereld van de film te komen in plaats van eroverheen gelegd. Het opengeslagen boek onder de titel is de plek waar het verhaal wordt bijgehouden.",
               "images": [
                 {
-                  "src": "assets/werk/trouwboekjes-site/op-maat.png",
-                  "ratio": "1470 / 487"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "isic-website",
-          "highlight": 0,
-          "title": "ISIC België — website",
-          "blurb": "Website voor de internationale studenten-, jongeren- en lerarenkaart.",
-          "description": "De site van ISIC België doet twee dingen tegelijk: uitleggen welke kaart bij wie hoort, en de voordelen laten zien die je met die kaart krijgt. Dat is een spanning in het ontwerp — het eerste vraagt rust en volgorde, het tweede vraagt beeld en aanbod. Ik werkte aan de vormgeving en opmaak van de site, binnen de bestaande ISIC-huisstijl en in drie talen.",
-          "role": "Webdesign, opmaak",
-          "client": "ISIC België",
-          "year": "",
-          "image": "assets/werk/isic-site/home.png",
-          "ratio": "1220 / 747",
-          "fit": "contain",
-          "gallery": [],
-          "link": "https://www.isic.be/",
-          "video": "",
-          "processTitle": "Vormgeving",
-          "process": [
-            {
-              "title": "Het product als eerste beeld",
-              "blurb": "De homepage opent niet met een sfeerfoto maar met het product zelf: de kaarten uitgespreid als een fan, met de app op een telefoon ernaast. De fan doet het werk van een opsomming — je ziet in één beeld dat er meerdere kaarttypes zijn, en de kleurcodering per type (turkoois, oranje, blauw) introduceert meteen het systeem dat verderop de hele site structureert. Tekst links, beeld rechts, geen overlap: het beeld hoeft niet als achtergrond te dienen.",
-              "images": [
-                {
-                  "src": "assets/werk/isic-site/home.png",
-                  "ratio": "1220 / 747"
+                  "src": "assets/werk/moordenaar-intro/ondertekening.png",
+                  "ratio": "1442 / 834"
                 }
               ]
             },
             {
-              "title": "Turkoois als kader, niet als vulling",
-              "blurb": "De merkkleur zit in dunne onderstrepingen onder elke kop, in de knoppen, in de taalkeuzepillen en in een gestreepte band als sectiescheiding — bijna nooit als groot vlak. Daardoor blijft de pagina wit en rustig genoeg om partnerlogo's en fotografie in hun eigen kleuren te laten staan zonder dat het rommelig wordt. De enige plek met een verzadigd verloop is de aankoopknop."
-            },
-            {
-              "title": "Voordelen als kaarten met een logo-plateau",
-              "blurb": "Elk voordeel is een kaart: beeld boven, daaronder een wit vierkant met het partnerlogo dat over de onderrand van het beeld schuift, dan de naam en de korting. Dat plateau lost het probleem op dat logo's in alle kleuren en vormen aankomen — op wit staan ze allemaal even goed, en de overlap houdt beeld en merk als één blok bij elkaar. Kortingpercentage in de merkkleur, zodat het bij snel scannen de leesbare regel is.",
+              "title": "Aftiteling bij één lichtbron",
+              "blurb": "Het slotbeeld is een stormlamp in het gras, verder volledig zwart, met de logo's in de linkerbovenhoek. Eén lichtbron in het donker laat de aftiteling leesbaar zijn zonder dat er een zwart kaartje voor nodig is, en het beeld draagt tegelijk de vraag waar de film mee opent: wie loopt er met die lamp rond.",
               "images": [
                 {
-                  "src": "assets/werk/isic-site/privileges-overzicht.png",
-                  "ratio": "1236 / 912"
-                }
-              ]
-            },
-            {
-              "title": "Uitgelicht naast doorlopend aanbod",
-              "blurb": "Op de homepage staat één breed carrousel met topvoordelen naast een smalle kolom met een tijdelijke actie. Twee verschillende leessnelheden op één rij: links iets waar je door bladert, rechts iets dat nu geldt en dus niet mag bewegen. De smalle kaart heeft daarom een eigen lichte achtergrond en een kortere maatregel, zodat hij niet als vierde carrouselbeeld gelezen wordt.",
-              "images": [
-                {
-                  "src": "assets/werk/isic-site/privileges-home.png",
-                  "ratio": "1213 / 815"
-                }
-              ]
-            },
-            {
-              "title": "Filters als tabrij",
-              "blurb": "Het volledige overzicht wordt gefilterd via een rij vlakke tabs — accommodatie, entertainment, mobiliteit, shopping, studie, reizen — met de actieve tab in een donkerder tint van dezelfde kleur. Geen dropdown: de categorieën zijn tegelijk de inhoudsopgave van wat de kaart je oplevert, dus ze horen zichtbaar te zijn ook als je niet filtert."
-            },
-            {
-              "title": "Drie talen en drie kaarttypes ordenen",
-              "blurb": "De site loopt in Nederlands, Frans en Engels, met de taalkeuze als pillenrij midden op de pagina in plaats van weggestopt in de header — het publiek is per definitie internationaal. De lidmaatschapspagina zet de kaarttypes als genummerde lijst onder elkaar in plaats van als vergelijkingstabel: je hoeft niet te vergelijken, je hoeft alleen je eigen situatie te vinden. Elke stap begint met de kaartnaam in de merkkleur en een vraag in vet, zodat je scant tot de vraag op jou past.",
-              "images": [
-                {
-                  "src": "assets/werk/isic-site/lidmaatschap.png",
-                  "ratio": "1210 / 914"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "veilig-werken-in-de-winkel",
-          "highlight": 0,
-          "title": "Veilig werken in de winkel",
-          "blurb": "Website rond het trainingsaanbod over agressie en criminaliteit in de winkel.",
-          "description": "De site brengt het trainingsaanbod van FHKN samen rond één onderwerp: hoe winkelmedewerkers omgaan met agressie, diefstal en overvallen. Het publiek zijn medewerkers en winkeliers die niet komen lezen maar komen kijken of dit voor hen bedoeld is — de site moet dus binnen één scroll duidelijk maken waar het over gaat, wat je kunt volgen en waar je begint. Vormgeving en opmaak van de site, in opdracht van FHKN bv.",
-          "role": "Webdesign, opmaak",
-          "client": "FHKN bv",
-          "year": "",
-          "image": "assets/werk/fhkn/hero.png",
-          "ratio": "1916 / 915",
-          "fit": "contain",
-          "gallery": [],
-          "link": "https://veiligwerkenindewinkel.nl/",
-          "video": "",
-          "processTitle": "Vormgeving",
-          "process": [
-            {
-              "title": "Foto uit de winkel, niet uit de stockmap",
-              "blurb": "De hero is een echte toonbanksituatie: een medewerker die geld aanneemt, de klant op de rug gezien op de voorgrond. Dat perspectief plaatst de bezoeker aan de kant van de medewerker in plaats van als buitenstaander. De tekst staat rechts in het beeld, in het donkerste deel van de foto, zodat wit voluit kan zonder dat er een verduisterend vlak over de foto hoeft. Het gele kopje boven de titel is de enige merkkleur in het beeld en markeert het thema.",
-              "images": [
-                {
-                  "src": "assets/werk/fhkn/hero.png",
-                  "ratio": "1916 / 915"
-                }
-              ]
-            },
-            {
-              "title": "Geel als markeerstift",
-              "blurb": "De huisstijl geeft één sterk geel. In plaats van dat als achtergrondvlak te gebruiken, is het ingezet als markeerstift: een handgezette streep onder of achter een kop, met een grillige rand alsof iemand er met een marker over ging. Dat doet twee dingen — het wijst per sectie precies één regel aan, en het geeft de site een toon die bij een training hoort in plaats van bij een verzekeringspolis. Waar geel wél als volvlak staat, is dat een sectie die om actie vraagt.",
-              "images": [
-                {
-                  "src": "assets/werk/fhkn/aanbod.png",
-                  "ratio": "1917 / 916"
-                }
-              ]
-            },
-            {
-              "title": "Aanbod als twee gelijkwaardige kaarten",
-              "blurb": "E-learning en praktijktraining staan naast elkaar in twee even grote fotokaarten. De ene ligt in donker duotone, de andere in geel duotone — dezelfde behandeling, tegengestelde waarde, zodat ze verschillen zonder dat de een belangrijker lijkt. Titel in een omkeerd blokje bovenaan, uitleg gecentreerd in het beeld, en onderaan in beide kaarten dezelfde knop op dezelfde hoogte. Wie twijfelt tussen de twee, ziet twee even zware keuzes."
-            },
-            {
-              "title": "Arbo-instructies per winkeltype",
-              "blurb": "De instructies zijn opgesplitst per soort winkel — mode, AGF, bloemen — in drie identieke kolommen, elk met de gemarkeerde titel boven een beeld in een browserkader. Dat kader is niet decoratief: het maakt in één blik duidelijk dat wat volgt een online instructie is en niet een pdf of een filmpje. Drie kolommen, één patroon, uitbreidbaar naar meer winkeltypes zonder het raster te herzien.",
-              "images": [
-                {
-                  "src": "assets/werk/fhkn/arbo.png",
-                  "ratio": "1915 / 914"
-                }
-              ]
-            },
-            {
-              "title": "Nieuws als kaart met datumstip",
-              "blurb": "De nieuwsberichten staan in kaarten met het beeld boven, een rode categoriebalk over de onderrand van het beeld en de datum als rode stip in de hoek. Beelden van berichten komen in wisselende kwaliteit binnen, dus de kaart is zo gebouwd dat het beeld altijd hetzelfde vlak vult en de tekst altijd op dezelfde hoogte begint — een bericht met een slecht beeld verstoort de rij niet.",
-              "images": [
-                {
-                  "src": "assets/werk/fhkn/nieuws.png",
-                  "ratio": "1914 / 917"
-                }
-              ]
-            },
-            {
-              "title": "Contact als afsluitend geel vlak",
-              "blurb": "De site eindigt in een volvlak geel met het formulier ernaast: velden als witte pillen met zwarte lijn, dezelfde vorm als de knoppen elders. Daaronder meteen de donkere footer met menu en contactgegevens. Die harde overgang geel-naar-donker markeert het einde van de pagina, waardoor de bezoeker niet blijft scrollen op zoek naar meer.",
-              "images": [
-                {
-                  "src": "assets/werk/fhkn/contact.png",
-                  "ratio": "1914 / 915"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Ontwerp",
-      "items": [
-        {
-          "id": "mediaraven-infographic",
-          "highlight": 0,
-          "title": "Infographic mediaproducties",
-          "blurb": "Overzicht van het aanbod mediaproducties, in vier banen.",
-          "description": "Mediaraven laat jongeren zelf mediaproducties maken. Deze infographic moet in één blad duidelijk maken wat dat aanbod inhoudt — film en montage, motion graphics, interactieve video — en eindigen met een oproep om mee te doen. Het publiek zijn jongeren en de begeleiders rond hen, dus de uitleg moet aan te wijzen zijn in plaats van gelezen te worden. Ik maakte de infographic.",
-          "role": "Grafisch ontwerp, opmaak",
-          "client": "Mediaraven vzw",
-          "year": "",
-          "image": "assets/werk/mediaraven/infographic.jpg",
-          "heroRatio": "621 / 875",
-          "heroFit": "contain",
-          "gallery": [],
-          "video": "",
-          "processTitle": "Vormgeving",
-          "process": [
-            {
-              "title": "Vier kleurbanen als structuur",
-              "blurb": "Het blad is opgedeeld in vier horizontale banen over de volle breedte, elk in een eigen kleur: oranje, turkoois, groen en zacht oranje. Geen kaders, geen witruimte tussen de banen — de kleurwissel is de scheiding. Daardoor leest het blad als een lijst van boven naar onder zonder dat er nummers of lijnen bij nodig zijn, en heeft elke discipline evenveel gewicht."
-            },
-            {
-              "title": "Titel in het beeld, niet erboven",
-              "blurb": "In elke baan staat de titel niet als kop bovenaan maar in het beeld zelf, tussen de illustratie-elementen, in wit of donkerblauw naargelang de achtergrond. Twee regels, strak op elkaar, met de tweede regel iets ingesprongen. Dat houdt de blik binnen de baan: je ziet eerst wat het is (de scène), dan hoe het heet."
-            },
-            {
-              "title": "Eén illustratiestijl volgehouden",
-              "blurb": "Alle elementen komen uit hetzelfde vlakke systeem: geen contourlijnen, lichte schaduwvlakken in een donkerder tint van dezelfde kleur, handen en armen in donkerblauw met turkooise manchetten als terugkerend motief. Die handen doen het werk in de compositie — ze wijzen, tikken, houden vast — en verbinden de banen onderling zonder dat er een verhaallijn bij hoeft."
-            },
-            {
-              "title": "Beweging suggereren met één lijn",
-              "blurb": "De relatie tussen de elementen zit telkens in een enkele verbindingslijn: een vloeiende witte lijn van tablet naar monitor bij motion graphics, een gestippelde curve van vinger naar tablet bij interactieve video, en een gestippelde ring die de figuren onderaan tot een netwerk maakt. Consistent gebruik van vol versus gestippeld: vol is een technische verbinding, gestippeld is een menselijke."
-            },
-            {
-              "title": "Onderste baan als oproep",
-              "blurb": "De vierde baan breekt met de opsomming: rustiger kleur, meer wit, en voor het eerst lopende tekst. Links de netwerkillustratie met avatars, rechts vier korte regels en het mailadres in cursief als enige onderstreepte actie. Dat is de enige plek op het blad met meer dan drie woorden op een regel, waardoor het einde van het blad automatisch als slotstuk leest."
-            }
-          ]
-        },
-        {
-          "id": "happy-pi-day-codefever",
-          "highlight": 0,
-          "title": "Happy π day",
-          "blurb": "Campagnebeeld voor Pi-dag, in meerdere formaten.",
-          "description": "Pi-dag valt op 14 maart — 3,14 — en is voor een organisatie die kinderen leert programmeren een dag om iets mee te doen. De vraag was één beeld dat op social meteen leesbaar is en tegelijk grappig genoeg om te delen. Ik ontwierp het beeld en zette het om in de formaten die nodig waren: liggend, vierkant en breed.",
-          "role": "Grafisch ontwerp",
-          "client": "FTRPRF / CodeFever",
-          "year": "",
-          "image": "assets/werk/piday/lang.jpg",
-          "heroRatio": "1200 / 630",
-          "gallery": [
-            {
-              "src": "assets/werk/piday/liggend.jpg",
-              "ratio": "16 / 9",
-              "caption": "Liggende versie, 16:9."
-            },
-            {
-              "src": "assets/werk/piday/vierkant.jpg",
-              "ratio": "1 / 1",
-              "caption": "Vierkante versie voor de feed."
-            }
-          ],
-          "video": "",
-          "processTitle": "Vormgeving",
-          "process": [
-            {
-              "title": "De π als gezicht",
-              "blurb": "Het idee zit in één omkering: de π staat niet als symbool op het beeld, maar wordt het gezicht. De twee poten van de letter worden ogen, de dwarsbalk een pony met 3,14 erin, en een enkele boogstreep eronder maakt de mond. Alles is uit hetzelfde zwarte lijnvocabulaire opgebouwd — cirkel, letterschijf, boog — zodat de grap opgaat zonder dat er een illustratie bij komt.",
-              "images": [
-                {
-                  "src": "assets/werk/piday/schets-cirkel.jpg",
-                  "ratio": "16 / 9"
-                },
-                {
-                  "src": "assets/werk/piday/schets-zonder-cirkel.jpg",
-                  "ratio": "16 / 9"
-                }
-              ]
-            },
-            {
-              "title": "Twee sporen afgewogen",
-              "blurb": "Eerst zat het beeld in de huisstijlgradient: de π als groot kleurvlak, met \"International Day\" en de decimalen ernaast. Dat leest als een officiële dag, niet als een grap, en de gradient trok bovendien alle aandacht naar de letter zelf. Bij de tweede reeks ging het beeld naar zwart-wit en verhuisde de kleur naar de rand. Dat maakte het geheel scherper: het beeld doet de grap, het kader doet het merk.",
-              "images": [
-                {
-                  "src": "assets/werk/piday/schets-international.jpg",
-                  "ratio": "16 / 9"
-                },
-                {
-                  "src": "assets/werk/piday/schets-piday.jpg",
-                  "ratio": "16 / 9"
-                }
-              ]
-            },
-            {
-              "title": "Woorden die om de cirkel lopen",
-              "blurb": "\"Happy\" en \"day\" staan geroteerd langs de cirkelrand, met de eerste in de linkerbovenhoek en de tweede rechtsonder, zodat ze de diagonaal van het vlak volgen en de cirkel er tussenin ligt. De letters lopen deels achter de cirkelrand door — die overlap is wat de drie elementen tot één merkteken maakt in plaats van een kop met een plaatje eronder. Vetste snede van de huisstijlletter, want op een feedformaat moet de kop het van de cirkel kunnen winnen."
-            },
-            {
-              "title": "Kader als merkdrager",
-              "blurb": "Het beeld staat op wit met een dikke rand in de blauw-naar-groene huisstijlgradient, en het logo linksonder in het witte veld. Die rand doet twee dingen: hij geeft het merk zonder dat er kleur over het beeld hoeft, en hij houdt het vlak samen in een tijdlijn die zelf al wit is. Op de vierkante versie is de rand relatief zwaarder gezet, zodat de verhouding rand-tot-beeld visueel gelijk blijft."
-            },
-            {
-              "title": "Drie formaten, één compositie",
-              "blurb": "Liggend 16:9, vierkant 1:1 en breed 1200 × 630 voor link previews. Geen van de drie is een uitsnede van de andere: bij elk formaat zijn de cirkelgrootte, de rotatiehoek van de woorden en de logopositie opnieuw gezet, zodat de diagonaal in alle drie hetzelfde gebaar blijft en de mond nooit tegen een rand aanloopt."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Print",
-      "items": [
-        {
-          "id": "foodcoach-pj-flyer",
-          "highlight": 0,
-          "title": "Food Coach PJ — flyer",
-          "blurb": "Flyer voor voedingsadvies en sportvoeding, uitgedeeld langs een looproute.",
-          "description": "Food Coach PJ begeleidt mensen rond afslanking en sportvoeding. Deze flyer wordt uitgedeeld aan lopers van Dwars door Kruisem, dus hij komt in handen van iemand die net gefinisht is en niet gaat lezen. Ik maakte een volledig nieuw ontwerp waarin de aanspreking het beeld is en de rest van de pagina daaronder in één blik te overzien valt.",
-          "role": "Ontwerp, opmaak",
-          "client": "Food Coach PJ",
-          "year": "",
-          "image": "assets/werk/foodcoach-pj/mockup.jpg",
-          "ratio": "1900 / 1023",
-          "embed": "",
-          "gallery": [],
-          "link": "",
-          "video": "",
-          "processTitle": "Ontwerp",
-          "process": [
-            {
-              "title": "De kop spreekt de loper in zijn eigen taal aan",
-              "blurb": "De aanspreking staat in vier trappen over de halve pagina: \"Net Dwars door Kruisem gelopen?\" in oranje, \"Goe bezig!\" in blauw. Door de wisseling van kleur en corpsgrootte per regel leest de kop als een gesproken zin met een klemtoon op het einde. Dialect in een advertentie is een risico, maar hier is het publiek precies één wedstrijd groot, en de flyer wordt aan de aankomst uitgedeeld — de flyer weet dus wie hij aanspreekt en mag dat laten horen.",
-              "images": [
-                {
-                  "src": "assets/werk/foodcoach-pj/flyer.jpg",
-                  "ratio": "1167 / 1653"
-                }
-              ]
-            },
-            {
-              "title": "Vrijstaande loper over de volle hoogte",
-              "blurb": "De foto is uitgesneden en loopt over de rechterhelft van boven tot in de contactbalk, met het hoofd tegen de bovenrand en de voeten over de oranje voet heen. Een vrijstaande figuur op de kleurvlakken bindt de twee helften aan elkaar: zonder kader hoort hij bij de hele pagina in plaats van bij een fotovak. Daardoor blijft er links één rechthoekig gebied over voor alle tekst, wat de opmaak rustig houdt."
-            },
-            {
-              "title": "Oranje en blauw, elk met een eigen taak",
-              "blurb": "Uit het logo komen twee verzadigde kleuren die elkaar in helderheid weinig toegeven, dus ik gaf ze verschillende rollen in plaats van ze te mengen: oranje is roep en actie (de eerste regels, de contactbalk, de gratis-cirkel), blauw is inhoud (het aanbod, het antwoord \"Goe bezig!\"). Het gebroken wit van de grond is warm gehouden zodat beide kleuren erop staan zonder te trillen."
-            },
-            {
-              "title": "Het aanbod in een blauw blok van vier regels",
-              "blurb": "Wat de coach doet, staat in één blauw vlak met vier regels en een pictogram per regel: voedingsadvies, sportvoeding op maat, begeleiding, blijvend resultaat. Vier is de bovengrens voor wat iemand rechtopstaand leest. Het blok heeft zijn eigen kop \"WHAT'S NEXT?\" en ronde hoeken, waardoor het als kaartje in de pagina zit en de blik er na de kop meteen naartoe springt."
-            },
-            {
-              "title": "Diagonalen als beweging, dots als rust",
-              "blurb": "Achter de loper staan brede diagonale banen in twee blauwtinten en oranje: dezelfde helling als een sprintende figuur, zodat de achtergrond de beweging van de foto meedoet in plaats van eronder te liggen. Als tegengewicht staan er kleine puntrasters in de hoeken, die de lege plekken vullen zonder gewicht toe te voegen. Beide zijn afgeleid van het rond logo, waardoor de flyer bij het merk blijft."
-            },
-            {
-              "title": "Eén aanbod, één QR, op de plek waar de blik uitkomt",
-              "blurb": "Het gratis intakegesprek zit in een oranje cirkel onderaan rechts met de QR-code erin — het einde van de leesbeweging van linksboven naar rechtsonder, en de enige ronde vorm op de pagina, dus hij valt op zonder groter te moeten. \"Op vertoon van deze flyer\" staat erbij: dat maakt het papier zelf de toegang, wat een flyer een reden geeft om bewaard te worden. De contactgegevens staan in een oranje voetbalk over de volle breedte, met telefoon, e-mail en site elk achter een eigen pictogram."
-            }
-          ]
-        },
-        {
-          "id": "isic-belgie-poster",
-          "highlight": 0,
-          "title": "ISIC België",
-          "blurb": "Campagneposter voor de internationale studentenkaart.",
-          "description": "ISIC is de internationale studentenkaart: één kaart die studentenkortingen wereldwijd geldig maakt. De poster hangt waar een student hem niet zoekt — in een stoepbord aan een café, aan een campusprikbord — en moet in het voorbijgaan één zin overbrengen en één handeling uitlokken: scannen. Ik verwerkte de poster voor ISIC België, voor- en keerzijde, binnen de bestaande merkkleur en beeldtaal.",
-          "role": "Opmaak, beeldbewerking",
-          "client": "ISIC België",
-          "year": "",
-          "image": "assets/werk/isic/poster-stoepbord.jpg",
-          "heroRatio": "4000 / 2667",
-          "gallery": [
-            {
-              "src": "assets/werk/isic/poster-voorzijde.jpg",
-              "ratio": "2339 / 3465",
-              "caption": "Voorzijde: claim, drie argumenten, gele scanblok linksonder."
-            },
-            {
-              "src": "assets/werk/isic/poster-keerzijde.jpg",
-              "ratio": "2339 / 3465",
-              "caption": "Keerzijde: kortingen per partner in een vast twee-koloms raster."
-            }
-          ],
-          "link": "https://www.isic.be/",
-          "video": "",
-          "processTitle": "Vormgeving",
-          "process": [
-            {
-              "title": "Het beeld uitsnijden op de leesrichting",
-              "blurb": "Het model staat vrijstaand uitgesneden op het turkoois: geen fotokader, dus geen tweede rand naast de posterrand. De uitsnede is aan de rechterkant tegen de bladrand gezet en onderaan doorlopend, zodat de figuur groter lijkt dan het blad en de linkerhelft vrijkomt voor tekst. Het ISIC-logo op het T-shirt valt daardoor op de plek waar de blik na de kop terechtkomt — het merk zit in het beeld in plaats van als los logo in een hoek. Fijnwerk aan de haarrand en de handen, en de huidtint en het wit van het shirt afgeregeld op dezelfde achtergrondkleur."
-            },
-            {
-              "title": "Kop die uit één blok bestaat",
-              "blurb": "De claim staat in twee gewichten van dezelfde schreefloze, strak tegen elkaar gezet met negatieve regelafstand: \"#students\" in wit vet, \"for a better world\" eronder in een lichter vet dat exact tot dezelfde rechterrand loopt. Twee regels die als één vlak lezen, ook op vier meter afstand. De drie argumenten eronder staan in zwart in plaats van wit — dat is de enige plek waar zwart voorkomt, en het maakt van de opsomming een tweede leesniveau zonder een extra kleur te introduceren."
-            },
-            {
-              "title": "Geel als enige uitroepteken",
-              "blurb": "Turkoois vult het blad, wit en zwart doen de tekst, en geel is voorbehouden aan één ding: het scanblok linksonder. \"Join us at\", de QR-code op wit en het webadres vormen samen één gemarkeerd vlak met een tekstballonpunt, laag op de poster op handhoogte. Omdat geel nergens anders opduikt, is de actie het enige wat om aandacht vraagt."
-            },
-            {
-              "title": "Keerzijde: veel partners, één raster",
-              "blurb": "De keerzijde moet tientallen merken en kortingpercentages tonen zonder een prijslijst te worden. Ze is opgedeeld in twee horizontale banen — deals en reizen — elk met beeld links en een tabel rechts: partnerlogo op vaste hoogte, percentage in bold rechts uitgelijnd, dunne scheidingslijnen ertussen. Logo's komen in wisselende formaten en kleuren binnen, dus elk logo is optisch op gelijke grootte gebracht in plaats van op gelijke breedte. Gele stippen markeren de uitschieters; de rest blijft rustig zodat die stippen werken."
-            },
-            {
-              "title": "Drukklaar voor stoepbord en prikbord",
-              "blurb": "Dezelfde opmaak moet in een A1-stoepbordframe en op A3 aan een prikbord leesbaar zijn. De kop en het scanblok zijn gezet op de kleinste maat, waardoor ze op het grote formaat overtuigend groot uitvallen; de kleine begeleidende tekst is bewust kort gehouden zodat die op A3 niet onder de leesbaarheidsgrens valt. Aangeleverd met afloop, in CMYK afgeregeld zodat het turkoois in druk niet naar blauw kantelt."
-            }
-          ]
-        },
-        {
-          "id": "guido-stadsgids",
-          "highlight": 0,
-          "title": "Guido Stadsgids",
-          "blurb": "Stadsgids voor studenten, met een eigen editie per studentenstad.",
-          "description": "De Guido Stadsgids is het boekje dat een student in zijn jaszak houdt: stadsinfo, een stadswandeling, adresjes, tips en een katern voordeelbonnen, met een eigen editie per studentenstad en een oplage van 123.000 exemplaren (72.000 NL, 51.000 FR). Grafisch is dat één systeem dat tientallen keren opnieuw moet werken: elke stad krijgt een eigen cover en eigen stadsinhoud, maar de reeks moet in het rek als één product staan. Ik werkte aan de vormgeving en opmaak van de gids.",
-          "role": "",
-          "client": "Guido NV",
-          "year": "2021",
-          "image": "assets/werk/guido/stadsgids-gent-cover.jpg",
-          "heroRatio": "1900 / 2350",
-          "heroFit": "contain",
-          "gallery": [],
-          "link": "https://www.guidooh.be/guido-stadsgids/",
-          "video": "",
-          "processTitle": "Vormgeving",
-          "process": [
-            {
-              "title": "Eén covermal, elke stad erin",
-              "blurb": "De cover is opgebouwd als vaste mal: logo linksboven, jaargang eronder, een silhouet van de stad in het midden, de stadsnaam als grootste woord op de pagina, en daaronder de verkoopargumenten in aflopende trapjes. Alleen het silhouet en de naam wisselen. Gent krijgt zijn torenrij, elke andere stad haar eigen skyline, telkens als vlak wit met een rode contourverschuiving — geen illustratie met detail, maar een merkteken dat op duimnagelformaat nog leesbaar is en in twee kleuren drukt."
-            },
-            {
-              "title": "Blauw, rood, wit en niets anders",
-              "blurb": "Het hele omslag draait op drie kleuren: een verzadigd blauw als vlak, wit voor de tekst, rood als accent en schaduwlijn. Dat rood zit alleen op de dingen die je moet zien — het logo, de stadsnaam, de app-hand — waardoor de rest van de opsomming rustig in wit kan staan zonder de pagina te laten uiteenvallen. Bij een reeks van tientallen steden op dezelfde blauwe grond is het herkenningspunt de kleur, niet de illustratie."
-            },
-            {
-              "title": "Typografie die de argumenten trapt",
-              "blurb": "Een vette, versmalde schreefloze in kapitalen voor alles op de cover, met de stadsnaam in het zwaarste gewicht en een rode slagschaduw eronder. De verkoopregels staan in licht schuine, links uitgelijnde trapjes: elke regel start iets verder, zodat de opsomming één gebaar wordt in plaats van vier losse blokjes. Het bedrag en de app-vermelding krijgen minder gewicht dan de titel maar meer dan de kleine lettertjes, zodat de hiërarchie op ooghoogte in een rek meteen klopt."
-            },
-            {
-              "title": "Stadsinhoud en bonnen",
-              "blurb": "Binnenin twee volstrekt verschillende soorten pagina's die dezelfde bladspiegel moeten delen: redactionele stadsinfo en de wandeling, die lucht en beeld vragen, en het bonnenkatern met nationale en regionale kortingbonnen, waar elke millimeter een adverteerder is. De bonnen staan op een strak modulair raster met vaste snijmarges, zodat een student ze eruit kan scheuren zonder de pagina ernaast te beschadigen, en de regionale bonnen per stad uitwisselbaar zijn zonder de rest van het katern te herzetten."
-            },
-            {
-              "title": "Twee talen, dezelfde bladspiegel",
-              "blurb": "De gids verschijnt in een Nederlandse en een Franse editie. Franse tekst loopt langer, dus de opmaak is gezet met marge in de kopregels en variabele witruimte tussen de blokken in plaats van vaste hoogtes — beide talen vallen daardoor op dezelfde pagina's uit, met identieke paginering voor de bonnen."
-            }
-          ]
-        },
-        {
-          "id": "trouwboekjes-vandenbroele",
-          "highlight": 0,
-          "title": "Trouwboekjes",
-          "blurb": "Covers en binnenwerk voor de handgemaakte lederen trouwboekjes van Vanden Broele.",
-          "description": "Een trouwboekje is een van de weinige documenten die mensen levenslang bijhouden, en het moet twee dingen tegelijk zijn: een officieel register waarin de ambtenaar de akte inschrijft, en een boekje dat een koppel graag openslaat. Ik ontwierp en zette voor Vanden Broele Handmade zowel de covers als het binnenwerk van hun handgemaakte lederen trouwboekjes op. De vraag was niet één ontwerp maar een systeem: hetzelfde boekje moet werken met het wapenschild van elke Belgische gemeente, op vier soorten leder, in drie druktechnieken en twee formaten — zonder dat het per gemeente een ander product wordt",
-          "role": "Grafisch ontwerp, opmaak, DTP",
-          "client": "Vanden Broele Handmade — voor Belgische gemeenten",
-          "year": "",
-          "image": "assets/werk/trouwboekjes/classics-retroformaat.jpg",
-          "ratio": "600 / 450",
-          "gallery": [
-            {
-              "src": "assets/werk/trouwboekjes/koesters-albumversie.jpg",
-              "ratio": "600 / 450",
-              "caption": "Albumversie met wire-o-binding, gemeente Kortemark: logo in full colour, naam eronder."
-            },
-            {
-              "src": "assets/werk/trouwboekjes/koesters-binnenwerk.jpg",
-              "ratio": "600 / 450",
-              "caption": "Binnenwerk: veldnamen in steunkleur op een puntenraster, invulruimte leeg gelaten."
-            }
-          ],
-          "link": "https://www.trouwboekjes.be/",
-          "video": "",
-          "processTitle": "Vormgeving",
-          "process": [
-            {
-              "title": "Eén cover, honderden gemeenten",
-              "blurb": "Op de cover staat alleen het wapenschild of logo van de gemeente, met de naam eronder. Dat merkteken loopt van een middeleeuws schild in volle kleur tot een strak hedendaags beeldmerk, en komt in wisselende kwaliteit binnen. Elk teken wordt opgeschoond, waar nodig hertekend, en optisch gecentreerd zodat het over de hele reeks op dezelfde hoogte in dezelfde rust staat — ongeacht hoe druk het van zichzelf is. Zetwerk van de gemeentenaam in dezelfde letter voor alle boekjes, met de plaatsing per naamlengte nagekeken."
-            },
-            {
-              "title": "Materiaal en druktechniek als ontwerpvraag",
-              "blurb": "De boekjes bestaan in nubuck, glad kwaliteitsleder en de alternatieven Toledo-lederlook en suedine, in verschillende kleuren. Dat bepaalt het ontwerp: op fluweelzacht nubuck leest blinddruk als reliëf en verdwijnt fijne lijn, op glad leder houdt foliedruk zijn scherpte, digitale druk laat volle kleur toe. Per combinatie van materiaal, kleur en techniek zijn lijndiktes, vlakgroottes en contrast afgeregeld — een schild dat in folie werkt, kan in blinddruk dichtlopen. Bij de afwerking komt daar de kleur van de sierstikking en het sierkoordje bij, die met het lederkleur en het wapen moeten samengaan."
-            },
-            {
-              "title": "Twee formaten, dezelfde opbouw",
-              "blurb": "Standaardformaat 106 × 181 mm — smal genoeg voor de binnenzak van een kostuum — en breed formaat 122 × 170 mm. Twee verschillende bladspiegels, dus twee opmaken, maar met dezelfde typografie, marges en ordening: wat in het ene formaat een kolom is, blijft in het andere een kolom. Bij de gebonden versies geeft de rug marge terug die een wire-o-binding juist opeet; de bindmarge is per uitvoering apart gezet."
-            },
-            {
-              "title": "Binnenwerk om in te schrijven",
-              "blurb": "Het binnenwerk is ontworpen om beschreven te worden. Puntenraster in lichte tint als schrijfhulp, veldnamen in een steunkleur en een cursieve schreefletter, invulruimte leeg in plaats van dichtgezet met lijnen. Handschrift is daardoor het donkerste element op de pagina. De wetsartikelen erachter vragen het omgekeerde: strak gekolomd, compact gezet, leesbaar zonder dat het de invulpagina's overstemt. Naast het standaard binnenwerk ook versies op maat, met eigen rubrieken en teksten van de gemeente."
-            },
-            {
-              "title": "Drukvoorbereiding per gemeente",
-              "blurb": "Elke gemeente krijgt een eigen versie uit hetzelfde basisdocument, drukklaar aangeleverd: aparte kleurscheiding voor folie- en blinddrukvlakken, vectoriële wapenschilden, en controle op stand en afloop voor elke uitvoering apart. Productie loopt volledig in België, met FSC-gecertificeerd drukwerk."
-            }
-          ]
-        },
-        {
-          "id": "codefever-drukwerk-2022",
-          "highlight": 3,
-          "title": "CodeFever drukwerk",
-          "blurb": "Flyers en folders voor de lessenreeksen, kampen en bijscholingen.",
-          "description": "CodeFever spreekt twee publieken tegelijk aan: het kind dat het leuk moet vinden en de ouder die moet beslissen. Daarom draagt elk stuk twee registers naast elkaar. Voor het kind: de eigen game-personages — een robot, een ninja, een zombie — die als stickers over de rand van het blad kruipen, en fotografie van kinderen achter een scherm in plaats van geposeerde stockbeelden. Voor de ouder: een strakke kolomopbouw met gele en groene markeerbalken op de kopregels, zodat wie snel scant meteen prijs, plaats en datum vindt. Elk product heeft een eigen basiskleur binnen dezelfde spikkelbol-huisstijl, zodat de reeks als familie leest en toch onderscheidbaar blijft.",
-          "role": "Grafisch ontwerp, opmaak, beeldbewerking",
-          "client": "Codefever vzw",
-          "year": "2022",
-          "image": "assets/werk/codefever/kampen-folder.png",
-          "gallery": [],
-          "processTitle": "De stukken",
-          "process": [
-            {
-              "title": "Themakampen",
-              "blurb": "Een uitvouwfolder waarin elk kamp zijn eigen oranje of geel tabblad krijgt — Start 2 Code, Minecraft, Digital Skills, Robot, Alice. Openvouwen geeft de vijf naast elkaar, zodat een ouder ze kan vergelijken zonder te bladeren. De cover gaat in turquoise met palmbladeren en de personages ertussen: een zomerkamp mag er als vakantie uitzien.",
-              "images": [
-                {
-                  "src": "assets/werk/codefever/kampen-folder.png",
-                  "ratio": "4 / 3"
-                }
-              ]
-            },
-            {
-              "title": "Lessenreeks Borgerhout",
-              "blurb": "Een flyer per locatie. De tien lesdata staan als blauwe blokjes in een raster — datum en maand gescheiden — zodat je niet in een tekstregel hoeft te zoeken wanneer de reeks doorgaat. Gele en groene markeringen zetten de kopregels vooruit, en de personages houden het speels genoeg voor de doelgroep.",
-              "images": [
-                {
-                  "src": "assets/werk/codefever/dbsf-flyer.png",
-                  "ratio": "4 / 3"
-                }
-              ]
-            },
-            {
-              "title": "Ouderfolder level 1",
-              "blurb": "Het meest tekstuele stuk: leertraject, ouderprofiel, FAQ en zorgteam. De cover is zwart met de personages en vijf genummerde troeven — rustiger dan het kindmateriaal, want dit blad moet vertrouwen wekken. Binnenin loopt het verloop van groen naar blauw over de flap, en staat de tekst in kolommen met de FAQ apart gezet.",
-              "images": [
-                {
-                  "src": "assets/werk/codefever/level1-folder.png",
-                  "ratio": "4 / 3"
-                }
-              ]
-            },
-            {
-              "title": "ONTDEK FTRPRF",
-              "blurb": "De folder voor het lerarenpubliek, en het enige stuk in de reeks zonder personages. “ONTDEK” staat in twee regels wit op zwart over de volle cover, met het merklogo eronder — zwaar en typografisch, want dit richt zich op scholen. Binnenin neemt hetzelfde blauw-naar-groen verloop het over, met de bijscholingsdata in een omkaderd blok en een QR-code als inschrijfweg.",
-              "images": [
-                {
-                  "src": "assets/werk/ftrprf/ontdek-voorkant.png",
-                  "ratio": "4 / 3"
-                },
-                {
-                  "src": "assets/werk/ftrprf/ontdek-binnenkant.png",
-                  "ratio": "4 / 3"
+                  "src": "assets/werk/moordenaar-intro/aftiteling-lamp.png",
+                  "ratio": "1391 / 785"
                 }
               ]
             }
           ],
-          "link": "https://www.codefever.be/",
-          "video": ""
+          "embed": "https://www.youtube.com/embed/SudBOqi3yc4",
+          "embedTitle": "Bekijk de intro",
+          "link": "https://youtu.be/SudBOqi3yc4",
+          "processTitle": "Aanpak"
         },
         {
-          "id": "ftrprf-beursmateriaal",
+          "id": "one-minute-festival",
           "highlight": 0,
-          "title": "FTRPRF beursstand",
-          "blurb": "Standbeeld, roll-up, themapanelen en merkvlakken voor de beurzen.",
-          "description": "Een beursstand is geen advertentie maar een ruimte: bezoekers moeten van tien meter zien wie je bent en van dichtbij kunnen zitten. Ik werkte het standbeeld uit rond één verloop — diepblauw naar mintgroen, het verloop uit de FTRPRF-spikkelbol — dat over de achterwand, de balie en het tapijt doorloopt zodat de hele hoek als één vlak leest. Daartegen staat alles wat gelezen moet worden in wit: de themapanelen met de vakgebieden, de roll-up naast het scherm, de vlakken op de zijwanden. Op de lege stukken tussen de teksten zetten losse pictogrammen — de Scratch-kat, een gloeilamp, het Python-teken — het onderwerp neer zonder er een woord aan te wijden.",
-          "role": "Grafisch ontwerp",
-          "client": "Codefever vzw",
+          "title": "1 Minute Festival",
+          "blurb": "Kortfilm van één minuut voor een wedstrijd.",
+          "description": "Een wedstrijd met één regel: de film mag exact één minuut duren. Ik deed alles zelf — scenario, casting, kledingkeuze voor de acteurs, opnames, montage en geluid. Bij die lengte is het scenario de vormgeving: er is geen ruimte voor een expositie, dus moest de spanning al in het eerste kader zitten en de wending in de laatste seconden vallen.",
+          "role": "Scenario, regie, camera, montage, geluid",
+          "client": "Artevelde Hogeschool",
           "year": "",
-          "image": "assets/werk/ftrprf/stand.png",
-          "gallery": [],
-          "processTitle": "Het standmateriaal",
+          "image": "assets/werk/1minute-festival/aanslag.png",
+          "ratio": "1919 / 1079",
+          "video": "",
           "process": [
             {
-              "title": "De stand",
-              "blurb": "Drie zones in één hoek: de achterwand met het merk en het scherm trekt de blik van ver, de zittafels in het midden houden mensen vast, en de balie vooraan vangt wie langsloopt. De achterwand houd ik daarom bijna leeg — alleen de naam, de baseline en “Samen vandaag aan morgen” — terwijl alle inhoud naar de zijpanelen verhuist, waar iemand er tijd voor neemt. Wit meubilair en een blauw tapijt maken van het verloop het enige dat kleur draagt.",
+              "title": "Eén minuut dwingt tot één scène",
+              "blurb": "Ik schreef het scenario terug naar één handeling met één omslagpunt, zonder locatiewissels of tijdsprongen. Alles wat een kijker moet weten — wie tegenover wie staat, en wat er op het spel staat — moet uit beeld en houding komen, niet uit dialoog. Dat maakte de shotlijst kort en de keuze per kader zwaar: elk shot moet iets vertellen dat het vorige nog niet deed."
+            },
+            {
+              "title": "Kleding als enige personagetekening",
+              "blurb": "Ik liet de acteurs in leren jassen en donkere kleding komen, en de tegenspeler in een net grijs kostuum. Zonder introductie doet dat contrast het werk van een halve minuut uitleg: twee kanten die niet in dezelfde wereld thuishoren. Omdat er geen ruimte was voor een decor met betekenis, is de kleding het kostuum én het decor.",
               "images": [
                 {
-                  "src": "assets/werk/ftrprf/stand.png",
-                  "ratio": "1536 / 1024"
+                  "src": "assets/werk/1minute-festival/trap-confrontatie.png",
+                  "ratio": "1919 / 1079"
                 }
               ]
             },
             {
-              "title": "Roll-up",
-              "blurb": "Eén verticale lijst van boven naar onder, en onderaan een schermvullend merkvlak met de spikkelbol en de baseline. Die opbouw is bewust: wie van ver over de gangpaden kijkt ziet eerst het merk onderaan op ooghoogte, wie dichterbij komt leest de troeven erboven. Het kleurverloop loopt door over de volle hoogte, zodat de zes regels als één beweging lezen in plaats van als zes losse items.",
-              "images": [
-                {
-                  "src": "assets/werk/ftrprf/rollup-mockup.png",
-                  "ratio": "900 / 1468"
-                }
-              ]
+              "title": "Symmetrie voor de confrontatie",
+              "blurb": "De confrontatiescène staat op een brede trap, frontaal en symmetrisch: de rug van de man in kostuum in het midden, de twee anderen links en rechts op gelijke afstand. De horizontale lijnen van de treden houden het kader vlak en dwingend. Het onscherp gehouden middenvlak van de rug maakt de kijker medeplichtig — je staat erbij, je ziet zijn gezicht niet."
             },
             {
-              "title": "Themapanelen",
-              "blurb": "Eén opbouw voor elk thema: de kop bovenaan, een blauwe lijn eronder, dan de inhoud als pictogram met korte regel. Doordat het systeem vastligt, bepaalt alleen het aantal regels het formaat — vandaar dat het paneel met de meeste items hoger uitvalt dan de andere.",
-              "images": [
-                {
-                  "src": "assets/werk/ftrprf/sticker-programmeren.png",
-                  "ratio": "1 / 1"
-                },
-                {
-                  "src": "assets/werk/ftrprf/sticker-eindtermen-ict.png",
-                  "ratio": "1 / 1"
-                },
-                {
-                  "src": "assets/werk/ftrprf/sticker-eindtermen-burgerschap.png",
-                  "ratio": "1 / 1"
-                },
-                {
-                  "src": "assets/werk/ftrprf/rollup-kant-en-klaar.png",
-                  "ratio": "700 / 1160"
-                }
-              ]
+              "title": "Onderbelichting als spanningsmiddel",
+              "blurb": "Het openingsshot is bijna volledig donker: alleen de ogen van de jongen en een reep daglicht door de lamellen zijn belicht. Ik hield de belichting onder wat een cameraman comfortabel zou vinden, precies omdat de kijker dan moet zoeken in het beeld. In een film van één minuut is dat zoeken de eerste tien seconden aandacht die je gratis krijgt."
             },
             {
-              "title": "Merkvlak",
-              "blurb": "Geen kop, geen lijst: alleen het verloop, de spikkelbol en de baseline. Dit vlak is het rustpunt tussen alle opsommingen — het komt terug onderaan de roll-up, op de balie, op de achterwand en als vloersticker in de vorm van de spikkelbol zelf.",
-              "images": [
-                {
-                  "src": "assets/werk/ftrprf/sticker-merk.png",
-                  "ratio": "1 / 1"
-                }
-              ]
+              "title": "Geluid draagt wat niet in beeld past",
+              "blurb": "Ik monteerde het geluid als tweede verhaallijn: omgevingsgeluid dat wegvalt op het moment van de wending, en één harde klank die de knip markeert. Dat is de goedkoopste en scherpste manier om in een minuut een tijdsverloop en een schok te suggereren zonder er beeld aan te moeten besteden."
             }
           ],
-          "link": "https://ftrprf.be/",
-          "video": ""
+          "embed": "https://www.youtube.com/embed/R94WxDK1Jnc",
+          "embedTitle": "Bekijk de film",
+          "link": "https://youtu.be/R94WxDK1Jnc",
+          "processTitle": "Aanpak"
         }
       ]
     }

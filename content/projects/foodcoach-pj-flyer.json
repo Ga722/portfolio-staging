@@ -1,0 +1,50 @@
+{
+  "category": "Print",
+  "order": 10,
+  "id": "foodcoach-pj-flyer",
+  "highlight": 0,
+  "title": "Food Coach PJ — flyer",
+  "blurb": "Flyer voor voedingsadvies en sportvoeding, uitgedeeld langs een looproute.",
+  "description": "Food Coach PJ begeleidt mensen rond afslanking en sportvoeding. Deze flyer wordt uitgedeeld aan lopers van Dwars door Kruisem, dus hij komt in handen van iemand die net gefinisht is en niet gaat lezen. Ik maakte een volledig nieuw ontwerp waarin de aanspreking het beeld is en de rest van de pagina daaronder in één blik te overzien valt.",
+  "role": "Ontwerp, opmaak",
+  "client": "Food Coach PJ",
+  "year": "",
+  "image": "assets/werk/foodcoach-pj/mockup.jpg",
+  "ratio": "1900 / 1023",
+  "video": "",
+  "process": [
+    {
+      "title": "De kop spreekt de loper in zijn eigen taal aan",
+      "blurb": "De aanspreking staat in vier trappen over de halve pagina: \"Net Dwars door Kruisem gelopen?\" in oranje, \"Goe bezig!\" in blauw. Door de wisseling van kleur en corpsgrootte per regel leest de kop als een gesproken zin met een klemtoon op het einde. Dialect in een advertentie is een risico, maar hier is het publiek precies één wedstrijd groot, en de flyer wordt aan de aankomst uitgedeeld — de flyer weet dus wie hij aanspreekt en mag dat laten horen.",
+      "images": [
+        {
+          "src": "assets/werk/foodcoach-pj/flyer.jpg",
+          "ratio": "1167 / 1653"
+        }
+      ]
+    },
+    {
+      "title": "Vrijstaande loper over de volle hoogte",
+      "blurb": "De foto is uitgesneden en loopt over de rechterhelft van boven tot in de contactbalk, met het hoofd tegen de bovenrand en de voeten over de oranje voet heen. Een vrijstaande figuur op de kleurvlakken bindt de twee helften aan elkaar: zonder kader hoort hij bij de hele pagina in plaats van bij een fotovak. Daardoor blijft er links één rechthoekig gebied over voor alle tekst, wat de opmaak rustig houdt."
+    },
+    {
+      "title": "Oranje en blauw, elk met een eigen taak",
+      "blurb": "Uit het logo komen twee verzadigde kleuren die elkaar in helderheid weinig toegeven, dus ik gaf ze verschillende rollen in plaats van ze te mengen: oranje is roep en actie (de eerste regels, de contactbalk, de gratis-cirkel), blauw is inhoud (het aanbod, het antwoord \"Goe bezig!\"). Het gebroken wit van de grond is warm gehouden zodat beide kleuren erop staan zonder te trillen."
+    },
+    {
+      "title": "Het aanbod in een blauw blok van vier regels",
+      "blurb": "Wat de coach doet, staat in één blauw vlak met vier regels en een pictogram per regel: voedingsadvies, sportvoeding op maat, begeleiding, blijvend resultaat. Vier is de bovengrens voor wat iemand rechtopstaand leest. Het blok heeft zijn eigen kop \"WHAT'S NEXT?\" en ronde hoeken, waardoor het als kaartje in de pagina zit en de blik er na de kop meteen naartoe springt."
+    },
+    {
+      "title": "Diagonalen als beweging, dots als rust",
+      "blurb": "Achter de loper staan brede diagonale banen in twee blauwtinten en oranje: dezelfde helling als een sprintende figuur, zodat de achtergrond de beweging van de foto meedoet in plaats van eronder te liggen. Als tegengewicht staan er kleine puntrasters in de hoeken, die de lege plekken vullen zonder gewicht toe te voegen. Beide zijn afgeleid van het rond logo, waardoor de flyer bij het merk blijft."
+    },
+    {
+      "title": "Eén aanbod, één QR, op de plek waar de blik uitkomt",
+      "blurb": "Het gratis intakegesprek zit in een oranje cirkel onderaan rechts met de QR-code erin — het einde van de leesbeweging van linksboven naar rechtsonder, en de enige ronde vorm op de pagina, dus hij valt op zonder groter te moeten. \"Op vertoon van deze flyer\" staat erbij: dat maakt het papier zelf de toegang, wat een flyer een reden geeft om bewaard te worden. De contactgegevens staan in een oranje voetbalk over de volle breedte, met telefoon, e-mail en site elk achter een eigen pictogram."
+    }
+  ],
+  "geavanceerd": {
+    "processTitle": "Ontwerp"
+  }
+}

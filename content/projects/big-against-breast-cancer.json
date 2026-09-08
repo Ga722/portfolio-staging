@@ -1,0 +1,87 @@
+{
+  "category": "Animatie",
+  "order": 30,
+  "id": "big-against-breast-cancer",
+  "highlight": 4,
+  "title": "BIG against breast cancer",
+  "blurb": "Animatie over twintig jaar vooruitgang in borstkankeronderzoek.",
+  "description": "BIG against breast cancer bestond twintig jaar. De boodschap is dubbel: twintig jaar geleden was er voor vrouwen met borstkanker weinig te bieden, vandaag is dat wezenlijk anders, en juist daarom blijft er geld nodig. Een film die alleen het verleden toont wordt zwaar, een film die alleen de vooruitgang toont maakt de vraag om steun overbodig. Ik bouwde de animatie daarom rond één beeld dat beide kanten kan dragen: een boom die zich in de loop van de film vult.",
+  "role": "Animatie, vormgeving",
+  "client": "BIG against breast cancer",
+  "year": "",
+  "image": "assets/werk/big/boom-vol.png",
+  "ratio": "1916 / 1077",
+  "video": "",
+  "process": [
+    {
+      "title": "Papier als materiaal, niet als stijl",
+      "blurb": "Alles is opgebouwd uit gescheurde en geknipte vlakken kraftpapier met zichtbare vezel, met de tekening in dunne zwarte lijn erover. Dat materiaal doet twee dingen tegelijk in een medisch onderwerp: het haalt de klinische kilheid uit het beeld, en de handgemaakte snede geeft de figuren een gevoel van gemaakt-door-mensen dat bij een onderzoeksnetwerk hoort. Geen gradiënten, geen schaduwen — de diepte komt uit overlappende vlakken.",
+      "images": [
+        {
+          "src": "assets/werk/big/weinig-opties.png",
+          "ratio": "1912 / 1072"
+        }
+      ]
+    },
+    {
+      "title": "De boom als enige metafoor",
+      "blurb": "Eén beeld draagt de hele film: een boom waarvan de vruchten voor behandelmogelijkheden staan. Bij \"there were few treatment options\" hangen er twee appels aan een verder lege kroon; dat lege vlak is de dramatiek, niet een somber beeld. Later vult dezelfde kroon zich tot ze bijna te vol is. Omdat het steeds dezelfde boom is, wordt de vooruitgang meetbaar in beeld in plaats van in cijfers."
+    },
+    {
+      "title": "De achtergrond verkleurt met het verhaal",
+      "blurb": "Het verleden staat op een koel grijs met een bleke groene grondstrook; de heden-scènes staan op wit met dezelfde groene strook. Die ene wissel van grijs naar wit doet het werk van een tijdsprong zonder tussenkaart of jaartal. De grondlijn blijft op exact dezelfde hoogte, waardoor de boom niet verspringt en de kijker de twee toestanden over elkaar legt.",
+      "images": [
+        {
+          "src": "assets/werk/big/meer-kennis.png",
+          "ratio": "1910 / 1074"
+        }
+      ]
+    },
+    {
+      "title": "Twee tekstkleuren voor twee tijden",
+      "blurb": "De typografie is één ronde schreefloze in twee gewichten, links uitgelijnd, met het kernwoord vet en de rest licht — zo leest een regel ook in één oogopslag mee. Zwarte tekst hoort bij wat er was, cyaan bij wat er nu kan. Die kleurcode loopt de hele film door, zodat de kijker aan de kleur van een regel al ziet in welke tijd hij zit.",
+      "images": [
+        {
+          "src": "assets/werk/big/onderzoek.png",
+          "ratio": "1917 / 1074"
+        }
+      ]
+    },
+    {
+      "title": "Roze alleen waar het over de vrouw gaat",
+      "blurb": "Roze is de merkkleur, maar in de film zet ik het uitsluitend op de kleding van de vrouwen en op de rijpe vruchten. Zo blijft het onderwerp roze en niet de vormgeving — geen roze linten, geen roze vlakken. De appel die de vrouw tegen zich aan houdt bij \"more individualised treatments\" is het enige moment waarop de metafoor en het lichaam elkaar aanraken.",
+      "images": [
+        {
+          "src": "assets/werk/big/behandeling-op-maat.png",
+          "ratio": "1919 / 1079"
+        }
+      ]
+    },
+    {
+      "title": "Kleine objecten als tussenbeeld",
+      "blurb": "Tussen de scènes staan losse voorwerpen in vol beeld: een klok met slinger, een loep die een groep cellen vergroot. Ze geven het oog rust tussen twee volle composities en houden het tempo van de voice-over vast. Het abstracte gevoel is bewust — een klok laat tijd verstrijken zonder dat er een jaartal in beeld hoeft.",
+      "images": [
+        {
+          "src": "assets/werk/big/klok.png",
+          "ratio": "1911 / 1069"
+        }
+      ]
+    },
+    {
+      "title": "Slotkaart die om iets vraagt",
+      "blurb": "Het einde laat het papier los: platte roze typografie op wit, het logo eronder en \"20 years of hope and progress\" als enige regel in cursief. Door het materiaal weg te nemen valt de kijker uit de vertelling terug in de werkelijkheid, precies op het moment dat er om steun gevraagd wordt. \"join us\" en \"spreading hope\" staan vet, de rest licht: de oproep leest ook als je alleen de vette woorden pakt.",
+      "images": [
+        {
+          "src": "assets/werk/big/eindkaart.png",
+          "ratio": "1263 / 867"
+        }
+      ]
+    }
+  ],
+  "geavanceerd": {
+    "embed": "https://www.youtube.com/embed/dF41rtW7dU4",
+    "embedTitle": "Bekijk de animatie",
+    "link": "https://youtu.be/dF41rtW7dU4",
+    "processTitle": "Vormgeving"
+  }
+}

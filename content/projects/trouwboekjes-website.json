@@ -1,0 +1,80 @@
+{
+  "category": "Website",
+  "order": 10,
+  "id": "trouwboekjes-website",
+  "highlight": 0,
+  "title": "Vanden Broele Handmade — website",
+  "blurb": "Website voor de handgemaakte lederen producten voor gemeenten.",
+  "description": "De site verkoopt geen product uit een rek maar een uitvoering: leder, opdruk, formaat en afwerking zijn per gemeente anders. Dat maakt de opgave grafisch bijzonder — je kunt geen catalogus tonen, je moet een keuzeruimte tonen. Bezoeker is een ambtenaar burgerzaken die iets moet aankopen dat een bruidspaar levenslang bijhoudt. Ik werkte aan de vormgeving en opmaak van de site, in opdracht van Vanden Broele Productions.",
+  "role": "Webdesign, opmaak",
+  "client": "Vanden Broele Productions",
+  "year": "",
+  "image": "assets/werk/trouwboekjes-site/home.png",
+  "ratio": "1916 / 864",
+  "fit": "contain",
+  "video": "",
+  "process": [
+    {
+      "title": "Het moment, niet het product, als opening",
+      "blurb": "De hero toont een koppel dat het gemeentehuis verlaat — het moment waarop het boekje wordt overhandigd — in plaats van het boekje zelf. Tekst links op de donkerste helft van de foto, met een licht getinte tekstband achter de regels zodat wit voluit blijft zonder de hele foto te verduisteren. Eén gouden knop als enige verzadigde kleur in het beeld; dat goud komt terug in elke actie op de site.",
+      "images": [
+        {
+          "src": "assets/werk/trouwboekjes-site/home.png",
+          "ratio": "1916 / 864"
+        }
+      ]
+    },
+    {
+      "title": "Warm neutraal als grond",
+      "blurb": "De secties staan op een zacht crème in plaats van wit. Dat is een materiaalkeuze: leder, linnen en foliedruk vallen dood op helder wit, en de warme grond geeft de productfoto's hun eigen wit terug. Donkerblauw voor koppen, een grijsblauw voor lopende tekst, goud voor acties — drie tinten, geen accentkleur per sectie, zodat het product de kleur mag doen.",
+      "images": [
+        {
+          "src": "assets/werk/trouwboekjes-site/trouwboekjes.png",
+          "ratio": "1915 / 914"
+        }
+      ]
+    },
+    {
+      "title": "Beeldcluster in plaats van galerij",
+      "blurb": "Bij het hoofdproduct staat rechts geen rij gelijke thumbnails, maar één groot beeld met twee kleinere ernaast, elk op eigen wit vlak en deels buiten de kolom lopend. Die asymmetrie doet wat een galerij niet doet: ze suggereert dat er meer varianten zijn zonder ze allemaal te tonen, en het detailbeeld naast het totaalbeeld laat stiksel en opdruk zien op de plek waar de tekst het net vermeldt."
+    },
+    {
+      "title": "Productreeks als tabrij, niet als kaartenraster",
+      "blurb": "Naast trouwboekjes zijn er jubileummappen, aktemappen, guldenboeken, geboorte- en troostboekjes. Als kaartenraster zou dat een webshop worden die niets verkoopt, want de prijs en de uitvoering staan niet vast. Daarom een rustige tabrij bovenaan met alle productnamen op één lijn, en daaronder één product per keer in volle breedte. De bezoeker overziet het aanbod in één regel en leest daarna alleen wat hij nodig heeft.",
+      "images": [
+        {
+          "src": "assets/werk/trouwboekjes-site/andere-producten.png",
+          "ratio": "1908 / 908"
+        }
+      ]
+    },
+    {
+      "title": "Afwisselend links en rechts",
+      "blurb": "Elk product in de reeks staat in dezelfde tweedeling — beeld aan de ene kant, twee tot drie korte alinea's aan de andere — maar de kant wisselt per product. Dat houdt een lange pagina in beweging zonder dat er een nieuw ontwerp per sectie bij komt, en de blik landt bij elk blok opnieuw op het beeld. De producten zijn telkens diagonaal en met slagschaduw gefotografeerd, wat het zwevende, vrijstaande karakter over de hele pagina gelijkhoudt.",
+      "images": [
+        {
+          "src": "assets/werk/trouwboekjes-site/jubileummap.png",
+          "ratio": "1412 / 558"
+        },
+        {
+          "src": "assets/werk/trouwboekjes-site/aktemap.png",
+          "ratio": "1402 / 571"
+        }
+      ]
+    },
+    {
+      "title": "Maatwerk als eigen blok",
+      "blurb": "Het maatwerkaanbod krijgt hetzelfde blokformaat als een product in plaats van een uitzonderingspositie. Het beeld toont een opengeslagen exemplaar met een ingetekende gemeentelijke illustratie — het meest specifieke voorbeeld op de hele site — waardoor \"alles is mogelijk\" iets concreet naast zich heeft staan.",
+      "images": [
+        {
+          "src": "assets/werk/trouwboekjes-site/op-maat.png",
+          "ratio": "1470 / 487"
+        }
+      ]
+    }
+  ],
+  "geavanceerd": {
+    "link": "https://www.trouwboekjes.be/",
+    "processTitle": "Vormgeving"
+  }
+}

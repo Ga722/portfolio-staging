@@ -1,0 +1,54 @@
+{
+  "category": "Online magazines",
+  "order": 20,
+  "id": "zefier-jaarverslag-2025",
+  "highlight": 0,
+  "title": "Jaarverslag Zefier 2025",
+  "blurb": "Online jaarverslag voor de Vlaamse coöperatie voor hernieuwbare energie.",
+  "description": "Een jaarverslag over wind, zon en warmte mag daar ook naar aanvoelen. Ik gaf het verslag daarom landschap als hoofdrol: brede luchtfoto's van windparken, een teruggebracht palet van olijfgroen, goud en wit, en cijfers die in die ruimte mogen staan in plaats van in een tabel te verdwijnen. Vijf hoofdstukken, elk met een eigen fotoband als openingsbeeld, zodat de lezer aan het beeld al voelt waar hij is. Ik verzorgde ontwerp, opmaak, interactieve opbouw, animatie en beeldbewerking.",
+  "role": "Ontwerp, opmaak, interactieve opbouw, animatie, beeldbewerking, ontwikkeling",
+  "client": "Zefier",
+  "year": "2025",
+  "image": "assets/werk/zefier/cover.png",
+  "fit": "contain",
+  "ratio": "1911 / 913",
+  "process": [
+    {
+      "title": "Cover en navigatie",
+      "blurb": "Eén beeld dat de hele coöperatie samenvat: een windpark van bovenaf, met de titel in wit over de horizon. De hoofdstuktitels liggen als een rustige band boven het beeld — aanwezig genoeg om te oriënteren, licht genoeg om de foto niet te breken.",
+      "images": [
+        {
+          "src": "assets/werk/zefier/cover.png",
+          "ratio": "1911 / 913",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "title": "Algemene informatie",
+      "blurb": "Statuten en rekeningsectoren zijn de droogste stof van het verslag. Ik geef ze lucht door schermvullende fotobanden als rustpunten tussen de tekst te leggen, de kolommen kort te houden en de Z uit het logo als groot watermerk onder de tekst te schuiven. De raad van bestuur staat op een olijfgroen vlak: portretten in cirkels, zodat het hoofdstuk eindigt met gezichten in plaats van artikelnummers.",
+      "images": [
+        {
+          "src": "assets/werk/zefier/algemene-informatie.png",
+          "tall": true
+        }
+      ]
+    },
+    {
+      "title": "Financieel verslag",
+      "blurb": "De deelnemingen liggen in een cirkel over een groengetinte luchtfoto, met het totaal in het hart. De vorm zegt wat de tekst uitlegt: allemaal even ver van het midden, samen één geheel. De stippellijn en de gouden schijven houden het diagram licht genoeg om het landschap eronder te laten meespelen.",
+      "images": [
+        {
+          "src": "assets/werk/zefier/financieel-verslag.png",
+          "ratio": "1911 / 913",
+          "fit": "contain"
+        }
+      ]
+    }
+  ],
+  "video": "",
+  "geavanceerd": {
+    "link": "https://jaarverslag.zefier.be/2025",
+    "processTitle": "Door het verslag"
+  }
+}
